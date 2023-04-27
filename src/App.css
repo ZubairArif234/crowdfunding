@@ -5,55 +5,61 @@
   font-family: poppiens;
   src: url(./components/fonts/Poppins-Bold.ttf);
 }
+
 @font-face {
   font-family: rubik;
   src: url(./components/fonts/Rubik-Bold.ttf);
 }
+
 @font-face {
   font-family: rubiklight;
   src: url(./components/fonts/Rubik-Light.ttf);
 }
 
-.homesupermaindiv{
+.homesupermaindiv {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  background-color: #FDF3FB
-  ;
+  background-color: #FDF3FB;
   margin-bottom: 30px;
 }
 
-.homedivone{
+.homedivone {
   /* background-color: aqua; */
   width: 650px;
   /* margin-top: 20px; */
   margin: 10px;
   /* position: relative; */
 }
-.prgressanddetails{
+
+.prgressanddetails {
   /* background-color: brown; */
   /* width: 90%; */
   margin: 10px;
 }
-.homeprogressdetails{
+
+.homeprogressdetails {
   /* background-color: lightsalmon; */
   display: flex;
   justify-content: space-between;
 }
-.homepricedetails{
+
+.homepricedetails {
   font-family: rubik;
   font-size: 10px;
   /* background-color: orangered; */
   line-height: -10px;
 }
-.homepriceone{
+
+.homepriceone {
   /* background-color: olive; */
   font-family: poppiens;
   font-size: 30px;
   font-weight: bold;
   color: #19142E;
 }
-.homedivonetext{
+
+.homedivonetext {
   font-family: poppiens;
   font-size: 50px;
   padding: 10px;
@@ -61,19 +67,22 @@
   /* background-color: yellow; */
   margin-top: 100px;
 }
-.homeimagelevels{
+
+.homeimagelevels {
   width: 500px;
   position: relative;
   /* height: 300px; */
   margin: 10px;
   /* background-color: purple; */
 }
-.imagelevels{
-margin-left: 10%;
+
+.imagelevels {
+  margin-left: 10%;
   width: 90%;
- 
+
 }
-.headphonepic{
+
+.headphonepic {
   width: 40%;
   /* background-color: palevioletred; */
   right: 75%;
@@ -83,7 +92,7 @@ margin-left: 10%;
 
 
 /* plan box */
-.planboxmain{
+.planboxmain {
   background-color: hsl(330, 4%, 91%);
   width: 90%;
   margin-left: 10%;
@@ -91,24 +100,28 @@ margin-left: 10%;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-.planboxinner{
+
+.planboxinner {
   width: 70%;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  border-top: 4px solid #1E1E1E;;
+  border-top: 4px solid #1E1E1E;
+  ;
   /* margin-right: 20%; */
   /* background-color: aqua; */
 }
-.planboxsmalldivs{
+
+.planboxsmalldivs {
   /* background-color: blue; */
   margin-top: 10px;
   width: 270px;
   /* width: 100%; */
 }
-.planboxtext{
+
+.planboxtext {
   font-family: poppiens;
   font-weight: bold;
 }
@@ -116,22 +129,27 @@ margin-left: 10%;
 
 /* make investment main  */
 
-.makemaindiv{
+.makemaindiv {
   width: 65%;
   /* margin-top: 50px; */
   /* background-color: aqua; */
-  margin: 0 auto;
+  margin: 20px auto;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
-.ourfeaturetext{
+
+.ourfeaturetext {
+  position: relative;
   color: #1B70F0;
+  margin-left: 35px;
   text-transform: uppercase;
   /* background-color: palevioletred; */
   letter-spacing: 2px;
-font-size: 12px;
-font-family: rubik;
+  font-size: 12px;
+  font-family: rubik;
 }
-.investmentbtn{
+
+.investmentbtn {
   font-family: rubik;
   width: 130px;
   /* margin-bottom: 10px; */
@@ -146,7 +164,8 @@ font-family: rubik;
   /* align-items: rignt; */
   padding: 10px;
 }
-.investmentheading{
+
+.investmentheading {
   color: #062A4D;
   font-size: 30px;
   font-family: poppiens;
@@ -156,34 +175,37 @@ font-family: rubik;
 }
 
 
-.investcard{
+.investcard {
   /* background-color: brown; */
   width: 270px;
 }
-.cardheading{
+
+.cardheading {
   font-size: 20px;
   font-family: poppiens;
   color: #062A4D;
   text-align: center;
 }
-.cardtext{
+
+.cardtext {
   color: #6F7172;
   font-size: 12px;
   line-height: 20px;
-  font-family:rubik;
+  font-family: rubik;
   text-align: center;
   padding: 5px;
 }
-  
-.investcardimg{
+
+.investcardimg {
   margin: 0 auto;
-  
+
   padding: 5px;
   width: 240px;
   height: 220px;
   /* background-color: aqua; */
 }
-.investcarddiv{
+
+.investcarddiv {
   margin-top: 10px;
   margin-bottom: 10px;
   /* background-color: yellow; */
@@ -194,69 +216,80 @@ font-family: rubik;
 
 
 /* popular series */
-.popularmaindiv{
+.popularmaindiv {
   width: 75%;
   margin: 0 auto;
 }
-.popularsuparmaindiv{
+
+.popularsuparmaindiv {
   padding: 20px;
   /* margin-bottom: 50px; */
   background-color: #F9FAFF;
 
 }
-.populartextblue{
+
+.populartextblue {
   color: #1B70F0;
   /* background-color: palevioletred; */
   letter-spacing: 2px;
-font-size: 12px;
-font-family: rubik;
-text-align: center;
+  font-size: 12px;
+  font-family: rubik;
+  text-align: center;
 }
-.popularheading{
+
+.popularheading {
   color: #062A4D;
   font-size: 30px;
   font-family: poppiens;
   letter-spacing: -1px;
   text-align: center;
 }
+
 /* pop card */
-.popcardheading{
+.popcardheading {
   font-size: 15px;
   font-weight: bold;
   color: #062A4D;
 }
-.popprogressprice{
+
+.popprogressprice {
   /* background-color: brown; */
   width: 80%;
 }
-.poppriceanddetail{
+
+.poppriceanddetail {
   display: flex;
   /* background-color: yellow; */
   justify-content: space-between;
 }
-.popcardprice{
+
+.popcardprice {
   font-weight: bold;
   color: #6F7172;
 }
-.popcardpricedetail{
+
+.popcardpricedetail {
   color: #062A4D;
   font-weight: bold;
   font-size: 12px;
 }
-.poppriceanddetailbelow{
+
+.poppriceanddetailbelow {
   display: flex;
   justify-content: space-between;
   /* background-color: yellow; */
   border-top: 1px solid rgb(224, 224, 224);
 }
-.popcardpricebelow{
+
+.popcardpricebelow {
   font-size: 12px;
   font-weight: 500;
   color: #3A516C;
   text-transform: uppercase;
 
 }
-.popularcarddiv{
+
+.popularcarddiv {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -265,7 +298,7 @@ text-align: center;
 }
 
 
-.popmoreproj{
+.popmoreproj {
   font-family: rubik;
   width: 150px;
   /* margin-bottom: 10px; */
@@ -277,7 +310,7 @@ text-align: center;
   color: #062A4D;
   font-weight: bold;
   margin: 0 auto;
-  
+
   /* display: flex; */
   /* align-items: rignt; */
   padding: 10px;
@@ -285,7 +318,7 @@ text-align: center;
 
 
 /* make it easier */
-.easiernumone{
+.easiernumone {
   text-align: center;
   font-size: 150px;
   /* background-color: greenyellow; */
@@ -295,12 +328,14 @@ text-align: center;
   /* right: 1px; */
   font-family: poppiens;
 }
-.easiernumbres{
+
+.easiernumbres {
   /* background-color: yellow; */
   /* position: absolute; */
   /* width: 100px; */
 }
-.allnumbresdiv{
+
+.allnumbresdiv {
   display: flex;
   height: 250px;
   width: 75%;
@@ -309,11 +344,13 @@ text-align: center;
   /* background-color: #1B70F0; */
   justify-content: space-around;
 }
-.lineandnumbers{
+
+.lineandnumbers {
   position: relative;
 
 }
-.allnumberdivtwo{
+
+.allnumberdivtwo {
   position: absolute;
   width: 100%;
   top: 10px;
@@ -322,23 +359,27 @@ text-align: center;
   /* background-color: forestgreen; */
 
 }
-.easiernumbresone{
+
+.easiernumbresone {
   /* background-color: yellow; */
   /* right: 265px; */
   /* left: 10px; */
   /* position: absolute; */
 }
-.easiernumbrestwo{
+
+.easiernumbrestwo {
   /* background-color: yellow; */
   /* position: absolute; */
   /* right: 165px; */
 }
-.easiernumbresthree{
+
+.easiernumbresthree {
   /* background-color: yellow; */
   /* right: 10px; */
   /* position: absolute; */
 }
-.numonedetail{
+
+.numonedetail {
   /* height: 50vh; */
   /* width: 180px; */
   /* background-color: orangered; */
@@ -349,33 +390,37 @@ text-align: center;
   /* margin-top:200px ; */
 
 }
-.lineone{
+
+.lineone {
   /* background-color: orange; */
   height: 0.5vh;
-/* margin-top: 10px; */
+  /* margin-top: 10px; */
   /* position: absolute; */
   /* top: 35%; */
   /* right: 50%; */
   width: 30%;
 }
-.bluedot{
+
+.bluedot {
   height: 20px;
   width: 20px;
   background-color: green;
   box-shadow: 2.778px 15.757px 32px rgba(0, 0, 0, 0.4);
-border-radius: 30px;
-border: 3px solid #FFFFFF;
+  border-radius: 30px;
+  border: 3px solid #FFFFFF;
 
 }
-.dreamlastestdiv{
+
+.dreamlastestdiv {
   position: relative;
   height: 60px;
   width: 100%;
-  margin: 0 auto ;
+  margin: 0 auto;
   /* background-color: orangered; */
   margin-bottom: 10px;
 }
-.dreamlastdiv{
+
+.dreamlastdiv {
   background-color: #1B70F0;
   /* height: 50px; */
   width: 76%;
@@ -384,9 +429,10 @@ border: 3px solid #FFFFFF;
   top: 20px;
   position: absolute;
   height: 50px;
-  
+
 }
-.dreamlastsecdiv{
+
+.dreamlastsecdiv {
   /* align-content: center; */
   /* margin: 0 auto; */
   margin-left: 10%;
@@ -397,7 +443,8 @@ border: 3px solid #FFFFFF;
   top: 2px;
   width: 80%;
 }
-.deamlastthirddiv{
+
+.deamlastthirddiv {
   background-color: #1B70F0;
   opacity: 0.3;
   width: 78%;
@@ -407,7 +454,8 @@ border: 3px solid #FFFFFF;
   /* background-color: green; */
   margin-left: 11%;
 }
-.alldreamnavp{
+
+.alldreamnavp {
   /* background-color: greenyellow; */
   width: 60%;
   margin: 0 auto;
@@ -420,7 +468,9 @@ border: 3px solid #FFFFFF;
   font-weight: 500;
 
 }
-.dreamnav{
+
+.dreamnav {
+  cursor: pointer;
   color: #FFFFFF;
   margin-top: 15px;
   /* background-color: yellow; */
@@ -429,7 +479,7 @@ border: 3px solid #FFFFFF;
 
 
 /* events */
-.day01{
+.day01 {
   background-color: #1A1430;
   border-radius: 30px;
   width: 120px;
@@ -438,7 +488,8 @@ border: 3px solid #FFFFFF;
   border: none;
   margin: 10px;
 }
-.day02{
+
+.day02 {
   background-color: #1B70F0;
   border-radius: 30px;
   width: 120px;
@@ -447,7 +498,8 @@ border: 3px solid #FFFFFF;
   border: none;
   margin: 10px;
 }
-.day03{
+
+.day03 {
   border: none;
   margin: 10px;
   background-color: #1A1430;
@@ -456,23 +508,28 @@ border: 3px solid #FFFFFF;
   padding: 10px;
   color: white;
 }
-.eventmaindiv{
+
+.eventmaindiv {
   position: relative;
   background-color: #140F27;
 }
-.eventtopdiv{
+
+.eventtopdiv {
   padding-top: 50px;
-  
+
 }
-.eventheading{
+
+.eventheading {
   color: white;
 }
-.eventbtn{
+
+.eventbtn {
   border: 2px solid #322952;
-color: white;
-background-color: transparent;
+  color: white;
+  background-color: transparent;
 }
-.eventsdivone{
+
+.eventsdivone {
   /* background-color: orange; */
   /* height: 150px; */
   margin-bottom: 20px;
@@ -482,39 +539,46 @@ background-color: transparent;
 
   border: 2px dashed #1D1734;
 }
-.divoneevent{
+
+.divoneevent {
   /* background-color: yellowgreen; */
   width: 15%;
   box-sizing: border-box;
   border-right: 2px dashed #1D1734;
 }
-.divoneeventtext{
+
+.divoneeventtext {
   /* background-color: yellowgreen; */
   width: 70%;
 }
-.eventsheading{
+
+.eventsheading {
   font-family: poppiens;
   font-size: 15px;
   color: white;
   font-family: poppiens;
 }
-.eventtext{
+
+.eventtext {
   /* font-family: rubiklight; */
   color: #AEABBA;
   font-size: 13px;
   /* color: white; */
   font-family: poppiens;
 }
-.enevtonetext{
+
+.enevtonetext {
   font-family: rubiklight;
   font-size: 13px;
   color: white;
   /* font-family: poppiens; */
 }
-.enevtsimg{
+
+.enevtsimg {
   padding: 5px;
 }
-.eventbtn{
+
+.eventbtn {
   border: none;
   margin: 10px;
   background-color: #1A1430;
@@ -526,22 +590,25 @@ background-color: transparent;
   padding: 10px;
   color: white;
 }
-.divoneeventtwo{
+
+.divoneeventtwo {
   justify-content: space-around;
   /* background-color: #1B70F0; */
   display: flex;
   width: 80%;
   color: #AEABBA;
 }
-.headingofeventonr{
+
+.headingofeventonr {
   font-size: 25px;
   font-family: poppiens;
-font-weight: bold;
-color: #AEABBA;
+  font-weight: bold;
+  color: #AEABBA;
 }
-.eventbtn2{
+
+.eventbtn2 {
   border: none;
-  margin-top:15% ;
+  margin-top: 15%;
   background-color: #1A1430;
   border-radius: 30px;
   width: 150px;
@@ -552,48 +619,55 @@ color: #AEABBA;
   color: white;
 }
 
-.enevtsimgbtn{
+.enevtsimgbtn {
   /* background-color: yellow; */
   margin-top: 35%;
   width: 50px;
   height: 50px;
 }
-.eventcandy{
+
+.eventcandy {
   width: 100px;
   position: absolute;
   left: 5%;
   top: 10%;
 }
-.eventcap{
+
+.eventcap {
   right: 10%;
   position: absolute;
   width: 100px;
   top: 15%;
 }
-.eventgift{
+
+.eventgift {
   bottom: 5%;
   position: absolute;
   left: 5%;
   width: 100px;
 }
-.eventbaaja{
+
+.eventbaaja {
   bottom: 15%;
   right: 5%;
   position: absolute;
   width: 100px;
 }
-.inputandbtnblog{
+
+.inputandbtnblog {
   /* background-color: orange; */
   width: 59%;
 }
-.inpurbloginnerdiv{
+
+.inpurbloginnerdiv {
   background-color: white;
   /* height:'50px'; */
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 15px;
 }
-.blogarrow{
+
+.blogarrow {
   background-color: #6100B3;
   color: white;
   font-size: 15px;
@@ -602,38 +676,45 @@ color: #AEABBA;
   border: none;
   padding: 11.5px;
 }
-.blogarrobtn{
+
+.blogarrobtn {
   margin-left: 38px;
 }
-.bloginputarea{
-  outline:none ;
+
+.bloginputarea {
+  outline: none;
   /* background-color: pink; */
-  padding-left:20px;
-   font-size:12px;
-   width:65%;
-   border:none ;
-   margin-left :10px;
+  padding-left: 20px;
+  font-size: 12px;
+  width: 65%;
+  border: none;
+  margin-left: 10px;
 }
-.subscribemaindiv{
+
+.subscribemaindiv {
   padding: 10px;
   position: relative;
 }
-.blogimgone{
+
+.blogimgone {
   width: 100px;
   top: 30px;
   left: 40px;
   position: absolute;
 }
-.blogimgtwo{
+
+.blogimgtwo {
   width: 100px;
   bottom: 30px;
   right: 40px;
   position: absolute;
 }
-.areyouhappymaindiv{
+
+.areyouhappymaindiv {
   background-image: url('./components/images/backgroundimg.jpg');
 }
-.areyouhapptext{
+
+.areyouhapptext {
   width: 60%;
   font-family: poppiens;
   color: white;
@@ -643,44 +724,164 @@ color: #AEABBA;
   padding-top: 50px;
   /* margin-top: 60px; */
 }
-.icondiv{
+
+.icondiv {
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-around;
   /* background-color: brown; */
 }
-.iconone{
+
+.iconone {
   width: 70px;
 }
 
 
 /* footer */
-.footermaindiv{
-  padding-top: 30px;
+.footermaindiv {
+  padding-top: 60px;
   background-color: #140F27;
+  /* background-color: yellow;
+  margin: 0 !important;
+  padding-right:0 !important ; */
 
 }
-.barkedlight{
+
+.barkedlight {
   width: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.footerblockonediv{
+
+.footerblockonediv {
+  /* margin: 0 !important; */
+  /* width: 80%; */
   /* background-color: yellow; */
 }
-.footerblockone{
+
+.footerblockone {
+  /* margin: 0 !important; */
   list-style: none;
   color: #C4BEDA;
-
+  /* margin-right: 15px; */
 }
+
 .footerblockone li {
+
   margin-top: 10px;
 }
-.footerblockoneheading{
+
+.footerblockoneheading {
   font-size: 20px;
   color: white;
 }
- 
+
+.footerblockonebelowtext {
+  color: #C4BEDA;
+  ;
+}
+
+.footerlastdivheading {
+  font-family: poppiens;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.footerbelowtext {
+  /* background-color: orangered; */
+  /* margin-left: 0px; */
+  font-size: 14px;
+}
+
+.footerlastdivimgandtext {
+  /* background-color: #1B70F0; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerlastdivimgdiv {
+  /* background-color: #6100B3; */
+}
+
+.footerlastdivtextdiv {
+  text-align: start;
+  width: 60%;
+
+}
+
+.makemaindivfooter {
+  width: 75%;
+  /* margin-top: 50px; */
+  /* background-color: aqua; */
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.footerbelowlasttext {
+  font-family: rubiklight;
+  font-size: 10px;
+}
+
+.lastestfooterblock {
+  /* background-color: goldenrod; */
+  border-top: 2px solid #1E1836;
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+}
+
+.lastestfooterblockimgdiv {
+  width: 95%;
+  margin: 0 auto;
+  padding: 5px;
+  /* background-color: olive; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastestfooterblocktext {
+  color: #7E7798;
+  font-family: rubiklight;
+  /* vertical-align: middle; */
+  margin: 20px;
+}
+
+.lastestfooterblockimgsolodiv {
+  /* background-color: #1B70F0; */
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2.25614px solid #1E1836;
+}
+
+.lastestfooterblockimgsoloimg {
+  /* vertical-align: middle; */
+  /* margin-top: 10px; */
+  cursor: pointer;
+  margin: 20px;
+  /* background-color: brown; */
+}
+
+.lastestfooterblockimgsolodiv:hover {
+  border: 2.25614px solid #6100B3;
+
+}
+
+.featuredash {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  left: -38px;
+  top: 7px;
+  background: #1B70F0;
+}
+
 
 
 
@@ -691,18 +892,20 @@ color: #AEABBA;
 
 
 @media only screen and (max-width: 1200px) {
-  .inputandbtnblog{
+  .inputandbtnblog {
     /* background-color: orange; */
     width: 60%;
   }
-  .inpurbloginnerdiv{
+
+  .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; */
     padding-top: 5px;
     padding-bottom: 8px;
     margin-top: 15px;
   }
-  .blogarrow{
+
+  .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -712,21 +915,24 @@ color: #AEABBA;
     margin-top: 0;
     padding: 3px;
   }
-  .blogarrobtn{
+
+  .blogarrobtn {
     width: 20px;
     margin-left: 20px;
   }
-  .bloginputarea{
-    outline:none ;
-    padding-left:20px;
-    padding-bottom:3.5px;
-     font-size:12px;
-     width:70%;
-     /* background-color: pink; */
-     border:none ;
-     margin-left :10px;
+
+  .bloginputarea {
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 3.5px;
+    font-size: 12px;
+    width: 70%;
+    /* background-color: pink; */
+    border: none;
+    margin-left: 10px;
   }
-  .areyouhapptext{
+
+  .areyouhapptext {
     width: 60%;
     font-family: poppiens;
     color: white;
@@ -736,6 +942,14 @@ color: #AEABBA;
     padding-top: 50px;
     /* margin-top: 60px; */
   }
+
+  .makemaindivfooter {
+    width: 95%;
+    /* margin-top: 50px; */
+    /* background-color: aqua; */
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
 }
 
 
@@ -743,18 +957,20 @@ color: #AEABBA;
 
 
 @media only screen and (max-width: 1000px) {
-  .inputandbtnblog{
+  .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-  .inpurbloginnerdiv{
+
+  .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; */
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
   }
-  .blogarrow{
+
+  .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -764,21 +980,24 @@ color: #AEABBA;
     margin-top: 0;
     padding: 3px;
   }
-  .blogarrobtn{
+
+  .blogarrobtn {
     width: 20px;
     margin-left: 30px;
   }
-  .bloginputarea{
-    outline:none ;
-    padding-left:20px;
-    padding-bottom:3.5px;
-     font-size:12px;
-     width:75%;
-     /* background-color: pink; */
-     border:none ;
-     margin-left :10px;
+
+  .bloginputarea {
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 3.5px;
+    font-size: 12px;
+    width: 75%;
+    /* background-color: pink; */
+    border: none;
+    margin-left: 10px;
   }
-  .areyouhapptext{
+
+  .areyouhapptext {
     width: 90%;
     font-family: poppiens;
     color: white;
@@ -795,10 +1014,11 @@ color: #AEABBA;
 
 
 @media only screen and (max-width: 900px) {
-  .easiernumone{
+  .easiernumone {
     font-size: 100px;
   }
-  .allnumbresdiv{
+
+  .allnumbresdiv {
     /* display: flex; */
     height: 180px;
     width: 75%;
@@ -807,7 +1027,8 @@ color: #AEABBA;
     /* background-color: #1B70F0; */
     justify-content: space-around;
   }
-  .numonedetail{
+
+  .numonedetail {
     /* height: 50vh; */
     /* width: 180px; */
     /* background-color: orangered; */
@@ -817,21 +1038,25 @@ color: #AEABBA;
     /* text-align: center; */
     /* font-family: poppiens; */
     /* margin-top:200px ; */
-  
+
   }
-  .alldreamnavp{
+
+  .alldreamnavp {
     width: 85%;
   }
-  .enevtsimg{
+
+  .enevtsimg {
     width: 40px;
   }
-  .eventsheading{
+
+  .eventsheading {
     font-family: poppiens;
     font-size: 10px;
     color: white;
     /* font-family: poppiens; */
   }
-  .divoneevent{
+
+  .divoneevent {
     margin-right: 4px;
     position: relative;
     /* background-color: yellowgreen; */
@@ -839,94 +1064,105 @@ color: #AEABBA;
     box-sizing: border-box;
     border-right: 2px dashed #1D1734;
   }
-.eventtext{
-  font-size: 10px;
-  position: absolute;
-  /* background-color: brown; */
-  top: 60px;
-}
-.headingofeventonr{
-  font-size: 18px;
-  font-family: poppiens;
-font-weight: bold;
-color: #AEABBA;
-}
-.enevtonetext{
-  font-family: rubiklight;
-  font-size: 10px;
-  color: white;
-}
-.eventbtn2{
-  border: none;
-  margin: 10px;
-  background-color: #1A1430;
-  border-radius: 30px;
-  width: 85px;
-  font-size: 10px;
-  /* height: 30px; */
-  /* margin: 50px 0; */
-  padding: 10px;
-  color: white;
-}
-.day01{
-  background-color: #1A1430;
-  border-radius: 30px;
-  width: 80px;
-  font-size: 11px;
-  padding: 10px;
-  color: white;
-  border: none;
-  margin: 10px;
-}
-.day02{
-  font-size: 11px;
-  background-color: #1B70F0;
-  border-radius: 30px;
-  width: 80px;
-  padding: 10px;
-  color: white;
-  border: none;
-  margin: 10px;
-}
-.day03{
-  font-size: 11px;
-  border: none;
-  margin: 10px;
-  background-color: #1A1430;
-  border-radius: 30px;
-  width: 80px;
-  padding: 10px;
-  color: white;
-}
-.inpurbloginnerdiv{
-  background-color: white;
-  /* height:'50px'; */
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 15px;
-}
-.blogarrow{
-  background-color: #6100B3;
-  color: white;
-  font-size: 10px;
-  /* width: 130px; */
-  /* height: 35px; */
-  border: none;
-  padding: 10px;
-  margin-left: 40px;
-}
-.blogarrobtn{
-  margin-left: 10px;
-}
-.bloginputarea{
-  /* background-color: pink; */
-  outline:none ;
-  padding-left:20px;
-   font-size:12px;
-   width:70%;
-   border:none ;
-   margin-left :10px;
-}
+
+  .eventtext {
+    font-size: 10px;
+    position: absolute;
+    /* background-color: brown; */
+    top: 60px;
+  }
+
+  .headingofeventonr {
+    font-size: 18px;
+    font-family: poppiens;
+    font-weight: bold;
+    color: #AEABBA;
+  }
+
+  .enevtonetext {
+    font-family: rubiklight;
+    font-size: 10px;
+    color: white;
+  }
+
+  .eventbtn2 {
+    border: none;
+    margin: 10px;
+    background-color: #1A1430;
+    border-radius: 30px;
+    width: 85px;
+    font-size: 10px;
+    /* height: 30px; */
+    /* margin: 50px 0; */
+    padding: 10px;
+    color: white;
+  }
+
+  .day01 {
+    background-color: #1A1430;
+    border-radius: 30px;
+    width: 80px;
+    font-size: 11px;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: 10px;
+  }
+
+  .day02 {
+    font-size: 11px;
+    background-color: #1B70F0;
+    border-radius: 30px;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: 10px;
+  }
+
+  .day03 {
+    font-size: 11px;
+    border: none;
+    margin: 10px;
+    background-color: #1A1430;
+    border-radius: 30px;
+    width: 80px;
+    padding: 10px;
+    color: white;
+  }
+
+  .inpurbloginnerdiv {
+    background-color: white;
+    /* height:'50px'; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  .blogarrow {
+    background-color: #6100B3;
+    color: white;
+    font-size: 10px;
+    /* width: 130px; */
+    /* height: 35px; */
+    border: none;
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+  .blogarrobtn {
+    margin-left: 10px;
+  }
+
+  .bloginputarea {
+    /* background-color: pink; */
+    outline: none;
+    padding-left: 20px;
+    font-size: 12px;
+    width: 70%;
+    border: none;
+    margin-left: 10px;
+  }
 
 }
 
@@ -943,18 +1179,20 @@ color: #AEABBA;
 
 
 @media only screen and (max-width: 800px) {
-  .inputandbtnblog{
+  .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-  .inpurbloginnerdiv{
+
+  .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; */
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
   }
-  .blogarrow{
+
+  .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -965,27 +1203,31 @@ color: #AEABBA;
     margin-top: 0;
     padding: 3px;
   }
-  .blogarrobtn{
+
+  .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
-  .bloginputarea{
-    outline:none ;
-    padding-left:20px;
-    padding-bottom:3.5px;
-     font-size:12px;
-     width:65%;
-     /* background-color: pink; */
-     border:none ;
-     margin-left :10px;
+
+  .bloginputarea {
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 3.5px;
+    font-size: 12px;
+    width: 65%;
+    /* background-color: pink; */
+    border: none;
+    margin-left: 10px;
   }
-  .blogimgone{
+
+  .blogimgone {
     width: 80px;
     top: 30px;
     left: 40px;
     position: absolute;
   }
-  .blogimgtwo{
+
+  .blogimgtwo {
     width: 80px;
     bottom: 30px;
     right: 40px;
@@ -996,18 +1238,20 @@ color: #AEABBA;
 
 
 @media only screen and (max-width: 700px) {
-  .inputandbtnblog{
+  .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-  .inpurbloginnerdiv{
+
+  .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; */
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
   }
-  .blogarrow{
+
+  .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -1018,33 +1262,38 @@ color: #AEABBA;
     margin-top: 0;
     padding: 3px;
   }
-  .blogarrobtn{
+
+  .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
-  .bloginputarea{
-    outline:none ;
-    padding-left:20px;
-    padding-bottom:3.5px;
-     font-size:12px;
-     width:60%;
-     /* background-color: pink; */
-     border:none ;
-     margin-left :10px;
+
+  .bloginputarea {
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 3.5px;
+    font-size: 12px;
+    width: 60%;
+    /* background-color: pink; */
+    border: none;
+    margin-left: 10px;
   }
-  .blogimgone{
+
+  .blogimgone {
     width: 75px;
     top: 30px;
     left: 30px;
     position: absolute;
   }
-  .blogimgtwo{
+
+  .blogimgtwo {
     width: 75px;
     bottom: 30px;
     right: 30px;
     position: absolute;
   }
-  .areyouhapptext{
+
+  .areyouhapptext {
     width: 90%;
     font-family: poppiens;
     color: white;
@@ -1061,10 +1310,11 @@ color: #AEABBA;
 
 
 @media only screen and (max-width: 600px) {
-  .easiernumone{
+  .easiernumone {
     font-size: 80px;
   }
-  .numonedetail{
+
+  .numonedetail {
     /* height: 50vh; */
     /* width: 180px; */
     /* background-color: orangered; */
@@ -1074,18 +1324,21 @@ color: #AEABBA;
     text-align: center;
     font-family: poppiens;
     /* margin-top:200px ; */
-  
+
   }
-  .alldreamnavp{
+
+  .alldreamnavp {
     width: 90%;
   }
-  .headingofeventonr{
+
+  .headingofeventonr {
     font-size: 13px;
     font-family: poppiens;
-  font-weight: bold;
-  color: #AEABBA;
+    font-weight: bold;
+    color: #AEABBA;
   }
-  .eventbtn2{
+
+  .eventbtn2 {
     border: none;
     margin-top: 30%;
     background-color: #1A1430;
@@ -1097,48 +1350,56 @@ color: #AEABBA;
     padding: 10px;
     color: white;
   }
-  .eventtext{
+
+  .eventtext {
     font-size: 10px;
     position: absolute;
     /* background-color: brown; */
     top: 80px;
   }
-  .eventcandy{
+
+  .eventcandy {
     width: 60px;
     position: absolute;
     left: 5%;
     top: 10%;
   }
-  .eventcap{
+
+  .eventcap {
     right: 10%;
     position: absolute;
     width: 60px;
     top: 15%;
   }
-  .eventgift{
+
+  .eventgift {
     bottom: 5%;
     position: absolute;
     left: 5%;
     width: 60px;
   }
-  .eventbaaja{
+
+  .eventbaaja {
     bottom: 15%;
     right: 5%;
     position: absolute;
     width: 60px;
   }
-  .inputandbtnblog{
+
+  .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-  .inpurbloginnerdiv{
+
+  .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; */
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
   }
-  .blogarrow{
+
+  .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -1149,33 +1410,38 @@ color: #AEABBA;
     margin-top: 0;
     padding: 3px;
   }
-  .blogarrobtn{
+
+  .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
-  .bloginputarea{
-    outline:none ;
-    padding-left:20px;
-    padding-bottom:3.5px;
-     font-size:12px;
-     width:60%;
-     /* background-color: pink; */
-     border:none ;
-     margin-left :10px;
+
+  .bloginputarea {
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 3.5px;
+    font-size: 12px;
+    width: 60%;
+    /* background-color: pink; */
+    border: none;
+    margin-left: 10px;
   }
-  .blogimgone{
+
+  .blogimgone {
     width: 60px;
     top: 30px;
     left: 10px;
     position: absolute;
   }
-  .blogimgtwo{
+
+  .blogimgtwo {
     width: 60px;
     bottom: 30px;
     right: 10px;
     position: absolute;
   }
-  .iconone{
+
+  .iconone {
     width: 60px;
   }
 
@@ -1192,7 +1458,7 @@ color: #AEABBA;
 
 @media only screen and (max-width: 500px) {
 
-  .homedivonetext{
+  .homedivonetext {
     /* font-family: poppiens; */
     font-size: 35px;
     /* padding: 10px;
@@ -1200,7 +1466,8 @@ color: #AEABBA;
     background-color: yellow; */
     /* margin-top: 100px; */
   }
-  .headphonepic{
+
+  .headphonepic {
     /* width: 100px; */
     /* background-color: palevioletred; */
     /* left: 15px; */
@@ -1209,40 +1476,48 @@ color: #AEABBA;
     /* top: 10px; */
     /* position: absolute; */
   }
-  .homeimagelevels{
+
+  .homeimagelevels {
     /* position: relative; */
     width: 500px;
     /* height: 300px; */
     margin: 10px;
     /* background-color: purple; */
   }
-  .planboxtext{
+
+  .planboxtext {
     font-size: 15px;
     /* background-color: aqua; */
   }
-  .planboxinner{
+
+  .planboxinner {
     width: 80%;
   }
-  .planboxsmalldivs{
+
+  .planboxsmalldivs {
     /* background-color: blue; */
     margin-top: 10px;
     width: 100%;
-    
+
   }
-  .makemaindiv{
+
+  .makemaindiv {
     /* background-color: brown; */
     width: 80%;
     /* margin-bottom: 80px; */
   }
-  .investmentbtn{
+
+  .investmentbtn {
     margin-left: 60%;
     width: 100px;
     font-size: 10px;
   }
-  .investmentheading{
+
+  .investmentheading {
     font-size: 25px;
   }
-  .easiernumone{
+
+  .easiernumone {
     font-size: 60px;
     /* text-align: center; */
     /* background-color: greenyellow; */
@@ -1250,7 +1525,8 @@ color: #AEABBA;
     /* color: #F6FBFF; */
     /* font-family: poppiens; */
   }
-  .allnumbresdiv{
+
+  .allnumbresdiv {
     /* display: flex; */
     height: 110px;
     width: 75%;
@@ -1259,48 +1535,57 @@ color: #AEABBA;
     /* background-color: #1B70F0; */
     /* justify-content: space-around; */
   }
-  .bluedot{
+
+  .bluedot {
     height: 15px;
     width: 15px;
     /* background-color: green; */
     box-shadow: 2.778px 5.757px 32px rgba(0, 0, 0, 0.4);
-  border-radius: 30px;
-  /* border: 3px solid #FFFFFF; */
-  
+    border-radius: 30px;
+    /* border: 3px solid #FFFFFF; */
+
   }
-  .alldreamnavp{
+
+  .alldreamnavp {
     width: 100%;
     /* padding: 3px 0; */
     font-size: 9px;
   }
-  .dreamlastsecdiv{
+
+  .dreamlastsecdiv {
     width: 100%;
     margin-left: 0;
   }
-  .deamlastthirddiv{
+
+  .deamlastthirddiv {
     height: 45px;
     width: 90%;
     margin-left: 10px;
   }
-  .dreamlastdiv{
-    
+
+  .dreamlastdiv {
+
     /* height: 50px; */
     width: 80%;
     margin-left: 10%;
-    
+
     height: 45px;
-    
+
   }
-  .popcardpricebelow{
+
+  .popcardpricebelow {
     font-size: 8px;
   }
-  .investmentheading{
+
+  .investmentheading {
     font-size: 20px;
   }
-  .investmentbtndream{
+
+  .investmentbtndream {
     font-size: 8px;
   }
-  .eventbtn2{
+
+  .eventbtn2 {
     border: none;
     margin-top: 40%;
     background-color: #1A1430;
@@ -1312,38 +1597,44 @@ color: #AEABBA;
     padding: 10px;
     color: white;
   }
-  .eventsheading{
+
+  .eventsheading {
     font-family: poppiens;
     font-size: 9px;
     color: white;
     /* font-family: poppiens; */
   }
-  .eventtext{
+
+  .eventtext {
     font-size: 8px;
     position: absolute;
     /* background-color: brown; */
     top: 80px;
   }
-  .headingofeventonr{
+
+  .headingofeventonr {
     font-size: 10px;
     font-family: poppiens;
-  font-weight: bold;
-  color: #AEABBA;
+    font-weight: bold;
+    color: #AEABBA;
   }
-  .enevtonetext{
+
+  .enevtonetext {
     font-family: rubiklight;
     font-size: 9px;
     color: white;
     /* font-family: poppiens; */
   }
-  .enevtsimgbtn{
+
+  .enevtsimgbtn {
     /* background-color: yellow; */
     margin-top: 75%;
     /* margin: auto 0; */
     width: 30px;
     height: 30px;
   }
-  .day01{
+
+  .day01 {
     background-color: #1A1430;
     border-radius: 30px;
     width: 60px;
@@ -1353,7 +1644,8 @@ color: #AEABBA;
     border: none;
     margin: 10px;
   }
-  .day02{
+
+  .day02 {
     font-size: 11px;
     background-color: #1B70F0;
     border-radius: 30px;
@@ -1363,7 +1655,8 @@ color: #AEABBA;
     border: none;
     margin: 10px;
   }
-  .day03{
+
+  .day03 {
     font-size: 11px;
     border: none;
     margin: 10px;
@@ -1373,35 +1666,41 @@ color: #AEABBA;
     padding: 10px;
     color: white;
   }
-  .eventcandy{
+
+  .eventcandy {
     width: 50px;
     position: absolute;
     left: 5%;
     top: 18%;
   }
-  .eventcap{
+
+  .eventcap {
     right: 10%;
     position: absolute;
     width: 50px;
     top: 20%;
   }
-  .eventgift{
+
+  .eventgift {
     bottom: 5%;
     position: absolute;
     left: 5%;
     width: 50px;
   }
-  .eventbaaja{
+
+  .eventbaaja {
     bottom: 15%;
     right: 5%;
     position: absolute;
     width: 50px;
   }
-  .inputandbtnblog{
+
+  .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-  .inpurbloginnerdiv{
+
+  .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; */
     /* padding-left: 1px; */
@@ -1409,7 +1708,8 @@ color: #AEABBA;
     padding-bottom: 5px;
     margin-top: 15px;
   }
-  .blogarrow{
+
+  .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -1418,35 +1718,40 @@ color: #AEABBA;
     border: none;
     margin-top: 0;
     padding: 3px;
-    margin-left :5px;
+    margin-left: 5px;
   }
-  .blogarrobtn{
+
+  .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
-  .bloginputarea{
-    outline:none ;
-    padding-left:10px;
-    padding-bottom:3.5px;
-     font-size:12px;
-     width:60%;
-     /* background-color: pink; */
-     border:none ;
-     margin-left :7px;
+
+  .bloginputarea {
+    outline: none;
+    padding-left: 10px;
+    padding-bottom: 3.5px;
+    font-size: 12px;
+    width: 60%;
+    /* background-color: pink; */
+    border: none;
+    margin-left: 7px;
   }
-  .blogimgone{
+
+  .blogimgone {
     width: 60px;
     top: 10px;
     left: 10px;
     position: absolute;
   }
-  .blogimgtwo{
+
+  .blogimgtwo {
     width: 60px;
     bottom: 10px;
     right: 10px;
     position: absolute;
   }
-  .areyouhapptext{
+
+  .areyouhapptext {
     width: 100%;
     font-family: poppiens;
     color: white;
@@ -1456,9 +1761,26 @@ color: #AEABBA;
     padding-top: 50px;
     /* margin-top: 60px; */
   }
-  .iconone{
-    width: 50px;
+
+  .iconone {
+    width: 40px;
+  }
+
+  .lastestfooterblockimgsolodiv {
+    /* background-color: #1B70F0; */
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2.25614px solid #1E1836;
+  }
+
+  .lastestfooterblockimgsoloimg {
+    /* vertical-align: middle; */
+    /* margin-top: 10px; */
+    cursor: pointer;
+    margin: 10px;
+    /* background-color: brown; */
   }
 
 }
-

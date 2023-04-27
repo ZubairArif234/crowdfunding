@@ -13,8 +13,8 @@ function Navbarcrowd() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>home</Nav.Link>
-            <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>about</Nav.Link>
+            <Nav.Link href="/" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>home</Nav.Link>
+            <Nav.Link href="/about" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>about</Nav.Link>
             <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>project</Nav.Link>
             <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>blog</Nav.Link>
             <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>contact</Nav.Link>

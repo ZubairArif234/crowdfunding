@@ -1,0 +1,285 @@
+
+
+@font-face {
+    font-family: poppiens;
+    src: url(./components/fonts/Poppins-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: rubik;
+    src: url(./components/fonts/Rubik-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: rubiklight;
+    src: url(./components/fonts/Rubik-Light.ttf);
+  }
+
+
+.aboutusfirstcompmaindiv{
+
+    background-image: url('./components/images/aboutfirstcompimgone.png');
+    background-size: cover;
+    /* background-color: aqua; */
+    padding: 50px;
+}
+.communitydiv{
+    background-color: yellow;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aboutusfirstcompdiv{
+    /* background-color: yellow; */
+    width: 60%;
+    padding: 30px;
+    color: white;
+    padding-left: 20%;
+}
+.aboutusheading{
+    /* font-weight: bold; */
+font-family: poppiens;
+    font-size: 50px;
+}
+.aboutustextbelow{
+    font-size: 12px;
+}
+.communityheadingupdate{
+    font-size: 30px;
+    color: #062A4D;
+    font-family: poppiens;
+
+}
+.communitydivpartone{
+    /* position: relative; */
+    font-size: 13px;
+    width: 400px;
+    padding: 10px;
+    background-color: orangered;
+}
+.communityupperblockdivbelowimg{
+    height: 80vh;
+    width: 100%;
+    /* position: sticky; */
+    /* margin-top: 20%; */
+    background-size: cover;
+    /* position: relative; */
+    background-image: url('./components//images//aboutcommunitytopbelowpic.png');
+}
+.communityupperblockdiv{
+    /* position: absolute; */
+    position: sticky;
+    margin-top: 60px;
+    margin-bottom: -130px;
+    
+    background-color: aqua;
+    background-size: cover;
+    background-image: url('./components/images/aboutuscommunitytopdiv.png');
+    padding: 6%;
+    text-align: center;
+    /* margin: 40px; */
+    color: white;
+    /* position: absolute; */
+    font-size: 25px;
+    /* top: 60; */
+    /* width: 50%; */
+}
+.aboutmissionimg{
+    height: 500px;
+}
+.communitydivmission{
+
+    background-color: yellow;
+    /* position: relative; */
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.communitydivpartonemission{
+    /* position: relative; */
+    font-size: 13px;
+    width: 500px;
+    padding: 10px;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .aboutusfirstcompdiv{
+        /* background-color: yellow; */
+        width: 80%;
+        padding: 30px;
+        color: white;
+        padding-left: 10%;
+    }
+    .communitydivpartone{
+        /* position: relative; */
+        font-size: 13px;
+        width: 600px;
+        padding: 10px;
+        /* background-color: orangered; */
+    }
+    .communitydivmission{
+
+        background-color: yellow;
+        /* position: relative; */
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .communitydivpartonemission{
+        /* position: relative; */
+        font-size: 13px;
+        width: 400px;
+        padding: 10px;
+        background-color: orangered;
+    }
+    /* .communityupperblockdivbelowimg{
+        height: 80vh;
+        width: 100%;
+        margin-top: 20%;
+        background-size: cover;
+        position: relative;
+        background-image: url('./components//images//aboutcommunitytopbelowpic.png');
+    }
+    .communityupperblockdiv{
+        position: absolute;
+        top: 170%;
+        right: 20%;
+        left: 20%;
+        background-color: aqua;
+        background-size: cover;
+        background-image: url('./components/images/aboutuscommunitytopdiv.png');
+        padding: 6%;
+        text-align: center;
+        margin: 40px;
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        top: 60;
+        width: 50%;
+    }
+    .communitydivpartone{
+        position: relative;
+        font-size: 13px;
+        width: 600px;
+        padding: 10px;
+        background-color: orangered;
+    } */
+}
+@media only screen and (max-width: 800px) {
+
+    .aboutusfirstcompdiv{
+        /* background-color: yellow; */
+        width: 80%;
+        padding: 30px;
+        color: white;
+        padding-left: 10%;
+    }
+   
+    .communitydivpartone{
+        /* position: relative; */
+        font-size: 13px;
+        width: 600px;
+        padding: 10px;
+        /* background-color: orangered; */
+    }
+    .communityupperblockdivbelowimg{
+        height: 40vh;
+        width: 100%;
+        /* position: sticky; */
+        /* margin-top: 20%; */
+        background-size: cover;
+        /* position: relative; */
+        background-image: url('./components//images//aboutcommunitytopbelowpic.png');
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .aboutusfirstcompdiv{
+        /* background-color: yellow; */
+        width: 95%;
+        padding: 30px;
+        color: white;
+        padding-left: 10%;
+    }
+    .aboutusheading{
+        /* font-weight: bold; */
+    font-family: poppiens;
+        font-size: 30px;
+    }
+    .communityflyingtextdiv{
+    font-size: 10px;
+    }
+  
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .aboutusfirstcompdiv{
+        /* background-color: yellow; */
+        width: 95%;
+        padding: 30px;
+        color: white;
+        padding-left: 10%;
+    }
+    .aboutusheading{
+        /* font-weight: bold; */
+    font-family: poppiens;
+        font-size: 30px;
+    }
+    .communityflyingtextdiv{
+    font-size: 10px;
+    }
+ 
+}
+@media only screen and (max-width: 400px) {
+
+    .aboutusfirstcompdiv{
+        /* background-color: yellow; */
+        width: 95%;
+        padding: 30px;
+        color: white;
+        padding-left: 10%;
+    }
+    .aboutusheading{
+        /* font-weight: bold; */
+    font-family: poppiens;
+        font-size: 30px;
+    }
+    .communityflyingtextdiv{
+    font-size: 10px;
+    }
+ 
+}
