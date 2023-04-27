@@ -1,6 +1,7 @@
 
 
 import aboutusouemissionimgpic from './images/aboutusouemissionpicimg.png'
+import Aboutusourmissionimg from './images/aboutusmissionbackimg.png'
 
 
 const Aboutusourmission = () =>{
@@ -14,6 +15,14 @@ const Aboutusourmission = () =>{
 <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 </div>
             </div>
+            {/* <div className="communityupperblockdivbelowimg">
+
+            </div> */}
+            <img className='missionbackimg' src={Aboutusourmissionimg}/>
+            <div className="missionlowerblockdiv">
+                    <p className="communityflyingtextdiv">“BACKED is one of those platforms that gives you space to work with people who know you, love you, and support you.”</p>
+               <p style={{fontWeight:'bold'}}>- Jason Derula</p>
+                </div>
         </div>
     )
 
