@@ -155,8 +155,10 @@ font-family: poppiens;
 }
 .aboutcardmaindiv{
     width: 270px;
+    border: 1px solid #f0f0f0;
     background-size: cover;
     background-image: url('./components/images//aboutuscardteamone.png');
+    margin-bottom: 20px;
 }
 .aboutcardmaindivnametext{
     width: 85%;
@@ -176,6 +178,11 @@ font-family: poppiens;
     color: #062A4D;
     font-size: 15px;
     font-family: rubiklight;
+}
+.aboutcardmaindiv:hover {
+    transition: box-shadow 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  */
 }
 
 
@@ -257,6 +264,11 @@ font-family: poppiens;
         padding: 10px;
         background-color: orangered;
     } */
+    .comeandjoinusbtn , .blogarrow{
+    width: 200px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    }
 }
 @media only screen and (max-width: 800px) {
 
@@ -310,7 +322,7 @@ font-family: poppiens;
     }
     .communityflyingtextdiv{
     font-size: 10px;
-    }
+}
   
 }
 
@@ -346,6 +358,11 @@ font-family: poppiens;
     }
     .missionlowerblockdiv{
         width: 80%;
+    }
+    .comeandjoinusbtn , .blogarrow{
+width: 200px !important;
+padding-top: 10px !important;
+padding-bottom: 10px !important;
     }
  
 }

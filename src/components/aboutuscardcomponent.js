@@ -19,7 +19,7 @@ const Aboutuscardcomponent = () => {
         <Col>3 of 3</Col>
       </Row>
     </Container> */}
-            <div className='investcarddiv'>
+            <div className="popularcarddiv">
                 <Aboutuscardscomp/>
                 <Aboutuscardscomp/>
                 <Aboutuscardscomp/>

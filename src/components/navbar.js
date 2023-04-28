@@ -15,7 +15,7 @@ function Navbarcrowd() {
           <Nav className="me-auto">
             <Nav.Link href="/" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>home</Nav.Link>
             <Nav.Link href="/about" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>about</Nav.Link>
-            <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>project</Nav.Link>
+            <Nav.Link href="/ongoing" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>project</Nav.Link>
             {/* <NavDropdown style={{textTransform:'uppercase', color:'#19142E !important',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}} title="Project" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
