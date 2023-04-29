@@ -1,0 +1,281 @@
+
+
+.blogpgecardsimgandtext{
+    /* background-color: yellow; */
+    display: flex;
+    padding-top: 15px;
+    width: 180px;
+    /* padding-bottom: 5px; */
+    /* align-items: center; */
+}
+.blogpgecardsinnerimg{
+    width: 24px;
+    margin-right: 5px;
+    height: 24px;
+    /* background-color: green; */
+}
+.blogpgecardsinnerimgtext{
+    font-size: 15px;
+    color: #6F7172;
+    /* background-color: #FAF9FF; */
+}
+.blogpagedivdetailsdiv{
+    /* padding: 10px 0; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogpagecardmaindiv{
+    
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    background-color: aqua;
+    /* padding: 40px; */
+    width: 100%;
+}
+.blogpagecardmaindiv:hover{
+    transition: box-shadow 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.blogpagedivalldetailsdiv{
+    background-color: #FAF9FF;
+    padding: 20px 50px;
+
+}
+.blogpagecardlastbtn{
+    background-color: #062A4D;
+    color: white;
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    /* font-family: rubik; */
+    text-transform: uppercase;
+}
+.blogpagecardlastbtn:hover{
+    transition: color 0.5s ease;
+    border: 2px solid #062A4D;
+    color: #062A4D;
+    background-color: transparent;
+}
+.blogpagecardheading{
+    font-size: 20px;
+    color: #062A4D;
+    font-family: poppiens;
+}
+.blogpagecardimg{
+    width: 100%;
+}
+.blogpagebohtcardsdiv{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: orangered;
+}
+.blogpagecardtext{
+    font-family: rubiklight;
+    color: #6F7172;
+}
+
+.ourfeaturetext{
+    margin-left: 40px !important;
+    font-size: 15px;
+    color: #062A4D;
+}
+.blogsearchboxinput{
+    background-color: #EAEDFF;
+    border: none;
+    padding: 10px 20px;
+    width: 80%;
+    font-size: 15px;
+    outline: none;
+}
+.blogsearchboxbtn{
+    width: 20%;
+    padding: 10px 10px;
+    background-color: #062A4D;
+    border: none;
+    outline: none;
+}
+.blogpagesearchboxmaindiv{
+    padding: 20px 30px;
+    background-color: olive;
+    border: 2px solid #EAEDFF;
+    margin-top: 30px;
+    width: 100%;
+}
+.blogpagesearchboxmaindiv:hover{
+    border: 2px solid #1B70F0;
+    
+}
+/* .popularsuparmaindiv{
+    background-color: aqua !important;
+    padding: 20px;
+} */
+.blogpageallcardsmap{
+    background-color: pink;
+    /* width: 60%; */
+    margin-left: 10px;
+}
+.blogsearchboxinputandbtn{
+    width: 100%;
+    /* margin-right: 0px; */
+    display: flex;
+    /* background-color: #1B70F0; */
+}
+.blogpageallinputsidecards{
+    margin-right: 10px;
+    background-color: purple;
+}
+.blogpageaboutcardheading{
+    /* background-color: #1B70F0; */
+    color: #6F7172;
+    /* display: block; */
+    color: #062A4D;
+    font-weight: 700;
+    font-size: 20px;
+
+    text-align: center;
+    
+    margin:  0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.blogpageaboutcardtext{
+    margin:  0 auto;
+    text-align: center;
+    width: 80%;
+    display: block;
+}
+.profilepicaboutblogpage{
+    /* background-color: #1B70F0; */
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    
+}
+.aboutcardbelogpageimagesdiv{
+    /* background-color: #1B70F0; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutcardbelogpageimage{
+    padding: 10px 10px;
+    /* background-color: #6F7172; */
+}
+.aboutcardbelogpageimage:hover{
+    border: 1px solid #EAEDFF;
+}
+.socialimagesblogpage{
+    background-color: #062A4D;
+    border: none;
+    padding: 10px;
+}
+
+.socialimagesblogpage:hover{
+    /* color: #062A4D; */
+    /* background-color: white; */
+    border: 1px solid #EAEDFF;
+}
+ .searchbtnimgicon{
+    width: 20px;
+    height:20px
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .blogpgecardsinnerimgtext{
+        font-size: 11px;
+        color: #6F7172;
+        /* background-color: olive; */
+    }
+    .blogpgecardsimgandtext{
+        /* background-color: yellow; */
+        display: flex;
+        padding-top: 15px;
+        width: 150px;
+        /* padding-bottom: 5px; */
+        /* align-items: center; */
+    }
+    .blogpagecardmaindiv{
+    
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        /* background-color: aqua; */
+        width: 100%;
+    }
+    .blogpageallcardsmap{
+        background-color: pink;
+        /* width: 100%; */
+        margin-left: 10px;
+        margin-right: 0px;
+        margin: 0 auto
+    }
+    .blogpagesearchboxmaindiv{
+        padding: 20px 30px;
+        background-color: olive;
+        border: 2px solid #EAEDFF;
+        margin-right: 0px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blogsearchboxinputandbtn{
+        background-color: #1B70F0;
+    }
+    .blogpageallinputsidecards{
+        margin: 0 auto;
+        /* margin-right: 0px; */
+        width: 80%;
+        background-color: purple;
+    }
+    
+}
+@media only screen and (max-width: 1100px) {
+    .blogpgecardsimgandtext{
+        /* background-color: yellow; */
+        display: flex;
+        padding-top: 15px;
+        width: 100%;
+        /* padding-bottom: 5px; */
+        /* align-items: center; */
+
+}
+.blogpgecardsinnerimgtext{
+    font-size: 12px;
+    color: #6F7172;
+    /* background-color: olive; */
+}
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .blogpagebohtcardsdiv{
+        width: 95%;
+        margin: 0 auto;
+        /* background-color: orangered; */
+    }
+    .blogsearchboxbtn{
+       
+        padding: 0px 0px;
+       
+    }
+    .searchbtnimgicon{
+        width: 20px;
+        height:20px
+    }
+   
+  
+}

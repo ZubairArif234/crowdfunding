@@ -15,6 +15,39 @@
   font-family: rubiklight;
   src: url(./components/fonts/Rubik-Light.ttf);
 }
+.nav-link {
+  color:#19142E !important;
+  outline: none;
+  
+}
+.navbar-toggler {
+  margin-right: 20px;
+  /* outline: none; */
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-nav .dropdown-menu {
+  margin-top: 20px;
+  border: none;
+  border-top: 8px solid #6100B3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dropdown-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform:uppercase;
+  color:#19142E !important;
+     font-size:14px;
+     padding-right:30px;
+     padding-left:10px;
+    font-weight:700;
+}
+.dropdown-item:hover{
+  border-bottom: 2px solid #4157F8;
+  background-color: white;
+}
+/* NavDropdown.Item */
 
 .homesupermaindiv {
   display: flex;
@@ -142,7 +175,7 @@
 .ourfeaturetext {
   position: relative;
   color: #1B70F0;
-  margin-left: 35px;
+  margin-left: 60px;
   text-transform: uppercase;
   /* background-color: palevioletred; */
   letter-spacing: 2px;
@@ -168,6 +201,7 @@
 }
 
 .investmentheading {
+  margin-left: 20px;
   color: #062A4D;
   font-size: 30px;
   font-family: poppiens;
@@ -257,6 +291,10 @@
 .popprogressprice {
   /* background-color: brown; */
   width: 80%;
+}
+.completedprojectpopprogressprice {
+  /* background-color: brown; */
+  width: 100%;
 }
 
 .poppriceanddetail {
@@ -1519,8 +1557,8 @@
 
   .investmentbtn {
     margin-left: 60%;
-    width: 100px;
-    font-size: 10px;
+    width: 120px;
+    font-size: 9px;
   }
 
   .investmentheading {

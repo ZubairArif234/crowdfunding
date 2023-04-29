@@ -1,6 +1,7 @@
+
 import Navbarcrowd from "../components/navbar"
 import Ongoingfirstcomp from "../components/ongoingfirstcopmt"
-import Popularcard from "../components/popularcard";
+import Completedprojectcard from "../components/completedprojectcards";
 import populararr from "../api";
 import { useState } from "react";
 import { Pagination } from 'antd';
@@ -8,10 +9,10 @@ import '../App.css'
 import Comeandjoinus from "../components/aboutuscomeandjoinus";
 import Areyouhappy from "../components/areyouhappy";
 import Footer from "../components/footer";
-import gittar from '../components/images/gittarimg.png'
-import heartbeats from '../components/images/ongoingheartbeatsimg.png'
+import completedheadphone from '../components/images/completedheadphone.png'
+import completedwaves from '../components/images/completedwaves.png'
 
-const Ongoing = () => {
+const Completedproject = () => {
   const [arrlength, setarrlength] = useState(6);
   const [filterarr, setfilterarr] = useState('');
 
@@ -34,24 +35,24 @@ const Ongoing = () => {
   return (
     <div>
       <Navbarcrowd />
-      <Ongoingfirstcomp 
-      heading='Ongoing Projects'
+      <Ongoingfirstcomp heading='Completed Projects'
       detailtext ='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
-      navtext='Home &gt; Progress'
-      sideimg={gittar}
-      below={heartbeats}
-       />
-        <img src={heartbeats} className="ongoingheartbeatsimg" />
+      navtext='Home &gt; Project Done'
+      sideimg={completedheadphone}
+      below={completedwaves}
+      />
+      <img src={completedwaves} className="completedwavesimg" />
       <div style={{backgroundColor:'#F9FAFF', paddingTop:'80px' ,marginTop:'10px'}}>
+      <br />
         <div className="popularmaindiv">
-          <p className='ourfeaturetext'><span className='featuredash'></span>MOre Projects</p>
+          <p className='ourfeaturetext'><span className='featuredash'></span>More Projects</p>
           <div><button className='investmentbtn'>other projects</button></div>
-          <p className='investmentheading'>Ongoing Projects</p>
+          <p className='investmentheading'>Projects Done</p>
           <div className=" ongoingpopularcard popularcarddiv " >
             {currentCards.map((x) => {
               console.log(x.heading);
               return (
-                <Popularcard
+                <Completedprojectcard
                   img={x.image}
                   heading={x.heading}
                   price1={x.price1}
@@ -87,4 +88,4 @@ const Ongoing = () => {
   )
 }
 
-export default Ongoing
+export default Completedproject

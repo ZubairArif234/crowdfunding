@@ -43,6 +43,14 @@
     position: sticky;
     margin-bottom: -130px;
  }
+
+ .completedwavesimg{
+    width: 100%;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* position: sticky; */
+    /* margin-bottom: -130px; */
+ }
  .ongoingpagination{
     display: block;
     width: 100%;
