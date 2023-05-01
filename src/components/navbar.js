@@ -28,14 +28,14 @@ function Navbarcrowd() {
               </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link href="/blog" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>blog</Nav.Link>
-            <Nav.Link href="#features" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>contact</Nav.Link>
+            <Nav.Link href="/contact" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>contact</Nav.Link>
             {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">
+            <Nav.Link href="/checkout">
                 <button style={{width:'150px',padding:'10px',fontSize:'10px',color:'white', backgroundColor:'#6100B3',fontWeight:'bold',marginLeft:'10px',border:'none'}}>start campaign</button>
-                <button  style={{padding:'10px',fontSize:'10px',color:'white', backgroundColor:'#6100B3',fontWeight:'bold',border:'none',marginRight:'20px',marginLeft:'10px'}}><img src={shoppingbag}width={10} alt='bag' height={10} style={{color:'white',fontWeight:'bold'}}/></button>
+                <button href='/checkout'  style={{padding:'10px',fontSize:'10px',color:'white', backgroundColor:'#6100B3',fontWeight:'bold',border:'none',marginRight:'20px',marginLeft:'10px'}}><img src={shoppingbag}width={10} alt='bag' height={10} style={{color:'white',fontWeight:'bold'}}/></button>
                 </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               

@@ -6,6 +6,8 @@ import Home from "./home";
 import Ongoing from "./ongoing";
 import Completedproject from "./completedproject";
 import Blogpagecomponent from "./blog";
+import Contactusfirstcomponent from "./contact";
+import Checkoutform from "./checkout";
 
 const Routing = () =>{
     return(
@@ -16,6 +18,8 @@ const Routing = () =>{
             <Route path="/ongoing" element={<Ongoing/>}/>
             <Route path="/completedproject" element={<Completedproject/>}/>
             <Route path="/blog" element={<Blogpagecomponent/>}/>
+            <Route path="/contact" element={<Contactusfirstcomponent/>}/>
+            <Route path="/checkout" element={<Checkoutform/>}/>
         </Routes>
         </BrowserRouter>
     )

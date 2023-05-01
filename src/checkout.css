@@ -1,0 +1,195 @@
+
+
+
+/* Default styles for all devices */
+.mainestdiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+        /* background: linear-gradient(to right, yellow 60%, transparent 40%); */
+      
+        /* baackground: linear-gradient(to right,( #6E3FE9 0%, #7E35DB 20%, #8729D7 20%)40% , transparent 40%); */
+
+        background: linear-gradient(to right, #6E3FE9 60%, transparent 40%);
+        
+        /* background: linear-gradient(90deg, #6E3FE9 0%, #7E35DB 50%); */
+          
+          
+      /* background:   linear-gradient(90deg, hsl(257, 79%, 58%) 0%, #7E35DB 62.56%, #8729D7 100%) */
+}
+.checkoutformmaindiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.checkoutformdiv{
+    background-color: white;
+    
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.paymentformdiv{
+    width: 50%;
+    background-color: #140F26;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.checkoutheading{
+    /* background-color: purple; */
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #525252;
+}
+
+.billingheading{
+    /* background-color: aqua; */
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.checkoutform{
+    /* background-color: greenyellow; */
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.checkoutinput{
+    padding: 7px;
+    /* background-color: blue; */
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #B0B0B0;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.checkoutinputlabel{
+    color: rgba(20, 15, 38, 0.7);
+    font-size: 15px;
+    /* background-color: #6001B0; */
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+}
+.checkoutinputlabeltwo{
+    
+    color: white;
+    font-size: 15px;
+}
+
+.lasttwoinputsofcheckoutform{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+    width: 95%;
+}
+
+.lastinputdivone{
+    width: 45%;
+}
+
+.paymentheading{
+    margin-top: 83px;
+    color: white;
+    /* background-color: aqua; */
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cardimages{
+    width: 50px;
+}
+
+.imagesdiv{
+    /* background-color: orange; */
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.checkoutbtn{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+.checkoutpaymentbtn{
+    background-color: #6001B0;
+    width: 255px;
+    border: none;
+    padding: 7px;
+}
+
+.paymentbtntext{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: white;
+}
+
+.paymentarrowimg{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 768px) {
+    /* changing first div colour */
+    .mainestdiv{
+        background: linear-gradient(90deg, #6E3FE9 0%, #7E35DB 62.56%, #8729D7 100%);
+
+    }
+  /* Reduce width of checkoutformmaindiv */
+  .checkoutformmaindiv {
+    width: 90%;
+    
+  }
+  
+  /* Change width of checkoutformdiv and paymentformdiv to 100% */
+  .checkoutformdiv, .paymentformdiv {
+    width: 100%;
+    border-radius: 0;
+    /* padding-left: 40px; */
+  }
+  
+  /* Reduce font-size of checkoutheading */
+  .checkoutheading {
+    font-size: 20px;
+  }
+  
+  /* Reduce width of checkoutinput */
+  .checkoutinput {
+    width: 95%;
+  }
+  
+  /* Change width of lasttwoinputsofcheckoutform */
+  .lasttwoinputsofcheckoutform {
+    width: 100%;
+    flex-direction: column;
+  }
+  /* change width of lastinputdivone */
+  .lastinputdivone{
+    width: 100%;
+  }
+  .checkoutbtn{
+    width: 98%;
+  }
+  .checkoutpaymentbtn{
+    width: 100%;
+  }
+  
+  /* Change width of lastinputdivone */
+}
