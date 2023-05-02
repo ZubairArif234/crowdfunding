@@ -73,7 +73,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    background-color: orangered;
+    /* background-color: orangered; */
 }
 .blogpagecardtext{
     font-family: rubiklight;
@@ -102,7 +102,7 @@
 }
 .blogpagesearchboxmaindiv{
     padding: 20px 30px;
-    background-color: olive;
+    /* background-color: olive; */
     border: 2px solid #EAEDFF;
     margin-top: 30px;
     width: 100%;
@@ -116,7 +116,7 @@
     padding: 20px;
 } */
 .blogpageallcardsmap{
-    background-color: pink;
+    /* background-color: pink; */
     /* width: 60%; */
     margin-left: 10px;
 }
@@ -128,7 +128,7 @@
 }
 .blogpageallinputsidecards{
     margin-right: 10px;
-    background-color: purple;
+    /* background-color: purple; */
 }
 .blogpageaboutcardheading{
     /* background-color: #1B70F0; */
@@ -168,6 +168,7 @@
 }
 .aboutcardbelogpageimage{
     padding: 10px 10px;
+    /* color: #6F7172; */
     /* background-color: #6F7172; */
 }
 .aboutcardbelogpageimage:hover{
@@ -179,15 +180,118 @@
     padding: 10px;
 }
 
-.socialimagesblogpage:hover{
-    /* color: #062A4D; */
-    /* background-color: white; */
-    border: 1px solid #EAEDFF;
-}
+
  .searchbtnimgicon{
     width: 20px;
     height:20px
 }
+
+.instagremfeedbtns{
+    background-color: #EAEDFF;
+    color: #6F7172;
+    /* font-family: rubik; */
+    border: none ;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 12px;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+
+    outline: none;
+}
+
+.instagramfeedbelogpagediv{
+    /* background-color: #1B70F0; */
+    margin-top: 10px;
+    /* display: flex; */
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    /* align-items: ; */
+}
+
+.catagoieslistblogpage{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* background-color: yellow; */
+    margin-top: 5px;
+    color: #6F7172;
+    border-bottom: 1px solid #EAEDFF;
+}
+.catogorieslisttext{
+    margin-top: 10px;
+}
+.catagoriesullist{
+    /* background-color: #062A4D; */
+    padding-left: 0px;
+}
+.popularfeedimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+}
+.popularcardlisttext{
+font-size: 13px;
+font-family: poppiens;
+color:#062A4D;
+}
+.popularcardlistbelowtext{
+    font-size: 10px;
+    font-family: rubiklight;
+    color: #6F7172;
+
+}
+.popularfeedlistinnerdiv{
+    margin-left: 10px;
+}
+.quoteofblogpage{
+    display: flex;
+    /* background-color: yellow; */
+    color: white;
+    font-family: poppiens;
+    font-size: 20px;
+    padding: 20px;
+}
+.quoteofblogpagemaindiv{
+    background-color: #062A4D;
+    padding: 20px;
+}
+.quotesmarkimg{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.quoteauthername{
+    font-size: 12px;
+    color: white;
+    width: 75%;
+    font-weight: 500;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.ongoingpagination{
+    display: block;
+    width: 100%;
+    /* background-color: palegoldenrod; */
+    margin: 20px auto !important;
+    /* padding: 16px; */
+    text-align: center;
+ }
+ .ongoingpagination .ant-pagination-item,
+ .ongoingpagination .ant-pagination-prev,
+ .ongoingpagination .ant-pagination-next {
+   border-radius: 50%;
+   background-color: #ffff;
+   border: 2px solid #E8E8E8;
+   border: none;
+   color: #9990B8;
+   height: 40px;
+   width: 40px;
+   font-family: rubiklight;
+   font-size: 13px;
+ }
 
 
 
@@ -216,7 +320,7 @@
         width: 100%;
     }
     .blogpageallcardsmap{
-        background-color: pink;
+        /* background-color: pink; */
         /* width: 100%; */
         margin-left: 10px;
         margin-right: 0px;
@@ -224,7 +328,7 @@
     }
     .blogpagesearchboxmaindiv{
         padding: 20px 30px;
-        background-color: olive;
+        /* background-color: olive; */
         border: 2px solid #EAEDFF;
         margin-right: 0px;
         width: 100%;
@@ -237,7 +341,7 @@
         margin: 0 auto;
         /* margin-right: 0px; */
         width: 80%;
-        background-color: purple;
+        /* background-color: purple; */
     }
     
 }
@@ -276,6 +380,8 @@
         width: 20px;
         height:20px
     }
-   
+    .blogpagedivalldetailsdiv{
+        padding: 20px 20px;
+    }
   
 }

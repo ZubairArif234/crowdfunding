@@ -11,10 +11,13 @@ import messageicon from '../components/images/messageicon.png'
 import telephone from '../components/images/telephone.png'
 import location from '../components/images/location.png'
 import '../contactus.css'
+import Navbarcrowd from '../components/navbar';
+import Contactform from '../components/contactform';
 
 const Contactusfirstcomponent = () =>{
     return(
         <div>
+            <Navbarcrowd/>
             <div className="contactfirstcomponentdiv">
 
             <p className='contactusheading'>Contact Us</p>
@@ -56,6 +59,7 @@ const Contactusfirstcomponent = () =>{
                     {/* </Container> */}
                 </div>
             </div>
+                    <Contactform/>
 
         </div>
     )

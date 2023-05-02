@@ -1,11 +1,11 @@
 
 
 
-import facebook from './images/facebook.png'
-import twitter from './images/twitter.png'
-import behance from './images/behance.png'
-import linkedin from './images/linkedin.png'
-import youtube from './images/youtube.png'
+import facebook from './images/facebookgray.png'
+import twitter from './images/twittergray.png'
+import behance from './images/behancegray.png'
+import linkedin from './images/linkedingray.png'
+import youtube from './images/youtubegray.png'
 import profilepicabou from './images/profilepicabout.png'
 
 const Blogpageaboutcard = () =>{
