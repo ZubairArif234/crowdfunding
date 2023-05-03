@@ -13,6 +13,7 @@ import Intagramfeedblogpage from "../components/intagramfeedsblogpage"
 import Catogoriesblogpage from "../components/catogoriescardblogpage"
 import Popularfeedblogpage from "../components/popularfeesblogpage"
 import quotationmark from '../components/images/quotation-mark.png'
+import blogadvartisement from '../components/images/blogadvertisement.jpg'
 
 const Blogpagecomponent =  () =>{
     return(
@@ -44,8 +45,8 @@ const Blogpagecomponent =  () =>{
         colorPrimary='##EAEBEC'
         // simple={'false'}
         size="large"
-            current={1}
-            defaultCurrent={1}
+            current={2}
+            defaultCurrent={2}
             pageSize={7}
             total={7}
             // onChange={handlePageChange}
@@ -59,6 +60,10 @@ const Blogpagecomponent =  () =>{
     <Catogoriesblogpage/>
     <Socialprofileblogpage/>
     <Intagramfeedblogpage/>
+    <div className="blogpagesearchboxmainadvartisementdiv">
+
+    <img className="blogpagesearchboxmainadvartisement" src={blogadvartisement}/>
+    </div>
 </div>
 </Col>
                 </Row>

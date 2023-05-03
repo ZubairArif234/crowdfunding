@@ -115,6 +115,13 @@
     background-color: aqua !important;
     padding: 20px;
 } */
+.blogpagesearchboxmainadvartisementdiv{
+    /* padding: 20px 30px; */
+    /* background-color: olive; */
+    /* border: 2px solid #EAEDFF; */
+    margin-top: 30px;
+    width: 100%;
+}
 .blogpageallcardsmap{
     /* background-color: pink; */
     /* width: 60%; */
@@ -171,9 +178,9 @@
     /* color: #6F7172; */
     /* background-color: #6F7172; */
 }
-.aboutcardbelogpageimage:hover{
+/* .aboutcardbelogpageimage:hover{
     border: 1px solid #EAEDFF;
-}
+} */
 .socialimagesblogpage{
     background-color: #062A4D;
     border: none;
@@ -282,16 +289,104 @@ color:#062A4D;
  .ongoingpagination .ant-pagination-item,
  .ongoingpagination .ant-pagination-prev,
  .ongoingpagination .ant-pagination-next {
-   border-radius: 50%;
+   border-radius: 20px;
    background-color: #ffff;
    border: 2px solid #E8E8E8;
-   border: none;
+   /* border: none; */
    color: #9990B8;
    height: 40px;
    width: 40px;
    font-family: rubiklight;
    font-size: 13px;
  }
+ .contactusform{
+    background-color: #ffff00;
+    padding: 40px;
+ }
+ .formblock{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 10px;
+}
+
+.formblocktextarea{
+     display: flex;
+     background-color: white;
+     justify-content: space-between;
+     /* align-items: center; */
+     padding: 15px 20px;
+     margin: 10px 10px;
+
+ }
+ .contactusforminput{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    /* font-family: rubiklight; */
+    /* padding-left: 5px; */
+    font-size: 13px;
+    font-weight: 600 !important;
+    padding: 5px;
+    width: 90%;
+ }
+ .contactusformtextarea{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    /* font-family: rubiklight; */
+    /* padding-left: 5px; */
+    font-size: 13px;
+    font-weight: 600 !important;
+    padding: 5px;
+    width: 96%;
+ }
+ /* .ourfeaturetextcontact {
+    position: relative;
+    color: #1B70F0;
+    margin-left: 40px;
+    text-transform: uppercase;
+    background-color: palevioletred;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: rubik;
+  } */
+  .investmentheadingcontact {
+    /* margin-left: 20px; */
+    color: #062A4D;
+    font-size: 30px;
+    font-family: poppiens;
+    letter-spacing: -1px;
+  
+    /* background-color: yellow; */
+  }
+  .investmentbtncontact {
+    font-family: rubik;
+    width: 130px;
+    /* margin-bottom: 10px; */
+    /* margin-left: 84%; */
+    margin-left: 84%;
+    
+    text-transform: uppercase;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 12px;
+    color: #062A4D;
+    font-weight: bold;
+    /* display: flex; */
+    /* align-items: rignt; */
+    padding: 10px;
+  }
+  .featuredash {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: -38px;
+    top: 7px;
+    background: #1B70F0;
+  }
 
 
 
@@ -330,9 +425,10 @@ color:#062A4D;
         padding: 20px 30px;
         /* background-color: olive; */
         border: 2px solid #EAEDFF;
-        margin-right: 0px;
-        width: 100%;
-        margin-top: 30px;
+        /* margin-right: 0px; */
+        width: 80%;
+        /* margin-top: 30px; */
+        margin: 10px auto;
     }
     .blogsearchboxinputandbtn{
         background-color: #1B70F0;
@@ -342,6 +438,19 @@ color:#062A4D;
         /* margin-right: 0px; */
         width: 80%;
         /* background-color: purple; */
+    }
+    .blogpagebohtcardsdiv{
+        width: 95%;
+        margin: 0 auto;
+        /* background-color: orangered; */
+    }
+    .blogpagesearchboxmainadvartisementdiv{
+        margin: 10px auto;
+        width: 80%;
+    }
+    .blogpagesearchboxmainadvartisement{
+        margin: 10px auto;
+        width: 100%;
     }
     
 }
@@ -360,6 +469,16 @@ color:#062A4D;
     color: #6F7172;
     /* background-color: olive; */
 }
+.makemaindiv {
+    width: 85%;
+    /* margin-top: 50px; */
+    /* background-color: aqua; */
+    margin: 0px auto;
+    /* margin-top: 0px; */
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
 }
 
 
