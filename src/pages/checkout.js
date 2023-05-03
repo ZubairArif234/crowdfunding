@@ -8,9 +8,13 @@ import arrow from '../components/images/arrow.png'
 
 
 import '../checkout.css'
+import Navbarcrowd from '../components/navbar'
+import Footer from '../components/footer'
 
 const Checkoutform = () =>{
     return(
+        <>
+            <Navbarcrowd/>
         <div className='mainestdiv'>
             <div className='checkoutformmaindiv'>
                 <div className='checkoutformdiv'>
@@ -53,8 +57,11 @@ const Checkoutform = () =>{
 </div>
 
                         </div>
+                        <div style={{marginTop:'10px'}}>
+
                         <input type='checkbox' />
                         <label>Shipping address same as billing</label>
+                        </div>
 
                     </div>
                     </div>
@@ -116,6 +123,8 @@ const Checkoutform = () =>{
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

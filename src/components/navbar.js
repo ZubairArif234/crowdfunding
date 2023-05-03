@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,7 @@ function Navbarcrowd() {
             {/* <Nav.Link href="/ongoing" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>project</Nav.Link> */}
             <NavDropdown classname='navbardropdown' style={{textTransform:'uppercase', color:'#19142E !important',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}} title="Project" id="basic-nav-dropdown">
               <NavDropdown.Item classname='navbardropdown' href="/ongoing">Ongoing Projects</NavDropdown.Item>
+              <NavDropdown.Item classname='navbardropdown' href="/projectdetails">Projects Details</NavDropdown.Item>
               <NavDropdown.Item classname='navbardropdown' href="/completedproject">
               Completed Project
               </NavDropdown.Item>

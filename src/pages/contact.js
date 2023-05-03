@@ -13,6 +13,9 @@ import location from '../components/images/location.png'
 import '../contactus.css'
 import Navbarcrowd from '../components/navbar';
 import Contactform from '../components/contactform';
+import SimpleMap from '../components/contactusmapcomponent';
+import Areyouhappy from '../components/areyouhappy';
+import Footer from '../components/footer';
 
 const Contactusfirstcomponent = () =>{
     return(
@@ -60,6 +63,9 @@ const Contactusfirstcomponent = () =>{
                 </div>
             </div>
                     <Contactform/>
+                    <SimpleMap/>
+                    <Areyouhappy/>
+                    <Footer/>
 
         </div>
     )

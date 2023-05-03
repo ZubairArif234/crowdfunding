@@ -81,7 +81,7 @@
 }
 
 .ourfeaturetext{
-    margin-left: 40px !important;
+    margin-left: 58px !important;
     font-size: 15px;
     color: #062A4D;
 }
@@ -300,16 +300,46 @@ color:#062A4D;
    font-size: 13px;
  }
  .contactusform{
-    background-color: #ffff00;
+    background-color: #F9FAFF;
     padding: 40px;
+    padding-bottom: 0px;
+ }
+ .makecallbtn{
+    /* background-color: #062A4D; */
+    display: flex;
+    justify-content: end;
+    /* margin-right: 40px; */
+ }
+ .makecallbtncontact{
+    font-family: rubik;
+    width: 130px;
+    /* margin-bottom: 10px; */
+    /* margin-left: 85%; */
+    text-transform: uppercase;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 12px;
+    color: #062A4D;
+    font-weight: bold;
+    /* display: flex; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
  .formblock{
-    display: flex;
+    /* display: flex; */
     background-color: white;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
     padding: 15px;
     margin: 10px 10px;
+}
+.contactusformbtndiv{
+    display: flex;
+    justify-content: center;
+    /* background-color: #062A4D; */
+    /* margin: 0 auto; */
 }
 
 .formblocktextarea{

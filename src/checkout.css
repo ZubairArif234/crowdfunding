@@ -41,6 +41,7 @@
 
 .checkoutheading{
     /* background-color: purple; */
+    margin-top: 25px;
     padding-left: 40px;
     font-size: 25px;
     font-weight: 600;
@@ -119,6 +120,7 @@
 }
 
 .checkoutbtn{
+    margin-top: 10px;
     /* background-color: brown; */
     display: flex;
     justify-content: flex-end;
@@ -126,6 +128,7 @@
 }
 
 .checkoutpaymentbtn{
+    margin-right: 15px;
     background-color: #6001B0;
     width: 255px;
     border: none;

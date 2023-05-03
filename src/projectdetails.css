@@ -1,0 +1,124 @@
+
+
+@font-face {
+    font-family: poppiens;
+    src: url(./components/fonts/Poppins-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: rubik;
+    src: url(./components/fonts/Rubik-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: rubiklight;
+    src: url(./components/fonts/Rubik-Light.ttf);
+  }
+
+
+
+.projectdetailsfirstbigtext{
+    margin: 20px 0px;
+}
+
+.projectdetailsfirstimg{
+    width: 100%;
+}
+
+.projectdetailpriceanddetailend{
+/* width: 100px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+        /* background-color: yellow; */
+}
+.projectdetailpriceanddetailstart{
+/* width: 100px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: start;
+        /* background-color: yellow; */
+}
+.projectdetailpriceanddetailcenter{
+/* width: 100px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+        /* background-color: yellow; */
+}
+.projectdetailpriceanddetail{
+/* width: 100px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+        /* background-color: yellow; */
+}
+
+.projectprogressdollarone{
+    color: #062A4D;
+    font-size: 45px;
+    font-family: poppiens;
+    /* font-weight: 700; */
+}
+.projectdetailcardpricebelowtext{
+    color: #6F7172;
+    font-family: rubiklight;
+    font-size: 15px;
+    line-height: 1px;
+}
+.amountinputprojectdetailpage{
+    width: 100%;
+    color: #236484;
+    background-color: #F8F8FF;
+    /* display: flex; */
+    /* padding: 5px; */
+    /* align-items: center; */
+    border: none;
+    outline: none;
+}
+.amountinputandbtnrow{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8FF;
+}
+.projectdetailsbtn{
+    
+    margin-bottom: 0% !important;
+            
+}
+.blogarrobtnprojectdetail {
+    margin-left: 0px;
+  }
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .projectprogressdollarone{
+        color: #062A4D;
+        font-size: 30px;
+        font-family: poppien;
+        font-weight: 700;
+    } 
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .projectprogressdollarone{
+        color: #062A4D;
+        font-size: 20px;
+        font-family: poppien;
+        font-weight: 700;
+    } 
+    .projectdetailcardpricebelowtext{
+        color: #6F7172;
+        font-family: rubiklight;
+        font-size: 10px;
+        line-height: 1px;
+    }
+}
