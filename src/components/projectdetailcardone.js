@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap"
 import projectetailfirstimg from './images/projectdetailsfirstimg.png'
 import { Card, Progress } from 'antd';
 
+import heart from './images/heart.png'
 import arrow from './images/arrow.png'
 import facebookgray from './images/facebookgray.png'
 import twittergray from './images/twittergray.png'
@@ -17,8 +18,8 @@ const Projectdetailscardone = () => {
         <div>
             <Row>
                 <Col xs={4} lg={3} style={{ borderRight: '2px solid #E8F1FF' }}>
-                    <p>First created</p>
-                    <p>at London, UK</p>
+                    <p className="projectdetailsfirstbigtext">First created</p>
+                    <p className="projectdetailsfirstbigtext">at London, UK</p>
                 </Col>
                 <Col xs={8} lg={9} style={{ paddingLeft: '20px' }}>
                     <p className='ourfeaturetext'><span className='featuredash'></span>MUSIC</p>
@@ -78,25 +79,27 @@ const Projectdetailscardone = () => {
 
                     <div>
                         <Row>
-                            <Col xs={6}>
-                                <Row >
-                                    <div className="amountinputandbtnrow">
+                            <Col xs={12} lg={6}>
+                                <Row className="amountinputandbtnrow">
+                                    {/* <div className="amountinputandbtnrow"> */}
                                         <Col xs={12} lg={6}>
                                             <input className="amountinputprojectdetailpage" placeholder="Enter your amount" />
                                         </Col>
                                         <Col xs={12} lg={6}>
-                                            <button style={{width:'100%'}} className=' projectdetailsbtn blogarrow comeandjoinusbtn'>back this project <img className='blogarrobtn comeandjoinusbtnarrow' src={arrow} /></button>
+                                            <button className='detailprojectarrow '>back this project <img className='comeandjoinusbtnarrowdetailproject' src={arrow} /></button>
                                         </Col>
-                                    </div>
+                                    {/* </div> */}
                                 </Row>
                             </Col>
-                            <Col xs={6}>
-                            <div className='aboutcardbelogpageimagesdiv'>
-                            <button  className=' projectdetailsbtn blogarrow comeandjoinusbtn'> <img style={{width:'20px',height:'20px'}} src={arrow} /> remind</button>
-            <img className='aboutcardbelogpageimage' src={facebookgray}/>
-            <img className='aboutcardbelogpageimage' src={twittergray}/>
-            <img className='aboutcardbelogpageimage' src={behancegray}/>
-            <img className='aboutcardbelogpageimage' src={linkedingray}/>
+                            <Col xs={12} lg={6}>
+                            <div className='aboutcarddetailprojectpageimagesdiv' >
+                                            {/* <button className='detailprojectarrow '><img className='blogarrobtn comeandjoinusbtnarrow' src={arrow} />remind me</button> */}
+                                            <button className="detailprojectheart"><img className="heartdetailproject" src={heart}/>remind me</button>
+                            {/* <button  className=' projectdetailsbtn detailprojectarrow comeandjoinusbtn'> <img style={{width:'20px',height:'20px'}} src={arrow} /> remind</button> */}
+            <img className='aboutcarddetailprojectpageimage' src={facebookgray}/>
+            <img className='aboutcarddetailprojectpageimage' src={twittergray}/>
+            <img className='aboutcarddetailprojectpageimage' src={behancegray}/>
+            <img className='aboutcarddetailprojectpageimage' src={linkedingray}/>
             {/* <img className='aboutcardbelogpageimage' src={youtube}/> */}
         </div>
                             </Col>

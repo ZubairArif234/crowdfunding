@@ -669,31 +669,31 @@
 }
 
 .eventcandy {
-  width: 100px;
+  width: 60px;
   position: absolute;
-  left: 5%;
+  left: 3%;
   top: 10%;
 }
 
 .eventcap {
-  right: 10%;
+  right: 5%;
   position: absolute;
-  width: 100px;
+  width: 60px;
   top: 15%;
 }
 
 .eventgift {
   bottom: 5%;
   position: absolute;
-  left: 5%;
-  width: 100px;
+  left: 3%;
+  width: 60px;
 }
 
 .eventbaaja {
   bottom: 15%;
-  right: 5%;
+  right: 3%;
   position: absolute;
-  width: 100px;
+  width: 60px;
 }
 
 .inputandbtnblog {
@@ -740,16 +740,16 @@
 }
 
 .blogimgone {
-  width: 100px;
+  width: 60px;
   top: 30px;
-  left: 40px;
+  left: 20px;
   position: absolute;
 }
 
 .blogimgtwo {
-  width: 100px;
+  width: 60px;
   bottom: 30px;
-  right: 40px;
+  right: 20px;
   position: absolute;
 }
 
@@ -806,6 +806,7 @@
 .footerblockone {
   /* margin: 0 !important; */
   list-style: none;
+
   color: #C4BEDA;
   /* margin-right: 15px; */
 }
@@ -842,7 +843,7 @@
   /* background-color: #1B70F0; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .footerlastdivimgdiv {
@@ -954,10 +955,13 @@
     background-color: #6100B3;
     color: white;
     font-size: 11px;
+    width: 95% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
     /* width: 130px; */
     /* height: 35px; */
     border: none;
-    margin-top: 0;
+    /* margin-top: 0; */
     padding: 3px;
   }
 
@@ -994,6 +998,10 @@
     /* background-color: aqua; */
     margin: 0 auto;
     padding-bottom: 50px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 
@@ -1036,10 +1044,11 @@
     padding-left: 20px;
     padding-bottom: 3.5px;
     font-size: 12px;
-    width: 75%;
-    /* background-color: pink; */
+    width: 95% !important;
+    background-color: pink;
     border: none;
-    margin-left: 10px;
+    margin-left: 3% !important;
+    margin-right: 3%;
   }
 
   .areyouhapptext {
@@ -1208,6 +1217,9 @@
     border: none;
     margin-left: 10px;
   }
+  .footerblockone{
+    padding-left: 0px !important;
+  }
 
 }
 
@@ -1273,9 +1285,9 @@
   }
 
   .blogimgtwo {
-    width: 80px;
+    width: 70px;
     bottom: 30px;
-    right: 40px;
+    right: 30px;
     position: absolute;
   }
 }
@@ -1348,9 +1360,9 @@
     padding-top: 50px;
     /* margin-top: 60px; */
   }
-  /* .investmentbtn{
-    margin-left: 80%;
-  } */
+  .investmentbtn{
+    margin-left: 60%;
+  }
 }
 
 
@@ -1407,7 +1419,7 @@
   }
 
   .eventcandy {
-    width: 60px;
+    width: 40px;
     position: absolute;
     left: 5%;
     top: 10%;
@@ -1416,7 +1428,7 @@
   .eventcap {
     right: 10%;
     position: absolute;
-    width: 60px;
+    width: 40px;
     top: 15%;
   }
 
@@ -1424,14 +1436,14 @@
     bottom: 5%;
     position: absolute;
     left: 5%;
-    width: 60px;
+    width: 40px;
   }
 
   .eventbaaja {
     bottom: 15%;
     right: 5%;
     position: absolute;
-    width: 60px;
+    width: 40px;
   }
 
   .inputandbtnblog {
@@ -1555,11 +1567,11 @@
     /* margin-bottom: 80px; */
   }
 
-  /* .investmentbtn {
+  .investmentbtn {
     margin-left: 60%;
     width: 120px;
     font-size: 9px;
-  } */
+  }
 
   .investmentheading {
     font-size: 25px;
@@ -1716,7 +1728,7 @@
   }
 
   .eventcandy {
-    width: 50px;
+    width: 30px;
     position: absolute;
     left: 5%;
     top: 18%;
@@ -1725,7 +1737,7 @@
   .eventcap {
     right: 10%;
     position: absolute;
-    width: 50px;
+    width: 30px;
     top: 20%;
   }
 
@@ -1733,14 +1745,14 @@
     bottom: 5%;
     position: absolute;
     left: 5%;
-    width: 50px;
+    width: 30px;
   }
 
   .eventbaaja {
     bottom: 15%;
     right: 5%;
     position: absolute;
-    width: 50px;
+    width: 30px;
   }
 
   .inputandbtnblog {

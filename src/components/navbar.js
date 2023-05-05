@@ -14,23 +14,29 @@ function Navbarcrowd() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>home</Nav.Link>
-            <Nav.Link href="/about" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>about</Nav.Link>
+            <Nav.Link >
+              <Link to={'/'} style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder" , textDecoration:'none'}}>home</Link>
+              </Nav.Link>
+            <Nav.Link >
+              
+              <Link to={'/about'} style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder" , textDecoration:'none'}}>about</Link>
+              </Nav.Link>
             {/* <Nav.Link href="/ongoing" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>project</Nav.Link> */}
-            <NavDropdown classname='navbardropdown' style={{textTransform:'uppercase', color:'#19142E !important',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}} title="Project" id="basic-nav-dropdown">
-              <NavDropdown.Item classname='navbardropdown' href="/ongoing">Ongoing Projects</NavDropdown.Item>
-              <NavDropdown.Item classname='navbardropdown' href="/projectdetails">Projects Details</NavDropdown.Item>
-              <NavDropdown.Item classname='navbardropdown' href="/completedproject">
-              Completed Project
-              </NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item> */}
+            <NavDropdown classname='navbardropdown' style={{textTransform:'uppercase',textDecoration:'none', color:'#19142E !important',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}} title="Project" id="basic-nav-dropdown">
+              <NavDropdown.Item classname='navbardropdown'  ><Link style={{textTransform:'uppercase',textDecoration:'none', color:'#19142E ',fontSize:'14px',fontWeight:"bold"}} to={'/ongoing'}>Ongoing Projects</Link></NavDropdown.Item>
+              <NavDropdown.Item classname='navbardropdown'  ><Link style={{textTransform:'uppercase',textDecoration:'none', color:'#19142E ',fontSize:'14px',fontWeight:"bold"}} to={'/projectdetails'}>Projects Details</Link></NavDropdown.Item>
+              <NavDropdown.Item classname='navbardropdown'  ><Link style={{textTransform:'uppercase',textDecoration:'none', color:'#19142E ',fontSize:'14px',fontWeight:"bold"}} to={'/completedproject'}>Completed Project</Link></NavDropdown.Item>
+              
+             
             </NavDropdown>
-            <Nav.Link href="/blog" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>blog</Nav.Link>
-            <Nav.Link href="/contact" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>contact</Nav.Link>
+            <Nav.Link >
+              <Link to={'/blog'} style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder" , textDecoration:'none'}}>blog</Link>
+              </Nav.Link>
+            <Nav.Link >
+              <Link to={'/contact'} style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder" , textDecoration:'none'}}>contact</Link>
+              </Nav.Link>
+            {/* <Nav.Link href="/blog" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>blog</Nav.Link>
+            <Nav.Link href="/contact" style={{textTransform:'uppercase', color:'#19142E',fontSize:'14px',paddingRight:'30px',paddingLeft:'10px',fontWeight:"bolder"}}>contact</Nav.Link> */}
             {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             
           </Nav>

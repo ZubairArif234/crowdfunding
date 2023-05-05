@@ -115,6 +115,9 @@
     background-color: aqua !important;
     padding: 20px;
 } */
+.blogpagesearchboxmainadvartisement{
+    width: 100%;
+}
 .blogpagesearchboxmainadvartisementdiv{
     /* padding: 20px 30px; */
     /* background-color: olive; */
@@ -456,7 +459,7 @@ color:#062A4D;
         /* background-color: olive; */
         border: 2px solid #EAEDFF;
         /* margin-right: 0px; */
-        width: 80%;
+        width: 100%;
         /* margin-top: 30px; */
         margin: 10px auto;
     }
@@ -466,7 +469,7 @@ color:#062A4D;
     .blogpageallinputsidecards{
         margin: 0 auto;
         /* margin-right: 0px; */
-        width: 80%;
+        width: 100%;
         /* background-color: purple; */
     }
     .blogpagebohtcardsdiv{
@@ -476,7 +479,7 @@ color:#062A4D;
     }
     .blogpagesearchboxmainadvartisementdiv{
         margin: 10px auto;
-        width: 80%;
+        width: 100%;
     }
     .blogpagesearchboxmainadvartisement{
         margin: 10px auto;
@@ -508,13 +511,41 @@ color:#062A4D;
     padding-bottom: 50px;
     padding-top: 50px;
   }
+  .blogpagesearchboxmaindiv{
+      padding: 20px 30px;
+      /* background-color: olive; */
+      border: 2px solid #EAEDFF;
+      margin-top: 30px;
+      width: 100%;
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .blogpagesearchboxmaindiv{
+        padding: 20px 30px;
+        /* background-color: olive; */
+        border: 2px solid #EAEDFF;
+        margin-top: 30px;
+        width: 80%;
+    }
+    .blogpagesearchboxmainadvartisementdiv{
+        width: 80%;
+
+    }
 
 }
 
 
 
-@media only screen and (max-width: 500px) {
 
+
+
+
+@media only screen and (max-width: 500px) {
+    
     .blogpagebohtcardsdiv{
         width: 95%;
         margin: 0 auto;
@@ -531,6 +562,17 @@ color:#062A4D;
     }
     .blogpagedivalldetailsdiv{
         padding: 20px 20px;
+    }
+    .blogpagesearchboxmaindiv{
+        padding: 20px 30px;
+        /* background-color: olive; */
+        border: 2px solid #EAEDFF;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .blogpagesearchboxmainadvartisementdiv{
+        width: 100%;
+
     }
   
 }

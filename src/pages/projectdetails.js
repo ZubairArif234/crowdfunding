@@ -1,8 +1,11 @@
-import { Navbar } from "react-bootstrap"
+// import { Navbar } from "react-bootstrap"
 import '../projectdetails.css';
-import { Card , Progress} from 'antd';
+// import { Card , Progress} from 'antd';
 import Navbarcrowd from "../components/navbar"
 import Projectdetailscardone from "../components/projectdetailcardone"
+import Projectdetailsecondcomp from '../components/projectdetailsecondcomp';
+import Areyouhappy from '../components/areyouhappy';
+import Footer from '../components/footer';
 
 
 
@@ -18,9 +21,12 @@ const Projectdetails = () =>{
             </div>
             <div className="makemaindiv">
 <Projectdetailscardone/>
+<Projectdetailsecondcomp/>
 
                 
             </div>
+<Areyouhappy/>
+<Footer/>
         </div>
     )
 }
