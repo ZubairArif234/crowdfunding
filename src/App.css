@@ -532,7 +532,7 @@
 }
 
 .day02 {
-  background-color: #1B70F0;
+  background-color: #1A1430 !important;
   border-radius: 30px;
   width: 120px;
   padding: 10px;
@@ -549,6 +549,12 @@
   width: 120px;
   padding: 10px;
   color: white;
+}
+.day01:hover, .day02:hover, .day03:hover
+{
+  background-color: #1B70F0 !important;
+
+
 }
 
 .eventmaindiv {
@@ -927,6 +933,10 @@
   top: 7px;
   background: #1B70F0;
 }
+.popularcarddivsmall{
+  width: 85%;
+  margin-left: 50px ;
+}
 
 
 
@@ -956,7 +966,7 @@
     color: white;
     font-size: 11px;
     width: 95% !important;
-    margin-left: 3% !important;
+    /* margin-left: 3% !important; */
     margin-right: 3% !important;
     /* width: 130px; */
     /* height: 35px; */
@@ -1045,7 +1055,8 @@
     padding-bottom: 3.5px;
     font-size: 12px;
     width: 95% !important;
-    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: none;
     margin-left: 3% !important;
     margin-right: 3%;
@@ -1504,6 +1515,10 @@
   .iconone {
     width: 60px;
   }
+  .popularcarddivsmall{
+    width: 100%;
+    margin-left: 0px !important;
+  }
 
 }
 
@@ -1841,6 +1856,12 @@
     cursor: pointer;
     margin: 10px;
     /* background-color: brown; */
+  }
+  .popularmaindiv{
+    width: 94% !important;
+  }
+  .dreamcometruebtn{
+    margin-left: 20%;
   }
 
 }

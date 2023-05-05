@@ -119,15 +119,15 @@ function Dreamcometrue () {
     return (
         <div className="popularsuparmaindiv">
             <div className="popularmaindiv">
-                <div style={{ width: '85%' }} className='makemaindiv'>
+                <div  className='makemaindiv popularcarddivsmall'>
                     <p className='ourfeaturetext'><span className='featuredash'></span>More Projects</p>
-                    <div><button className='investmentbtn investmentbtndream' style={{ backgroundColor: 'transparent' }}>Other Projects</button></div>
+                    <div className="dreamcometruebtn"><button className='investmentbtn investmentbtndream' style={{ backgroundColor: 'transparent' }}>Other Projects</button></div>
                     <p className='investmentheading'>Your Dream Comes True</p>
                 </div>
                 <div className="dreamlastestdiv">
-                    <div className="dreamlastdiv">
+                    {/* <div className="dreamlastdiv">
                         <p>kll</p>
-                    </div>
+                    </div> */}
                     <div className="deamlastthirddiv"><p>lpo</p></div>
                     <div className="dreamlastsecdiv">
                         <div className="alldreamnavp">
