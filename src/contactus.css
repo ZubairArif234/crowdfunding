@@ -77,6 +77,13 @@
    .messageimage {
        /* background-color: purple; */
    }
+   .inputtwouterdiv{
+    /* background-color: #062A4D; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: auto auto;
+   }
    
    
    
@@ -101,6 +108,13 @@
        .secondcompcol{
            margin-top: 20px;
            margin-bottom: 20px;
+       }
+       .inputtwouterdiv{
+        /* background-color: #062A4D; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: 100%;
        }
    }
    

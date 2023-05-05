@@ -11,7 +11,7 @@ import Investcard from './investcard';
 function Makeinvestment() {
     return(
         <div className='makemaindiv'>
-            <p className='ourfeaturetext'><span className='featuredash'></span>Our Features</p>
+            <p className='ourfeaturetextinvest'><span className='featuredash'></span>Our Features</p>
             <div><button className='investmentbtn'>features</button></div>
             <p className='investmentheading'>We Make Investing Easy</p>
             

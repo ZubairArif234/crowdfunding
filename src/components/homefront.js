@@ -15,6 +15,7 @@ function Homefront() {
                         <Progress
                             strokeColor="#6100B3"
                             percent={70}
+                            trailColor='#19142E' 
                             showInfo={false}
                             style={{ height: "2px" }}
                         />

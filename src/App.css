@@ -6,7 +6,7 @@
   src: url(./components/fonts/Poppins-Bold.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: rubik;
   src: url(./components/fonts/Rubik-Bold.ttf);
 }
@@ -14,11 +14,52 @@
 @font-face {
   font-family: rubiklight;
   src: url(./components/fonts/Rubik-Light.ttf);
-}
-.nav-link {
+  font-weight: 800;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* .nav-link { */
+  /* font-weight: bold !important; */
+  
+/* } */
+.nav-link{
   color:#19142E !important;
   outline: none;
-  
+  font-family:  Rubik !important;
+  font-weight: 500 ;
+/* gap: 10px; */
+  text-transform:'uppercase' !important;
+   color:'#19142E';
+   font-size:'14px';
+   padding-right:'30px';
+   padding-left:'10px';
+   margin-left: 10px;
+   /* font-weight:"bolder" ; */
+    text-decoration:'none' !important;
+}
+.nav-linkbtn{
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  outline: none;
+  padding: 15px 25px;
+  color: white;
+  background-color: #6100B3;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 9px;
+}
+.nav-linkbtnimg{
+  border: none;
+  background-color: #6100B3;
+  outline: none;
+  padding: 10px 15px;
+}
+.navbarmainouterdiv{
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+.navbarlogo{
+  width: 200px;
 }
 .navbar-toggler {
   margin-right: 20px;
@@ -78,8 +119,9 @@
 }
 
 .homepricedetails {
-  font-family: rubik;
-  font-size: 10px;
+  font-family: Rubik;
+  font-weight: 450 !important;
+  font-size: 11px;
   /* background-color: orangered; */
   line-height: -10px;
 }
@@ -88,7 +130,7 @@
   /* background-color: olive; */
   font-family: poppiens;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
   color: #19142E;
 }
 
@@ -172,7 +214,7 @@
   padding-top: 50px;
 }
 
-.ourfeaturetext {
+.ourfeaturetextinvest {
   position: relative;
   color: #1B70F0;
   margin-left: 60px;
@@ -180,24 +222,27 @@
   /* background-color: palevioletred; */
   letter-spacing: 2px;
   font-size: 12px;
-  font-family: rubik;
+  font-weight: 500;
+  font-family: Rubik;
 }
 
 .investmentbtn {
   font-family: rubik;
+  font-weight: 400;
+  letter-spacing: 1px;
   width: 130px;
   /* margin-bottom: 10px; */
   margin-left: 85%;
   
   text-transform: uppercase;
-  border: 1px solid gray;
+  border: 1px solid #EAD2FF;
   background-color: white;
-  font-size: 12px;
+  font-size: 10px;
   color: #062A4D;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* display: flex; */
   /* align-items: rignt; */
-  padding: 10px;
+  padding: 10px 10px;
 }
 
 .investmentheading {
@@ -269,7 +314,8 @@
   /* background-color: palevioletred; */
   letter-spacing: 2px;
   font-size: 12px;
-  font-family: rubik;
+  font-family: Rubik;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -304,15 +350,42 @@
 }
 
 .popcardprice {
-  font-weight: bold;
-  color: #6F7172;
+  font-weight: 700;
+  font-size: 16px;
+  color: #062A4D;
 }
 
 .popcardpricedetail {
-  color: #062A4D;
-  font-weight: bold;
-  font-size: 12px;
+  color: #6F7172;
+  font-weight: 400;
+  font-size: 11px;
 }
+.popcardpricedetailend {
+  text-align: end;
+  color: #6F7172;
+  font-weight: 400;
+  font-size: 11px;
+}
+.eventbtn{
+  /* font-family: rubik;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 130px;
+  margin-left: 85%;
+  
+  text-transform: uppercase;
+  border: 1px solid #EAD2FF;
+  font-size: 10px;
+  color: #062A4D;
+  padding: 10px 10px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-weight: bold;
+  display: flex;
+  align-items: rignt; */
+}
+
 
 .poppriceanddetailbelow {
   display: flex;
@@ -322,8 +395,9 @@
 }
 
 .popcardpricebelow {
+  font-family: Rubik;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   color: #3A516C;
   text-transform: uppercase;
 
@@ -339,16 +413,17 @@
 
 
 .popmoreproj {
-  font-family: rubik;
+  font-family: Rubik;
   width: 150px;
   /* margin-bottom: 10px; */
   /* margin-left: 85%; */
   text-transform: uppercase;
-  border: 1px solid gray;
+  border: 1px solid #EAD2FF;
   background-color: white;
   font-size: 12px;
   color: #062A4D;
-  font-weight: bold;
+  font-weight: 400;
+  /* font-weight: bold; */
   margin: 0 auto;
 
   /* display: flex; */
@@ -359,7 +434,7 @@
 
 /* make it easier */
 .easiernumone {
-  text-shadow: 2px 2px 10px #1B70F0;
+  text-shadow: 2px 2px 10px #b2cdf5;
   /* text-shadow: #1B70F0 0px 7px 29px 0px; */
   text-align: center;
   font-size: 150px;
@@ -526,7 +601,7 @@
   border-radius: 30px;
   width: 120px;
   padding: 10px;
-  color: white;
+  color: #AEABBA;
   border: none;
   margin: 10px;
 }
@@ -536,7 +611,7 @@
   border-radius: 30px;
   width: 120px;
   padding: 10px;
-  color: white;
+  color: #AEABBA;
   border: none;
   margin: 10px;
 }
@@ -548,11 +623,12 @@
   border-radius: 30px;
   width: 120px;
   padding: 10px;
-  color: white;
+  color: #AEABBA;
 }
 .day01:hover, .day02:hover, .day03:hover
 {
   background-color: #1B70F0 !important;
+  color: white;
 
 
 }
@@ -571,11 +647,7 @@
   color: white;
 }
 
-.eventbtn {
-  border: 2px solid #322952;
-  color: white;
-  background-color: transparent;
-}
+
 
 .eventsdivone {
   /* background-color: orange; */
@@ -628,11 +700,17 @@
 
 .eventbtn {
   border: none;
-  margin: 10px;
-  background-color: #1A1430;
-  border-radius: 30px;
+  /* margin: 10px; */
+  background-color: transparent;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: Rubik;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* border-radius: 30px; */
+  border: 1px solid #322952;
   width: 140px;
-  margin-left: 79%;
+  margin-left: 60%;
   /* height: 30px; */
   /* margin: 40px 0; */
   padding: 10px;
@@ -937,6 +1015,11 @@
   width: 85%;
   margin-left: 50px ;
 }
+.navbardropdown{
+  /* padding: 0px !important; */
+  margin-top: 0px;
+  padding-bottom: -10px !important;
+}
 
 
 
@@ -965,9 +1048,9 @@
     background-color: #6100B3;
     color: white;
     font-size: 11px;
-    width: 95% !important;
-    /* margin-left: 3% !important; */
-    margin-right: 3% !important;
+    width: 80% !important;
+    /* margin-left: 3% !important;
+    margin-right: 3% !important; */
     /* width: 130px; */
     /* height: 35px; */
     border: none;
@@ -1078,6 +1161,19 @@
 
 
 
+@media only screen and (max-width: 990px) {
+  .nav-link{
+    
+     margin-left: 30px;
+   
+  }
+  .nav-linkbtn{
+    
+    padding: 15px 25px;
+    margin: 0px;
+   
+  }
+}
 @media only screen and (max-width: 900px) {
   .easiernumone {
     font-size: 100px;
@@ -1167,9 +1263,10 @@
     background-color: #1A1430;
     border-radius: 30px;
     width: 80px;
+    text-transform: uppercase;
     font-size: 11px;
     padding: 10px;
-    color: white;
+    color: #AEABBA;
     border: none;
     margin: 10px;
   }
@@ -1180,7 +1277,7 @@
     border-radius: 30px;
     width: 80px;
     padding: 10px;
-    color: white;
+    color: #AEABBA;
     border: none;
     margin: 10px;
   }
@@ -1193,7 +1290,7 @@
     border-radius: 30px;
     width: 80px;
     padding: 10px;
-    color: white;
+    color: #AEABBA;
   }
 
   .inpurbloginnerdiv {
@@ -1212,7 +1309,7 @@
     /* height: 35px; */
     border: none;
     padding: 10px;
-    margin-left: 40px;
+    /* margin-left: 2%; */
   }
 
   .blogarrobtn {
@@ -1266,7 +1363,7 @@
     font-size: 11px;
     /* width: 130px; */
     /* height: 35px; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
     border: none;
     margin-top: 0;
     padding: 3px;
@@ -1325,7 +1422,7 @@
     font-size: 11px;
     /* width: 130px; */
     /* height: 35px; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
     border: none;
     margin-top: 0;
     padding: 3px;
@@ -1476,7 +1573,7 @@
     font-size: 11px;
     /* width: 130px; */
     /* height: 35px; */
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border: none;
     margin-top: 0;
     padding: 3px;
@@ -1788,12 +1885,12 @@
     background-color: #6100B3;
     color: white;
     font-size: 11px;
-    width: 100px;
+    /* width: 100px; */
     /* height: 35px; */
     border: none;
     margin-top: 0;
     padding: 3px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
 
   .blogarrobtn {

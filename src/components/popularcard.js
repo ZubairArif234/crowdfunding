@@ -7,10 +7,13 @@ function Popularcard({ img, heading, price1, price2, detail1, detail2, below1, b
     return (
       <Card
         hoverable
+        bordered={false}
         style={{
           width: 290,
           borderRadius: "0",
-          marginTop:'10px'
+          marginTop:'10px',
+          boxShadow:'none'
+          
         }}
         cover={<img alt="example"style={{borderRadius:'0px'}} src={img} />}
       >
@@ -20,6 +23,7 @@ function Popularcard({ img, heading, price1, price2, detail1, detail2, below1, b
             strokeColor="#1B70F0"
             percent={70}
             showInfo={false}
+            trailColor='#E7EBFF'
             style={{ height: "2px" }}
           />
           <div className="poppriceanddetail">
@@ -32,7 +36,7 @@ function Popularcard({ img, heading, price1, price2, detail1, detail2, below1, b
             <div>
               <p className="popcardprice">
                 {price2} <br />
-                <span className="popcardpricedetail">Target</span>
+                <span className="popcardpricedetailend">Target</span>
               </p>
             </div>
           </div>

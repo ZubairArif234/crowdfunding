@@ -17,9 +17,9 @@ function Upcoming() {
             <img src={cap} className='eventcap'/>
             <img src={gift} className='eventgift'/>
             <img src={baaja} className='eventbaaja'/>
-            <div className="makemaindiv eventtopdiv">
-                <p className='ourfeaturetext'><span className='featuredash'></span>Events</p>
-                <div><button className='investmentbtn eventbtn'>more events</button></div>
+            <div className="makemaindiv ">
+                <p className='ourfeaturetextinvest'><span className='featuredash'></span>Events</p>
+                <div><button className='eventbtn'>more events</button></div>
                 <p className='investmentheading eventheading'>Upcoming Events</p>
                 <center style={{marginBottom:'30px'}}>
 

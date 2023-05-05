@@ -120,8 +120,8 @@ function Dreamcometrue () {
         <div className="popularsuparmaindiv">
             <div className="popularmaindiv">
                 <div  className='makemaindiv popularcarddivsmall'>
-                    <p className='ourfeaturetext'><span className='featuredash'></span>More Projects</p>
-                    <div className="dreamcometruebtn"><button className='investmentbtn investmentbtndream' style={{ backgroundColor: 'transparent' }}>Other Projects</button></div>
+                    <p className='ourfeaturetextinvest'><span className='featuredash'></span>More Projects</p>
+                    <div className=""><button className='investmentbtn' >Other Projects</button></div>
                     <p className='investmentheading'>Your Dream Comes True</p>
                 </div>
                 <div className="dreamlastestdiv">

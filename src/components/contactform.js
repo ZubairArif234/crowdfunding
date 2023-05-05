@@ -15,30 +15,30 @@ const Contactform = () =>{
             <div className="makecallbtn"><button className='  makecallbtncontact' style={{ color: 'white', backgroundColor: '#1B70F0',paddingTop:'10px', border: 'none' }}> <img src={telephonefullycoloured}width={10} style={{marginRight:'10px'}} />make call</button></div>
             <p className='investmentheadingcontact'>Estimate Your Idea</p>
             <div>
-                <Row>
-                    <Col className="formblock">
+                <div className="inputtwouterdiv">
+                    <div lg={6} className="formblock">
                     <img src={personblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Name" className="contactusforminput"/>
-                    </Col>
-                    <Col className="formblock">
+                    </div>
+                    <div lg={6} className="formblock">
                     <img src={emailblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Email" className="contactusforminput"/>
                     {/* <input/> */}
                     
-                    </Col>
-                </Row>
-                <Row>
-                    <Col  className="formblock">
+                    </div>
+                </div>
+                <div className="inputtwouterdiv">
+                    <div lg={6}  className="formblock">
                     <img src={telephoneblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Phone" className="contactusforminput"/>
                     
-                    </Col>
-                    <Col  className="formblock">
+                    </div>
+                    <div lg={12} className="formblock">
                     <img src={pointblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Subject" className="contactusforminput"/>
                     
-                    </Col>
-                </Row>
+                    </div>
+                </div>
                 <Row>
                     <Col  className="formblocktextarea">
                     <img src={emailblue} style={{width:'15px' , height:'15px',marginTop:'10px'}}/>

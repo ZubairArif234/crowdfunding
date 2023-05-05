@@ -10,15 +10,15 @@ function Planbox() {
       <div className='planboxinner'>
         <div className='planboxsmalldivs'>
             <p className='planboxtext'>Onda MX App: Mexico City art guide & living archive.</p>
-            <Progress strokeColor='#1B70F0' percent={50} showInfo={false} />
+            <Progress strokeColor='#1B70F0' trailColor='white' percent={50} showInfo={false} />
         </div>
         <div className='planboxsmalldivs'>
             <p className='planboxtext'>Onda MX App: Mexico City art guide & living archive.</p>
-            <Progress strokeColor='#6100B3' percent={50} showInfo={false} />
+            <Progress strokeColor='#6100B3' trailColor='white' percent={50} showInfo={false} />
         </div>
         <div className='planboxsmalldivs'>
             <p className='planboxtext'>Onda MX App: Mexico City art guide & living archive.</p>
-            <Progress strokeColor='#FF1849' percent={50} showInfo={false} />
+            <Progress strokeColor='#FF1849' trailColor='white' percent={50} showInfo={false} />
         </div>
       </div>
         {/* </center> */}

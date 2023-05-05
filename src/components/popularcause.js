@@ -11,7 +11,7 @@ function Popularseries (){
         <div className="popularsuparmaindiv">
 
         <div className="popularmaindiv">
-            <p className="populartextblue">Popular causes</p>
+            <p className="populartextblue"><span className='featuredash'> </span>Popular causes</p>
             <p className="popularheading">Back Before The Time Expires</p>
         <div className="popularcarddiv">
             {
