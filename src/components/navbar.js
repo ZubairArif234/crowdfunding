@@ -14,8 +14,8 @@ function Navbarcrowd() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto d-flex gap-3 ">
-          <Link className='nav-link text-uppercase' href="#features">Home</Link>
-          <Link className='nav-link text-uppercase' href="#features">About</Link>
+          <Link to={'/'} className='nav-link text-uppercase' href="#features">Home</Link>
+          <Link to={'/about'} className='nav-link text-uppercase' href="#features">About</Link>
           
           <NavDropdown className='text-uppercase' title="PROJECTS" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">

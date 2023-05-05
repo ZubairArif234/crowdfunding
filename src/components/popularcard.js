@@ -12,7 +12,7 @@ function Popularcard({ img, heading, price1, price2, detail1, detail2, below1, b
           width: 290,
           borderRadius: "0",
           marginTop:'10px',
-          boxShadow:'none'
+          
           
         }}
         cover={<img alt="example"style={{borderRadius:'0px'}} src={img} />}

@@ -10,8 +10,8 @@ function Blogbox (){
         <div style={{backgroundColor:'#F9FAFF'}}>
 
             <div style={{paddingTop:'60px', }} className='makemaindiv' >
-            <p className='ourfeaturetext'><span className='featuredash'></span> news feeds </p>
-            <div><button style={{border:'1px solid #EAD2FF'}} className='investmentbtn' >news updates</button></div>
+            <p className='ourfeaturetextinvest'><span className='featuredash'></span> news feeds </p>
+            <div><button  className='investmentbtn' >news updates</button></div>
             <p className='investmentheading'>Latest Posts From Our Blog</p>
 
 <div style={{marginTop:'20px'}} className="investcarddiv">

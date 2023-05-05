@@ -2,10 +2,12 @@
 
 
 @font-face {
-  font-family: poppiens;
+  font-family: Poppins;
   src: url(./components/fonts/Poppins-Bold.ttf);
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* @font-face {
   font-family: rubik;
   src: url(./components/fonts/Rubik-Bold.ttf);
@@ -128,14 +130,14 @@
 
 .homepriceone {
   /* background-color: olive; */
-  font-family: poppiens;
+  font-family: Poppins;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #19142E;
 }
 
 .homedivonetext {
-  font-family: poppiens;
+  font-family: Poppins;
   font-size: 50px;
   padding: 10px;
   font-weight: bold;
@@ -197,7 +199,7 @@
 }
 
 .planboxtext {
-  font-family: poppiens;
+  font-family: Poppins;
   font-weight: bold;
 }
 
@@ -247,9 +249,10 @@
 
 .investmentheading {
   margin-left: 20px;
+  font-weight: 600;
   color: #062A4D;
   font-size: 30px;
-  font-family: poppiens;
+  font-family: Poppins;
   letter-spacing: -1px;
 
   /* background-color: yellow; */
@@ -263,7 +266,7 @@
 
 .cardheading {
   font-size: 20px;
-  font-family: poppiens;
+  font-family: Poppins;
   color: #062A4D;
   text-align: center;
 }
@@ -322,7 +325,7 @@
 .popularheading {
   color: #062A4D;
   font-size: 30px;
-  font-family: poppiens;
+  font-family: Poppins;
   letter-spacing: -1px;
   text-align: center;
 }
@@ -443,7 +446,7 @@
   color: #F6FBFF;
   /* position: absolute; */
   /* right: 1px; */
-  font-family: poppiens;
+  font-family: Poppins;
 }
 
 .easiernumbres {
@@ -503,7 +506,7 @@
   font-weight: bold;
   color: #062A4D;
   text-align: center;
-  font-family: poppiens;
+  font-family: Poppins;
   /* margin-top:200px ; */
 
 }
@@ -600,13 +603,18 @@
   background-color: #1A1430;
   border-radius: 30px;
   width: 120px;
-  padding: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Rubik;
+  font-weight: 500;
+  padding: 15px;
   color: #AEABBA;
   border: none;
   margin: 10px;
 }
 
-.day02 {
+/* .day02 {
   background-color: #1A1430 !important;
   border-radius: 30px;
   width: 120px;
@@ -624,7 +632,7 @@
   width: 120px;
   padding: 10px;
   color: #AEABBA;
-}
+} */
 .day01:hover, .day02:hover, .day03:hover
 {
   background-color: #1B70F0 !important;
@@ -673,25 +681,27 @@
 }
 
 .eventsheading {
-  font-family: poppiens;
+  font-family: Poppins;
   font-size: 15px;
   color: white;
-  font-family: poppiens;
+  font-family: Poppins;
 }
 
 .eventtext {
   /* font-family: rubiklight; */
   color: #AEABBA;
+  letter-spacing: 1px;
   font-size: 13px;
   /* color: white; */
-  font-family: poppiens;
+  font-family: Poppins;
 }
 
 .enevtonetext {
-  font-family: rubiklight;
+  font-family: Rubik;
+  font-weight: 300;
   font-size: 13px;
-  color: white;
-  /* font-family: poppiens; */
+  color: #AEABBA;
+  /* font-family: Poppins; */
 }
 
 .enevtsimg {
@@ -710,7 +720,7 @@
   /* border-radius: 30px; */
   border: 1px solid #322952;
   width: 140px;
-  margin-left: 60%;
+  margin-left: 85%;
   /* height: 30px; */
   /* margin: 40px 0; */
   padding: 10px;
@@ -727,9 +737,9 @@
 
 .headingofeventonr {
   font-size: 25px;
-  font-family: poppiens;
-  font-weight: bold;
-  color: #AEABBA;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .eventbtn2 {
@@ -744,12 +754,20 @@
   padding: 10px;
   color: white;
 }
+.upcomingimglastimgdiv{
+
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .enevtsimgbtn {
   /* background-color: yellow; */
-  margin-top: 35%;
-  width: 50px;
-  height: 50px;
+  padding: 0px 10px;
+  /* margin-top: 23%; */
+  width: 100px;
+  height: 60px;
 }
 
 .eventcandy {
@@ -786,8 +804,13 @@
 }
 
 .inpurbloginnerdiv {
-  background-color: white;
+  /* background-color: white; */
+  background-color: #1B70F0;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
   /* height:'50px'; */
+  padding: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 15px;
@@ -797,24 +820,30 @@
   background-color: #6100B3;
   color: white;
   font-size: 15px;
+  /* width: 100%; */
   /* width: 130px; */
   /* height: 35px; */
   border: none;
+  /* margin-right: 6px; */
   padding: 11.5px;
 }
 
 .blogarrobtn {
-  margin-left: 38px;
+  width: 30px;
+  background-color: #1B70F0;
+  margin-bottom: 4px;
+  /* margin-left: 38px; */
 }
 
 .bloginputarea {
   outline: none;
-  /* background-color: pink; */
-  padding-left: 20px;
+  background-color: pink;
+  /* padding-left: 20px; */
+  padding: 13px;
   font-size: 12px;
-  width: 65%;
+  width: 100%;
   border: none;
-  margin-left: 10px;
+  /* margin-left: 6px; */
 }
 
 .subscribemaindiv {
@@ -844,9 +873,10 @@
 
 .areyouhapptext {
   width: 60%;
-  font-family: poppiens;
+  font-family: Poppins;
   color: white;
   /* background-color: yellow; */
+  font-weight: 700;
   text-align: center;
   font-size: 35px;
   padding-top: 50px;
@@ -911,7 +941,7 @@
 }
 
 .footerlastdivheading {
-  font-family: poppiens;
+  font-family: Poppins;
   font-size: 20px;
   color: white;
   font-weight: bold;
@@ -966,17 +996,20 @@
 }
 
 .lastestfooterblockimgdiv {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   padding: 5px;
   /* background-color: olive; */
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 .lastestfooterblocktext {
   color: #7E7798;
-  font-family: rubiklight;
+  font-family: Rubik;
+  font-size: 15px;
+  width: 100%;
   /* vertical-align: middle; */
   margin: 20px;
 }
@@ -1022,6 +1055,9 @@
 }
 
 
+.footerendcolums{
+  width: 50%;
+}
 
 
 
@@ -1036,15 +1072,15 @@
     width: 60%;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
+    /* height:'50px'; 
     padding-top: 5px;
     padding-bottom: 8px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
@@ -1052,13 +1088,13 @@
     /* margin-left: 3% !important;
     margin-right: 3% !important; */
     /* width: 130px; */
-    /* height: 35px; */
+    /* height: 35px; 
     border: none;
-    /* margin-top: 0; */
+    /* margin-top: 0; 
     padding: 3px;
-  }
+  } */
 
-  .blogarrobtn {
+  /* .blogarrobtn {
     width: 20px;
     margin-left: 20px;
   }
@@ -1069,14 +1105,14 @@
     padding-bottom: 3.5px;
     font-size: 12px;
     width: 70%;
-    /* background-color: pink; */
+    /* background-color: pink; 
     border: none;
     margin-left: 10px;
-  }
+  } */
 
   .areyouhapptext {
     width: 60%;
-    font-family: poppiens;
+    font-family: Poppins;
     color: white;
     /* background-color: yellow; */
     text-align: center;
@@ -1108,26 +1144,26 @@
     width: 100%;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
+    /* height:'50px'; 
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
     /* width: 130px; */
-    /* height: 35px; */
+    /* height: 35px; 
     border: none;
     margin-top: 0;
     padding: 3px;
-  }
+  } */
 
-  .blogarrobtn {
+  /* .blogarrobtn {
     width: 20px;
     margin-left: 30px;
   }
@@ -1143,11 +1179,11 @@
     border: none;
     margin-left: 3% !important;
     margin-right: 3%;
-  }
+  } */
 
   .areyouhapptext {
     width: 90%;
-    font-family: poppiens;
+    font-family: Poppins;
     color: white;
     /* background-color: yellow; */
     text-align: center;
@@ -1197,7 +1233,7 @@
     /* color: #062A4D; */
     font-size: 15px;
     /* text-align: center; */
-    /* font-family: poppiens; */
+    /* font-family: Poppins; */
     /* margin-top:200px ; */
 
   }
@@ -1211,10 +1247,10 @@
   }
 
   .eventsheading {
-    font-family: poppiens;
+    font-family: Poppins;
     font-size: 10px;
     color: white;
-    /* font-family: poppiens; */
+    /* font-family: Poppins; */
   }
 
   .divoneevent {
@@ -1235,7 +1271,7 @@
 
   .headingofeventonr {
     font-size: 18px;
-    font-family: poppiens;
+    font-family: Poppins;
     font-weight: bold;
     color: #AEABBA;
   }
@@ -1262,7 +1298,7 @@
   .day01 {
     background-color: #1A1430;
     border-radius: 30px;
-    width: 80px;
+    /* width: 80px; */
     text-transform: uppercase;
     font-size: 11px;
     padding: 10px;
@@ -1293,24 +1329,25 @@
     color: #AEABBA;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
+    /* height:'50px'; 
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 10px;
     /* width: 130px; */
-    /* height: 35px; */
+  
+    /* height: 35px; 
     border: none;
     padding: 10px;
-    /* margin-left: 2%; */
-  }
+    /* margin-left: 2%; 
+  } */
 
   .blogarrobtn {
     margin-left: 10px;
@@ -1321,12 +1358,35 @@
     outline: none;
     padding-left: 20px;
     font-size: 12px;
-    width: 70%;
+    /* width: 70%; */
     border: none;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   .footerblockone{
     padding-left: 0px !important;
+  }
+  .footerendcolums{
+    width: 100%;
+    margin:  0 auto;
+  }
+  .lastestfooterblockimgdiv {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    /* background-color: olive; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .lastestfooterblocktext {
+    color: #7E7798;
+    font-family: Rubik;
+    font-size: 15px;
+    width: 100%;
+    /* vertical-align: middle; */
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
   }
 
 }
@@ -1349,27 +1409,27 @@
     width: 100%;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
+    /* height:'50px'; 
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
     /* width: 130px; */
     /* height: 35px; */
-    /* margin-left: 50px; */
+    /* margin-left: 50px; 
     border: none;
     margin-top: 0;
     padding: 3px;
-  }
+  } */
 
-  .blogarrobtn {
+  /* .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
@@ -1380,10 +1440,10 @@
     padding-bottom: 3.5px;
     font-size: 12px;
     width: 65%;
-    /* background-color: pink; */
+    /* background-color: pink; 
     border: none;
     margin-left: 10px;
-  }
+  } */
 
   .blogimgone {
     width: 80px;
@@ -1408,25 +1468,25 @@
     width: 100%;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
+    /* height:'50px'; 
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
     /* width: 130px; */
     /* height: 35px; */
-    /* margin-left: 50px; */
+    /* margin-left: 50px; 
     border: none;
     margin-top: 0;
     padding: 3px;
-  }
+  } */
 
   .blogarrobtn {
     width: 20px;
@@ -1460,7 +1520,7 @@
 
   .areyouhapptext {
     width: 90%;
-    font-family: poppiens;
+    font-family: Poppins;
     color: white;
     /* background-color: yellow; */
     text-align: center;
@@ -1471,6 +1531,11 @@
   .investmentbtn{
     margin-left: 60%;
   }
+  .eventbtn{
+    margin-left: 60%;
+    
+  }
+  
 }
 
 
@@ -1490,7 +1555,7 @@
     font-weight: bold;
     color: #062A4D;
     text-align: center;
-    font-family: poppiens;
+    font-family: Poppins;
     /* margin-top:200px ; */
 
   }
@@ -1501,7 +1566,7 @@
 
   .headingofeventonr {
     font-size: 13px;
-    font-family: poppiens;
+    font-family: Poppins;
     font-weight: bold;
     color: #AEABBA;
   }
@@ -1559,27 +1624,27 @@
     width: 100%;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
+    /* height:'50px'; 
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
     /* width: 130px; */
     /* height: 35px; */
-    /* margin-left: 20px; */
+    /* margin-left: 20px; 
     border: none;
     margin-top: 0;
     padding: 3px;
-  }
+  } */
 
-  .blogarrobtn {
+  /* .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
@@ -1590,10 +1655,10 @@
     padding-bottom: 3.5px;
     font-size: 12px;
     width: 60%;
-    /* background-color: pink; */
+    /* background-color: pink; 
     border: none;
     margin-left: 10px;
-  }
+  } */
 
   .blogimgone {
     width: 60px;
@@ -1631,7 +1696,7 @@
 @media only screen and (max-width: 500px) {
 
   .homedivonetext {
-    /* font-family: poppiens; */
+    /* font-family: Poppins; */
     font-size: 35px;
     /* padding: 10px;
     font-weight: bold;
@@ -1695,7 +1760,7 @@
     /* background-color: greenyellow; */
     /* font-weight: bolder; */
     /* color: #F6FBFF; */
-    /* font-family: poppiens; */
+    /* font-family: Poppins; */
   }
 
   .allnumbresdiv {
@@ -1771,10 +1836,10 @@
   }
 
   .eventsheading {
-    font-family: poppiens;
+    font-family: Poppins;
     font-size: 9px;
     color: white;
-    /* font-family: poppiens; */
+    /* font-family: Poppins; */
   }
 
   .eventtext {
@@ -1785,8 +1850,8 @@
   }
 
   .headingofeventonr {
-    font-size: 10px;
-    font-family: poppiens;
+    font-size: 12px;
+    font-family: Poppins;
     font-weight: bold;
     color: #AEABBA;
   }
@@ -1795,24 +1860,27 @@
     font-family: rubiklight;
     font-size: 9px;
     color: white;
-    /* font-family: poppiens; */
+    /* font-family: Poppins; */
   }
 
   .enevtsimgbtn {
     /* background-color: yellow; */
-    margin-top: 75%;
+    /* margin-top: 75%; */
     /* margin: auto 0; */
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 50px;
   }
 
   .day01 {
     background-color: #1A1430;
     border-radius: 30px;
-    width: 60px;
-    font-size: 11px;
+    width: 70px;
+    font-size: 9px;
+    font-family: Rubik;
+    font-weight: 500;
+    text-transform: uppercase;
     padding: 10px;
-    color: white;
+    color: #AEABBA;
     border: none;
     margin: 10px;
   }
@@ -1872,28 +1940,28 @@
     width: 100%;
   }
 
-  .inpurbloginnerdiv {
+  /* .inpurbloginnerdiv {
     background-color: white;
-    /* height:'50px'; */
-    /* padding-left: 1px; */
+    /* height:'50px'; 
+    /* padding-left: 1px; 
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-  }
+  } */
 
-  .blogarrow {
+  /* .blogarrow {
     background-color: #6100B3;
     color: white;
     font-size: 11px;
     /* width: 100px; */
-    /* height: 35px; */
+    /* height: 35px; 
     border: none;
     margin-top: 0;
     padding: 3px;
-    /* margin-left: 5px; */
-  }
+    /* margin-left: 5px; 
+  } */
 
-  .blogarrobtn {
+  /* .blogarrobtn {
     width: 20px;
     margin-left: 10px;
   }
@@ -1904,10 +1972,10 @@
     padding-bottom: 3.5px;
     font-size: 12px;
     width: 60%;
-    /* background-color: pink; */
+    /* background-color: pink; 
     border: none;
     margin-left: 7px;
-  }
+  } */
 
   .blogimgone {
     width: 60px;
@@ -1925,7 +1993,7 @@
 
   .areyouhapptext {
     width: 100%;
-    font-family: poppiens;
+    font-family: Poppins;
     color: white;
     /* background-color: yellow; */
     text-align: center;

@@ -23,7 +23,7 @@ function Footer (){
         <Col md={3} lg={3}>
                     <ul className='footerblockone'>
                         <li><img className='barkedlight' src={barkedlight}/></li>
-                        <li><div style={{display:'flex',justifyContent:'space-between' }}>
+                        <li><div style={{display:'flex',justifyContent:'flex-start' , gap:'20px' }}>
                             <img src={facebook} />
                             <img src={twitter} />
                             <img src={behance} />
@@ -110,10 +110,10 @@ function Footer (){
                 
             <div className='lastestfooterblock'>
                 <Row>
-                    <Col lg={6}>
+                    <Col xs={12} lg={6} className='footerendcolums' >
                 <p className='lastestfooterblocktext'>Copyright All Right Reserved By DotClick</p>
                     </Col>
-                    <Col lg={6}>
+                    <Col xs={12} lg={6} className='footerendcolums' >
                     
                 <div className='lastestfooterblockimgdiv'>
                     <div className='lastestfooterblockimgsolodiv'>
