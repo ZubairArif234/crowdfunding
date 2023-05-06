@@ -16,6 +16,45 @@ import quotationmark from '../components/images/quotation-mark.png'
 import blogadvartisement from '../components/images/blogadvertisement.jpg'
 
 const Blogpagecomponent =  () =>{
+
+    const paginationIcons = (_, type, originalElement) => {
+        console.log(type, "a");
+        if (type === "prev") {
+          return <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3"
+            ariaHidden="true"
+            viewBox="0 0 24 24"
+            width={15}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+            ></path>
+          </svg>;
+        }
+        if (type === "next") {
+          return <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3"
+            ariaHidden="true"
+            width={15}
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+            ></path>
+          </svg>;
+        }
+        return originalElement;
+      };
     return(
         <div>
             <Navbarcrowd/>
@@ -49,6 +88,7 @@ const Blogpagecomponent =  () =>{
             defaultCurrent={2}
             pageSize={7}
             total={7}
+            itemRender={paginationIcons}
             // onChange={handlePageChange}
           />
 </Col>
