@@ -61,9 +61,10 @@
        justify-content: center;
    }
    .contactcompsecondmessageheading{
+    font-family: Poppins;
        font-size: 20px;
        color: #062A4D;
-       font-weight: 650;
+       font-weight: 600;
        /* background-color: aqua; */
    }
    .contactcompsecondmessagebelowtext{

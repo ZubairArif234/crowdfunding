@@ -19,7 +19,7 @@ const Catogoriesblogpage = () =>{
 ]
     return(
         <div  className='blogpagesearchboxmaindiv'>
-            <p className='ourfeaturetext'><span className='featuredash'></span>Categories</p>
+            <p className='ourfeaturetextinvestblog'><span className='featuredashblog'></span>Categories</p>
             <div className='instagramfeedbelogpagediv'>
 
               <ul className="catagoriesullist">

@@ -11,7 +11,7 @@ import profilepicabou from './images/profilepicabout.png'
 const Blogpageaboutcard = () =>{
     return(
         <div className='blogpagesearchboxmaindiv'>
-  <p className='ourfeaturetext'><span className='featuredash'></span>About Me</p>
+  <p className='ourfeaturetextinvestblog'><span className='featuredashblog'></span>About Me</p>
      
      <div className='blogsearchb'>
         <img className='profilepicaboutblogpage' src={profilepicabou}/>

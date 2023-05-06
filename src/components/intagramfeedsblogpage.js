@@ -12,7 +12,7 @@ const Intagramfeedblogpage = () =>{
     const feedarr = ['popular','design' , 'usability' , 'develop' , 'consult' , 'icon' , 'html' , 'ux' , 'business' , 'kit' ,'keyboard' , 'tech']
     return(
         <div  className='blogpagesearchboxmaindiv'>
-            <p className='ourfeaturetext'><span className='featuredash'></span>Instagram Feeds</p>
+            <p className='ourfeaturetextinvestblog'><span className='featuredashblog'></span>Instagram Feeds</p>
             <div className='instagramfeedbelogpagediv'>
 
                 {

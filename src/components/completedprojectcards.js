@@ -14,6 +14,7 @@ function Completedprojectcard({ img, heading, price1, price2, detail1, detail2, 
     return (
       <Card
         hoverable
+        bordered={false}
         style={{
           width: 290,
           borderRadius: "0",

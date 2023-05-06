@@ -33,7 +33,7 @@ const Blogpagecomponent =  () =>{
                 <div className="quoteofblogpage">
 
                 <img className="quotesmarkimg" src={quotationmark}/>
-                <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor.</p>
+                <p className="blogqouteheading">Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor.</p>
                 </div>
                 <p className="quoteauthername">- Rosalina Pong</p>
             </div>

@@ -11,9 +11,9 @@ import telephonefullycoloured from './images/telephonefullycoloured.png'
 const Contactform = () =>{
     return(
         <div className="makemaindiv contactusform">
-              <p className='ourfeaturetext'><span className='featuredash'></span>Anything On your Mind</p>
+              <p className='ourfeaturetextinvest'><span className='featuredash'></span>Anything On your Mind</p>
             <div className="makecallbtn"><button className='  makecallbtncontact' style={{ color: 'white', backgroundColor: '#1B70F0',paddingTop:'10px', border: 'none' }}> <img src={telephonefullycoloured}width={10} style={{marginRight:'10px'}} />make call</button></div>
-            <p className='investmentheadingcontact'>Estimate Your Idea</p>
+            <p className='investmentheading'>Estimate Your Idea</p>
             <div>
                 <div className="inputtwouterdiv">
                     <div lg={6} className="formblock">

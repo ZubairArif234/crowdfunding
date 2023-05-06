@@ -825,8 +825,8 @@
 }
 
 .inpurbloginnerdiv {
-  /* background-color: white; */
-  background-color: #1B70F0;
+  background-color: white;
+  /* background-color: #1B70F0; */
   /* display: flex; */
   /* justify-content: space-between; */
   /* flex-wrap: wrap; */
@@ -836,7 +836,9 @@
   padding-bottom: 5px;
   margin-top: 15px;
 }
-
+.arrowimgsubs{
+  width: 20%;
+}
 .blogarrow {
   background-color: #6100B3;
   color: white;
@@ -848,23 +850,42 @@
   /* margin-right: 6px; */
   padding: 11.5px;
 }
+.blogarrowsubus {
+  background-color: #6100B3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  gap: 3px;
+  font-size: 11px;
+  font-family: Rubik;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* width: 100%; */
+  /* width: 130px; */
+  /* height: 35px; */
+  border: none;
+  /* margin-right: 6px; */
+  padding: 11.5px;
+}
 
 .blogarrobtn {
   width: 30px;
-  background-color: #1B70F0;
+  /* background-color: #1B70F0; */
   margin-bottom: 4px;
   /* margin-left: 38px; */
 }
 
 .bloginputarea {
   outline: none;
-  background-color: pink;
+  /* background-color: pink; */
   /* padding-left: 20px; */
   padding: 13px;
   font-size: 12px;
   width: 100%;
   border: none;
-  /* margin-left: 6px; */
+  margin-left: 0px !important;
 }
 
 .subscribemaindiv {
@@ -1511,18 +1532,18 @@
 
   .blogarrobtn {
     width: 20px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 
   .bloginputarea {
     outline: none;
     padding-left: 20px;
-    padding-bottom: 3.5px;
+    /* padding-bottom: 3.5px; */
     font-size: 12px;
     width: 60%;
     /* background-color: pink; */
     border: none;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 
   .blogimgone {
@@ -1553,7 +1574,7 @@
     margin-left: 60%;
   }
   .eventbtn{
-    margin-left: 60%;
+    margin-left: 50%;
     
   }
   
@@ -1567,7 +1588,25 @@
   .easiernumone {
     font-size: 80px;
   }
-
+  .blogarrowsubus {
+    background-color: #6100B3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    gap: 3px;
+    font-size: 9px;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0px;
+    /* width: 100%; */
+    /* width: 130px; */
+    /* height: 35px; */
+    border: none;
+    /* margin-right: 6px; */
+    padding: 11.5px;
+  }
   .numonedetail {
     /* height: 50vh; */
     /* width: 180px; */
@@ -1848,7 +1887,8 @@
     margin-top: 40%;
     background-color: #1A1430;
     border-radius: 30px;
-    width: 85px;
+    width: 65px;
+    margin-left: 60%;
     font-size: 10px;
     /* height: 30px; */
     /* margin: 50px 0; */

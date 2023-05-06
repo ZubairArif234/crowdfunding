@@ -61,8 +61,9 @@
 }
 .blogpagecardheading{
     font-size: 20px;
+    font-weight: 600;
     color: #062A4D;
-    font-family: poppiens;
+    font-family: Poppins;
 }
 .blogpagecardimg{
     width: 100%;
@@ -76,13 +77,28 @@
     /* background-color: orangered; */
 }
 .blogpagecardtext{
-    font-family: rubiklight;
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 15px;
     color: #6F7172;
 }
-
+.ourfeaturetextinvestblog {
+    position: relative;
+    font-family: Poppins;
+    color: #062A4D;
+    margin-left: 30px;
+    /* text-transform: uppercase; */
+    /* background-color: palevioletred; */
+    /* letter-spacing: 2px; */
+    font-size: 20px;
+    font-weight: 600;
+    /* font-family: Rubik; */
+  }
 .ourfeaturetext{
+    font-family: Poppins;
+    font-weight: 600;
     margin-left: 58px !important;
-    font-size: 15px;
+    font-size: 25px;
     color: #062A4D;
 }
 .blogsearchboxinput{
@@ -92,6 +108,10 @@
     width: 80%;
     font-size: 15px;
     outline: none;
+}
+.blogqouteheading{
+    font-family: Rubik;
+    font-weight: 600;
 }
 .blogsearchboxbtn{
     width: 20%;
@@ -273,10 +293,12 @@ color:#062A4D;
     margin-right: 20px;
 }
 .quoteauthername{
+    font-family: Rubik;
     font-size: 12px;
     color: white;
     width: 75%;
     font-weight: 500;
+    letter-spacing: 2px;
     /* background-color: yellow; */
     margin: 0 auto;
     padding-left: 20px;
@@ -292,14 +314,18 @@ color:#062A4D;
  .ongoingpagination .ant-pagination-item,
  .ongoingpagination .ant-pagination-prev,
  .ongoingpagination .ant-pagination-next {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
    border-radius: 20px;
-   background-color: #ffff;
-   border: 2px solid #E8E8E8;
-   /* border: none; */
+   background-color: #E8E8E8;
+   /* border: 2px solid #E8E8E8; */
+   border: none;
    color: #9990B8;
+   font-weight: 800 !important;
    height: 40px;
    width: 40px;
-   font-family: rubiklight;
+   /* font-family: ; */
    font-size: 13px;
  }
  .contactusform{
@@ -402,7 +428,7 @@ color:#062A4D;
     /* margin-left: 84%; */
     margin-left: 84%;
     
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: 1px solid gray;
     background-color: white;
     font-size: 12px;
@@ -412,12 +438,12 @@ color:#062A4D;
     /* align-items: rignt; */
     padding: 10px;
   }
-  .featuredash {
+  .featuredashblog {
     position: absolute;
-    width: 30px;
-    height: 2px;
-    left: -38px;
-    top: 7px;
+    width: 20px;
+    height: 4px;
+    left: -30px;
+    top: 13px;
     background: #1B70F0;
   }
 

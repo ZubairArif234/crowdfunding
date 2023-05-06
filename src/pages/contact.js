@@ -25,7 +25,7 @@ const Contactusfirstcomponent = () =>{
 
             <p className='contactusheading'>Contact Us</p>
              {/* <p>Home &gt></p>  */}
-             <p className='contactusheadingbelowtext'>Home &gt; Contact</p>
+             <p className='contactusheadingbelowtext'>Home <span style={{margin:'0px 10px'}}> &gt;</span>  Contact</p>
             </div>
             <div>
                 <div className='contactsecondcompdiv'>

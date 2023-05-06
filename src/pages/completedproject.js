@@ -32,6 +32,45 @@ const Completedproject = () => {
     setCurrentPage(page);
   }
 
+  const paginationIcons = (_, type, originalElement) => {
+    console.log(type, "a");
+    if (type === "prev") {
+      return <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="3"
+        ariaHidden="true"
+        viewBox="0 0 24 24"
+        width={15}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+        ></path>
+      </svg>;
+    }
+    if (type === "next") {
+      return <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="3"
+        ariaHidden="true"
+        width={15}
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+        ></path>
+      </svg>;
+    }
+    return originalElement;
+  };
+
   return (
     <div>
       <Navbarcrowd />
@@ -45,7 +84,7 @@ const Completedproject = () => {
       <div style={{backgroundColor:'#F9FAFF', paddingTop:'80px' ,marginTop:'10px'}}>
       <br />
         <div className="popularmaindiv">
-          <p className='ourfeaturetext'><span className='featuredash'></span>More Projects</p>
+          <p className='ourfeaturetextinvest'><span className='featuredash'></span>More Projects</p>
           <div><button className='investmentbtn'>other projects</button></div>
           <p className='investmentheading'>Projects Done</p>
           <div className=" ongoingpopularcard popularcarddiv " >
@@ -75,6 +114,7 @@ const Completedproject = () => {
             pageSize={pageSize}
             total={populararr.length}
             onChange={handlePageChange}
+            itemRender={paginationIcons}
           />
           </div>
         </div>

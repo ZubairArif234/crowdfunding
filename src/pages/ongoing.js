@@ -31,18 +31,57 @@ const Ongoing = () => {
     setCurrentPage(page);
   }
 
+  const paginationIcons = (_, type, originalElement) => {
+    console.log(type, "a");
+    if (type === "prev") {
+      return <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="3"
+        ariaHidden="true"
+        viewBox="0 0 24 24"
+        width={15}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+        ></path>
+      </svg>;
+    }
+    if (type === "next") {
+      return <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="3"
+        ariaHidden="true"
+        width={15}
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+        ></path>
+      </svg>;
+    }
+    return originalElement;
+  };
+
   return (
     <div>
       <Navbarcrowd />
-      <Ongoingfirstcomp 
-      heading='Ongoing Projects'
-      detailtext ='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
-      navtext='Home  &gt;   Progress'
-      sideimg={gittar}
-      below={heartbeats}
-       />
-        <img src={heartbeats} className="ongoingheartbeatsimg" />
-      <div style={{backgroundColor:'#F9FAFF', paddingTop:'80px' ,marginTop:'10px'}}>
+      <Ongoingfirstcomp
+        heading='Ongoing Projects'
+        detailtext='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
+        navtext='Home  &gt;   Progress'
+        sideimg={gittar}
+        below={heartbeats}
+      />
+      <img src={heartbeats} className="ongoingheartbeatsimg" />
+      <div style={{ backgroundColor: '#F9FAFF', paddingTop: '80px', marginTop: '10px' }}>
         <div className="popularmaindiv">
           <p className='ourfeaturetextinvest'><span className='featuredash'></span>MOre Projects</p>
           <div><button className='investmentbtn'>other projects</button></div>
@@ -63,26 +102,27 @@ const Ongoing = () => {
                 />
               );
             })}
-          <Pagination 
-          className="ongoingpagination"
-        //   borderRadius={8}
-        colorPrimary='#445677'
-        // simple={'false'}
-        size="large"
-            current={currentPage}
-            defaultCurrent={1}
-            pageSize={pageSize}
-            total={populararr.length}
-            onChange={handlePageChange}
-          />
+            <Pagination
+              className="ongoingpagination"
+              //   borderRadius={8}
+              colorPrimary='#445677'
+              // simple={'false'}
+              size="large"
+              current={currentPage}
+              defaultCurrent={1}
+              pageSize={pageSize}
+              total={populararr.length}
+              onChange={handlePageChange}
+              itemRender={paginationIcons}
+            />
           </div>
         </div>
       </div>
 
 
-      <Comeandjoinus/>
-      <Areyouhappy/>
-      <Footer/>
+      <Comeandjoinus />
+      <Areyouhappy />
+      <Footer />
     </div>
   )
 }

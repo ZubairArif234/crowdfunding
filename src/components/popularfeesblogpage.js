@@ -23,7 +23,7 @@ const Popularfeedblogpage = () =>{
  ]
      return(
          <div  className='blogpagesearchboxmaindiv'>
-             <p className='ourfeaturetext'><span className='featuredash'></span>Popular Feeds</p>
+             <p className='ourfeaturetextinvestblog'><span className='featuredashblog'></span>Popular Feeds</p>
              <div className='instagramfeedbelogpagediv'>
  
                <ul className="catagoriesullist">

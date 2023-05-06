@@ -9,7 +9,7 @@ import youtube from './images/youtube.png'
 const Socialprofileblogpage = () =>{
     return(
         <div  className='blogpagesearchboxmaindiv'>
-            <p className='ourfeaturetext'><span className='featuredash'></span>Social Profile</p>
+            <p className='ourfeaturetextinvestblog'><span className='featuredashblog'></span>Social Profile</p>
             <div className='aboutcardbelogpageimagesdiv'>
             <img className='socialimagesblogpage' src={facebook}/>
             <img className='socialimagesblogpage' src={twitter}/>
