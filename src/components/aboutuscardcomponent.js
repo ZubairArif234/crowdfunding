@@ -5,7 +5,7 @@ import Aboutuscardscomp from "./aboutuscardscomp"
 const Aboutuscardcomponent = () => {
     return(
         <div className='makemaindiv'>
-            <p className='ourfeaturetext'><span className='featuredash'></span>Angle</p>
+            <p className='ourfeaturetextinvest'><span className='featuredash'></span>Angle</p>
             <div><button className='investmentbtn'>Team</button></div>
             <p className='investmentheading'>Awesome Team</p>
             

@@ -17,10 +17,10 @@ const Projectdetailsecondcomp = () =>{
             <div className='projectdetailnavigationmaindiv'>
 
             <div className='projectdetailnavigationdiv'>
-                <p id='campaign' className= {secopmnavactiv == 'campaign' ?  'fw-bold  projectdetailactivnav' : 'fw-bold projectdetailsinglenav'} onClick={activnav}>Campaign</p>
-                <p id='faq' className={secopmnavactiv == 'faq' ?  'fw-bold  projectdetailactivnav' : 'fw-bold projectdetailsinglenav'} onClick={activnav}>FAQ (1)</p>
-                <p id='updates' className={secopmnavactiv == 'updates' ?  'fw-bold  projectdetailactivnav' : 'fw-bold projectdetailsinglenav'} onClick={activnav}>Updates (2)</p>
-                <p id='comments' className={secopmnavactiv == 'comments' ?  'fw-bold  projectdetailactivnav' : 'fw-bold projectdetailsinglenav'} onClick={activnav}>Comments (0)</p>
+                <p id='campaign' className= {secopmnavactiv == 'campaign' ?  '  projectdetailactivnav' : ' projectdetailsinglenav'} onClick={activnav}>Campaign</p>
+                <p id='faq' className={secopmnavactiv == 'faq' ?  '  projectdetailactivnav' : ' projectdetailsinglenav'} onClick={activnav}>FAQ (1)</p>
+                <p id='updates' className={secopmnavactiv == 'updates' ?  '  projectdetailactivnav' : ' projectdetailsinglenav'} onClick={activnav}>Updates (2)</p>
+                <p id='comments' className={secopmnavactiv == 'comments' ?  ' projectdetailactivnav' : ' projectdetailsinglenav'} onClick={activnav}>Comments (0)</p>
             </div>
             </div>
             <div>

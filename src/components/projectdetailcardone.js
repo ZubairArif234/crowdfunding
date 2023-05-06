@@ -22,7 +22,7 @@ const Projectdetailscardone = () => {
                     <p className="projectdetailsfirstbigtext">at London, UK</p>
                 </Col>
                 <Col xs={8} lg={9} style={{ paddingLeft: '20px' }}>
-                    <p className='ourfeaturetext'><span className='featuredash'></span>MUSIC</p>
+                    <p className='ourfeaturetextinvest'><span className='featuredash'></span>MUSIC</p>
 
                     <p className='investmentheading'>BELIEVE - JUSTIN BIEBER</p>
                 </Col>
@@ -42,6 +42,7 @@ const Projectdetailscardone = () => {
                         strokeColor="#6100B3"
                         percent={80}
                         showInfo={false}
+                        trailColor="#956CD9"
                         style={{ height: "3px" , marginBottom:'10px' }}
                     />
                     <Row className="priceanddetailrow" style={{marginTop:'10px'}}>

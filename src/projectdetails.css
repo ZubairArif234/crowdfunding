@@ -18,6 +18,8 @@
 
 
 .projectdetailsfirstbigtext{
+    font-family: Rubik;
+    font-weight: 300;
     margin: 20px 0px;
     color: #6F7172;
     font-size: 15px;
@@ -59,12 +61,13 @@
 .projectprogressdollarone{
     color: #062A4D;
     font-size: 45px;
-    font-family: poppiens;
-    /* font-weight: 700; */
+    font-family: Poppins;
+    font-weight: 600;
 }
 .projectdetailcardpricebelowtext{
     color: #6F7172;
-    font-family: rubiklight;
+    font-family: Rubik;
+    font-weight: 400;
     font-size: 15px;
     line-height: 1px;
 }
@@ -184,6 +187,9 @@
     align-items: center;
 }
 .projectdetailsinglenav {
+    font-family: Rubik;
+    font-weight: 400;
+    list-style: 2px;
     color: #8C8BB5;
     cursor: pointer;
     /* margin-bottom: -5px; */
@@ -194,6 +200,8 @@
     
 }
 .projectdetailactivnav {
+    font-family: Rubik;
+    font-family: 400;
     /* margin-bottom: -10px; */
     cursor: pointer;
     /* position: absolute; */
@@ -211,7 +219,9 @@
 }
 .projectdetaillastcompseclasttext{
 
-    font-family: rubiklight;
+    font-family: Rubik;
+    font-weight: 400;
+    letter-spacing: 2px;
     font-size: 15px;
     color: #6F7172;
 }
@@ -288,6 +298,8 @@ margin-top: 10px;
         line-height: 1px;
     }
     .projectdetailsfirstbigtext{
+        font-family: Rubik;
+        font-weight: 300;
         margin: 20px 0px;
         color: #6F7172;
         font-size: 10px;

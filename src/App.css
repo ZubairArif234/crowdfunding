@@ -246,6 +246,10 @@
   /* align-items: rignt; */
   padding: 10px 10px;
 }
+.investmentbtn:hover{
+  background-color: #062A4D;
+  color: white;
+}
 
 .investmentheading {
   margin-left: 20px;
@@ -433,6 +437,11 @@
   /* align-items: rignt; */
   padding: 10px;
 }
+.popmoreproj:hover{
+  background-color: #062A4D;
+  color: white;
+  /* transition: background-color ease; */
+}
 
 
 /* make it easier */
@@ -566,13 +575,25 @@
 
 .deamlastthirddiv {
   background-color: #1B70F0;
-  opacity: 0.3;
+  opacity: 0.4;
   width: 78%;
   top: 12px;
   height: 50px;
   position: absolute;
   /* background-color: green; */
   margin-left: 11%;
+}
+.deamlastthirdlastdiv {
+  background-color: #1B70F0;
+  opacity: 0.2;
+  width: 75%;
+  top: 20px;
+  color: #1B70F0;
+  height: 50px;
+  position: absolute;
+  /* background-color: green; */
+  /* margin: 0 auto; */
+  margin-left: 13%;
 }
 
 .alldreamnavp {

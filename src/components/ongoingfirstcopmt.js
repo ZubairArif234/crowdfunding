@@ -13,7 +13,7 @@ const Ongoingfirstcomp = ({heading , detailtext , navtext , sideimg , below}) =>
         <div>
             <Row className="ongoingfirstcomp">
                 <Col xs={12} lg={6} className="ongoingfirstcompcol">
-                <p className="fw-bold ongoingfirstcompheading">{heading}</p>
+                <p className=" ongoingfirstcompheading">{heading}</p>
                 <p className="ongoingfirstcomptext">{detailtext}</p>
                 <p className="ongoingfirstcomptextbelow"> {navtext}</p>
                 </Col>

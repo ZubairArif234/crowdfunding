@@ -16,6 +16,8 @@
     width: 100%;
  }
  .ongoingfirstcompheading{
+   font-family: Poppins;
+   font-weight: 600;
     font-size: 50px;
     color: #062A4D;
     padding-left: 20px;
@@ -24,7 +26,8 @@
  }
  .ongoingfirstcomptext{
     color: #6F7172;
-    font-family: rubiklight;
+    font-family: Rubik;
+    font-weight: 300;
     font-size: 15px;
     padding: 20px;
 }

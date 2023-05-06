@@ -37,14 +37,14 @@ const Ongoing = () => {
       <Ongoingfirstcomp 
       heading='Ongoing Projects'
       detailtext ='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
-      navtext='Home &gt; Progress'
+      navtext='Home  &gt;   Progress'
       sideimg={gittar}
       below={heartbeats}
        />
         <img src={heartbeats} className="ongoingheartbeatsimg" />
       <div style={{backgroundColor:'#F9FAFF', paddingTop:'80px' ,marginTop:'10px'}}>
         <div className="popularmaindiv">
-          <p className='ourfeaturetext'><span className='featuredash'></span>MOre Projects</p>
+          <p className='ourfeaturetextinvest'><span className='featuredash'></span>MOre Projects</p>
           <div><button className='investmentbtn'>other projects</button></div>
           <p className='investmentheading'>Ongoing Projects</p>
           <div className=" ongoingpopularcard popularcarddiv " >

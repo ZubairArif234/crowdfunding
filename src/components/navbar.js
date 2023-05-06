@@ -20,25 +20,25 @@ function Navbarcrowd() {
           <NavDropdown className='text-uppercase' title="PROJECTS" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">
               {/* Action */}
-          <Link className='nav-link text-uppercase' href="#features">Features</Link>
+          <Link to={'/ongoing'} className='nav-link text-uppercase' href="#features">ongoing project</Link>
               </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               {/* Another action */}
-          <Link className='nav-link text-uppercase' href="#features">Features</Link>
+          <Link to={'/projectdetails'} className='nav-link text-uppercase' href="#features">detail project</Link>
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">
-          <Link className='nav-link text-uppercase' href="#features">Features</Link>
+          <Link to={'/completedproject'} className='nav-link text-uppercase' href="#features">completed project</Link>
               {/* Something */}
               </NavDropdown.Item>
             
            
           </NavDropdown>
-          <Link className='nav-link text-uppercase' href="#features">BLOG</Link>
-          <Link className='nav-link text-uppercase' href="#features">Contact</Link>
+          <Link to={'/blog'} className='nav-link text-uppercase' href="#features">BLOG</Link>
+          <Link to={'/contact'} className='nav-link text-uppercase' href="#features">Contact</Link>
         </Nav>
         <Nav style={{paddingRight:'30px'}}>
           <Link className='nav-link' href="#features"><button className='nav-linkbtn'> start campaign</button></Link>
-          <Link className='nav-link' href="#features"><button className='nav-linkbtnimg'> <img style={{width:'16px' , height:'16px'}} src={lock} /> </button></Link>
+          <Link to={'/checkout'} className='nav-link' href="#features"><button className='nav-linkbtnimg'> <img style={{width:'16px' , height:'16px'}} src={lock} /> </button></Link>
           {/* <Link className='nav-link' href="#features">Features</Link> */}
           
         </Nav>

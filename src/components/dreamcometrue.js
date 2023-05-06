@@ -129,6 +129,7 @@ function Dreamcometrue () {
                         <p>kll</p>
                     </div> */}
                     <div className="deamlastthirddiv"><p>lpo</p></div>
+                    <div className="deamlastthirdlastdiv"><p>lpo</p></div>
                     <div className="dreamlastsecdiv">
                         <div className="alldreamnavp">
                             <p className="dreamnav" onClick={() => dreamnavpclick('rock')}>ROCK</p>
