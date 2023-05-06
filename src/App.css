@@ -8,21 +8,9 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* @font-face {
-  font-family: rubik;
-  src: url(./components/fonts/Rubik-Bold.ttf);
-}
 
-@font-face {
-  font-family: rubiklight;
-  src: url(./components/fonts/Rubik-Light.ttf);
-  font-weight: 800;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* .nav-link { */
-  /* font-weight: bold !important; */
-  
-/* } */
+
 .nav-link{
   color:#19142E !important;
   outline: none;
@@ -101,21 +89,18 @@
 }
 
 .homedivone {
-  /* background-color: aqua; */
   width: 650px;
-  /* margin-top: 20px; */
   margin: 10px;
-  /* position: relative; */
+
 }
 
 .prgressanddetails {
-  /* background-color: brown; */
-  /* width: 90%; */
+  
   margin: 10px;
 }
 
 .homeprogressdetails {
-  /* background-color: lightsalmon; */
+  
   display: flex;
   justify-content: space-between;
 }
@@ -124,12 +109,12 @@
   font-family: Rubik;
   font-weight: 450 !important;
   font-size: 11px;
-  /* background-color: orangered; */
+  
   line-height: -10px;
 }
 
 .homepriceone {
-  /* background-color: olive; */
+  
   font-family: Poppins;
   font-size: 30px;
   font-weight: 600;
@@ -168,7 +153,7 @@
 }
 
 
-/* plan box */
+
 .planboxmain {
   background-color: hsl(330, 4%, 91%);
   width: 90%;
@@ -186,16 +171,15 @@
   flex-wrap: wrap;
   margin: 0 auto;
   border-top: 4px solid #1E1E1E;
-  ;
-  /* margin-right: 20%; */
-  /* background-color: aqua; */
+  
+ 
 }
 
 .planboxsmalldivs {
-  /* background-color: blue; */
+
   margin-top: 10px;
   width: 270px;
-  /* width: 100%; */
+  
 }
 
 .planboxtext {
@@ -208,10 +192,9 @@
 
 .makemaindiv {
   width: 65%;
-  /* margin-top: 50px; */
-  /* background-color: aqua; */
+  
   margin: 0px auto;
-  /* margin-top: 0px; */
+  
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -221,7 +204,7 @@
   color: #1B70F0;
   margin-left: 60px;
   text-transform: uppercase;
-  /* background-color: palevioletred; */
+
   letter-spacing: 2px;
   font-size: 12px;
   font-weight: 500;
@@ -233,7 +216,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   width: 130px;
-  /* margin-bottom: 10px; */
+  
   margin-left: 85%;
   
   text-transform: uppercase;
@@ -241,9 +224,7 @@
   background-color: white;
   font-size: 10px;
   color: #062A4D;
-  /* font-weight: bold; */
-  /* display: flex; */
-  /* align-items: rignt; */
+  
   padding: 10px 10px;
 }
 .investmentbtn:hover{
@@ -259,12 +240,12 @@
   font-family: Poppins;
   letter-spacing: -1px;
 
-  /* background-color: yellow; */
+  
 }
 
 
 .investcard {
-  /* background-color: brown; */
+  
   width: 270px;
 }
 
@@ -290,13 +271,13 @@
   padding: 5px;
   width: 240px;
   height: 220px;
-  /* background-color: aqua; */
+ 
 }
 
 .investcarddiv {
   margin-top: 10px;
   margin-bottom: 10px;
-  /* background-color: yellow; */
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -311,14 +292,14 @@
 
 .popularsuparmaindiv {
   padding: 20px;
-  /* margin-bottom: 50px; */
+  
   background-color: #F9FAFF;
 
 }
 
 .populartextblue {
   color: #1B70F0;
-  /* background-color: palevioletred; */
+  
   letter-spacing: 2px;
   font-size: 12px;
   font-family: Rubik;
@@ -342,17 +323,17 @@
 }
 
 .popprogressprice {
-  /* background-color: brown; */
+ 
   width: 80%;
 }
 .completedprojectpopprogressprice {
-  /* background-color: brown; */
+  
   width: 100%;
 }
 
 .poppriceanddetail {
   display: flex;
-  /* background-color: yellow; */
+  
   justify-content: space-between;
 }
 
@@ -373,31 +354,13 @@
   font-weight: 400;
   font-size: 11px;
 }
-.eventbtn{
-  /* font-family: rubik;
-  font-weight: 400;
-  letter-spacing: 1px;
-  width: 130px;
-  margin-left: 85%;
-  
-  text-transform: uppercase;
-  border: 1px solid #EAD2FF;
-  font-size: 10px;
-  color: #062A4D;
-  padding: 10px 10px;
-  background-color: transparent;
-  margin-bottom: 10px;
-  background-color: transparent;
-  font-weight: bold;
-  display: flex;
-  align-items: rignt; */
-}
+
 
 
 .poppriceanddetailbelow {
   display: flex;
   justify-content: space-between;
-  /* background-color: yellow; */
+
   border-top: 1px solid rgb(224, 224, 224);
 }
 
@@ -415,54 +378,45 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 80px;
-  /* background-color: yellow; */
+
 }
 
 
 .popmoreproj {
   font-family: Rubik;
   width: 150px;
-  /* margin-bottom: 10px; */
-  /* margin-left: 85%; */
+ 
   text-transform: uppercase;
   border: 1px solid #EAD2FF;
   background-color: white;
   font-size: 12px;
   color: #062A4D;
   font-weight: 400;
-  /* font-weight: bold; */
+ 
   margin: 0 auto;
 
-  /* display: flex; */
-  /* align-items: rignt; */
   padding: 10px;
 }
 .popmoreproj:hover{
   background-color: #062A4D;
   color: white;
-  /* transition: background-color ease; */
+ 
 }
 
 
 /* make it easier */
 .easiernumone {
   text-shadow: 2px 2px 10px #b2cdf5;
-  /* text-shadow: #1B70F0 0px 7px 29px 0px; */
+
   text-align: center;
   font-size: 150px;
-  /* background-color: greenyellow; */
+
   font-weight: bolder;
   color: #F6FBFF;
-  /* position: absolute; */
-  /* right: 1px; */
+  
   font-family: Poppins;
 }
 
-.easiernumbres {
-  /* background-color: yellow; */
-  /* position: absolute; */
-  /* width: 100px; */
-}
 
 .allnumbresdiv {
   display: flex;
@@ -470,7 +424,7 @@
   width: 75%;
   margin: 0 auto;
   align-items: center;
-  /* background-color: #1B70F0; */
+ 
   justify-content: space-around;
 }
 
@@ -485,49 +439,26 @@
   top: 10px;
   display: flex;
   justify-content: space-around;
-  /* background-color: forestgreen; */
+  
 
 }
 
-.easiernumbresone {
-  /* background-color: yellow; */
-  /* right: 265px; */
-  /* left: 10px; */
-  /* position: absolute; */
-}
 
-.easiernumbrestwo {
-  /* background-color: yellow; */
-  /* position: absolute; */
-  /* right: 165px; */
-}
-
-.easiernumbresthree {
-  /* background-color: yellow; */
-  /* right: 10px; */
-  /* position: absolute; */
-}
 
 .numonedetail {
-  /* height: 50vh; */
-  /* width: 180px; */
-  /* background-color: orangered; */
+ 
   font-weight: bold;
   color: #062A4D;
   text-align: center;
   font-family: Poppins;
-  /* margin-top:200px ; */
+  
 
 }
 
 .lineone {
-  /* background-color: orange; */
   height: 0.5vh;
-  /* margin-top: 10px; */
-  /* position: absolute; */
-  /* top: 35%; */
-  /* right: 50%; */
   width: 30%;
+ 
 }
 
 .bluedot {
@@ -545,13 +476,13 @@
   height: 60px;
   width: 100%;
   margin: 0 auto;
-  /* background-color: orangered; */
+
   margin-bottom: 10px;
 }
 
 .dreamlastdiv {
   background-color: #1B70F0;
-  /* height: 50px; */
+  
   width: 76%;
   margin-left: 12%;
   opacity: 0.1;
@@ -562,12 +493,11 @@
 }
 
 .dreamlastsecdiv {
-  /* align-content: center; */
-  /* margin: 0 auto; */
+  
   margin-left: 10%;
-  /* width: 60%; */
+  
   background-color: #1B70F0;
-  /* opacity: 0.3; */
+  
   position: absolute;
   top: 2px;
   width: 80%;
@@ -580,7 +510,7 @@
   top: 12px;
   height: 50px;
   position: absolute;
-  /* background-color: green; */
+
   margin-left: 11%;
 }
 .deamlastthirdlastdiv {
@@ -591,13 +521,12 @@
   color: #1B70F0;
   height: 50px;
   position: absolute;
-  /* background-color: green; */
-  /* margin: 0 auto; */
+ 
   margin-left: 13%;
 }
 
 .alldreamnavp {
-  /* background-color: greenyellow; */
+ 
   width: 60%;
   margin: 0 auto;
   display: flex;
@@ -614,7 +543,7 @@
   cursor: pointer;
   color: #FFFFFF;
   margin-top: 15px;
-  /* background-color: yellow; */
+  
 }
 
 
@@ -635,25 +564,7 @@
   margin: 10px;
 }
 
-/* .day02 {
-  background-color: #1A1430 !important;
-  border-radius: 30px;
-  width: 120px;
-  padding: 10px;
-  color: #AEABBA;
-  border: none;
-  margin: 10px;
-}
 
-.day03 {
-  border: none;
-  margin: 10px;
-  background-color: #1A1430;
-  border-radius: 30px;
-  width: 120px;
-  padding: 10px;
-  color: #AEABBA;
-} */
 .day01:hover, .day02:hover, .day03:hover
 {
   background-color: #1B70F0 !important;
@@ -679,8 +590,7 @@
 
 
 .eventsdivone {
-  /* background-color: orange; */
-  /* height: 150px; */
+  
   margin-bottom: 20px;
   padding: 10px;
   display: flex;
@@ -690,14 +600,14 @@
 }
 
 .divoneevent {
-  /* background-color: yellowgreen; */
+ 
   width: 15%;
   box-sizing: border-box;
   border-right: 2px dashed #1D1734;
 }
 
 .divoneeventtext {
-  /* background-color: yellowgreen; */
+  
   width: 70%;
 }
 
@@ -709,11 +619,11 @@
 }
 
 .eventtext {
-  /* font-family: rubiklight; */
+ 
   color: #AEABBA;
   letter-spacing: 1px;
   font-size: 13px;
-  /* color: white; */
+  
   font-family: Poppins;
 }
 
@@ -722,7 +632,7 @@
   font-weight: 300;
   font-size: 13px;
   color: #AEABBA;
-  /* font-family: Poppins; */
+  
 }
 
 .enevtsimg {
@@ -731,26 +641,25 @@
 
 .eventbtn {
   border: none;
-  /* margin: 10px; */
+  
   background-color: transparent;
   font-size: 10px;
   letter-spacing: 1px;
   font-family: Rubik;
   font-weight: 500;
   text-transform: uppercase;
-  /* border-radius: 30px; */
+  
   border: 1px solid #322952;
   width: 140px;
   margin-left: 85%;
-  /* height: 30px; */
-  /* margin: 40px 0; */
+  
   padding: 10px;
   color: white;
 }
 
 .divoneeventtwo {
   justify-content: space-around;
-  /* background-color: #1B70F0; */
+  
   display: flex;
   width: 80%;
   color: #AEABBA;
@@ -770,8 +679,7 @@
   border-radius: 30px;
   width: 150px;
   font: 8px;
-  /* height: 30px; */
-  /* margin: 50px 0; */
+
   padding: 10px;
   color: white;
 }
@@ -784,9 +692,9 @@
 }
 
 .enevtsimgbtn {
-  /* background-color: yellow; */
+ 
   padding: 0px 10px;
-  /* margin-top: 23%; */
+  
   width: 100px;
   height: 60px;
 }
