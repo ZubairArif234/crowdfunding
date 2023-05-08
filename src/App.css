@@ -50,6 +50,8 @@
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 }
 .navbarlogo{
+  margin-left: 30px;
+  margin-right: 30px;
   width: 200px;
 }
 .navbar-toggler {
@@ -2094,12 +2096,17 @@
         left:-24px
       }
       .ourfeaturetextinvest{
-        margin-left: 47px;
+        margin-left: 27px;
       }
       .investmentbtn{
         padding: 7px 15px;
         letter-spacing: 1px;
         width: auto;
         /* line-height: 3px; */
+      }
+      .navbarlogo{
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 170px;
       }
     }

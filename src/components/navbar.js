@@ -10,7 +10,7 @@ function Navbarcrowd() {
   return (
     <Navbar className='navbarmainouterdiv' collapseOnSelect expand="lg">
     {/* <Container> */}
-      <Navbar.Brand href="#home" style={{paddingLeft:'30px',paddingRight:'30px'}}><img className='navbarlogo' src={backed}/></Navbar.Brand>
+      <Navbar.Brand href="#home" ><img className='navbarlogo' src={backed}/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto d-flex gap-3 ">

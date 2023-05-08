@@ -11,16 +11,19 @@ import telephonefullycoloured from './images/telephonefullycoloured.png'
 const Contactform = () =>{
     return(
         <div className="makemaindiv contactusform">
-              <p className='ourfeaturetextinvest'><span className='featuredash'></span>Anything On your Mind</p>
+            {/* <div> */}
+
+              <p className='ourfeaturetextinvest contactusfeatureline'><span className='featuredash'></span>Anything On your Mind</p>
             <div className="makecallbtn"><button className='  makecallbtncontact' style={{ color: 'white', backgroundColor: '#1B70F0',paddingTop:'10px', border: 'none' }}> <img src={telephonefullycoloured}width={10} style={{marginRight:'10px'}} />make call</button></div>
             <p className='investmentheading'>Estimate Your Idea</p>
+            {/* </div> */}
             <div>
                 <div className="inputtwouterdiv" style={{marginTop:'30px'}}>
-                    <div lg={6} className="formblock">
+                    <div xs={12} lg={6} className="formblock">
                     <img src={personblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Name" className="contactusforminput"/>
                     </div>
-                    <div lg={6} className="formblock">
+                    <div xs={12} lg={6} className="formblock">
                     <img src={emailblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Email" className="contactusforminput"/>
                     {/* <input/> */}
@@ -33,7 +36,7 @@ const Contactform = () =>{
                     <input placeholder="Your Phone" className="contactusforminput"/>
                     
                     </div>
-                    <div lg={12} className="formblock">
+                    <div lg={6} className="formblock">
                     <img src={pointblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Subject" className="contactusforminput"/>
                     
