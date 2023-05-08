@@ -22,7 +22,7 @@ const Projectdetailscardone = () => {
                     <p className="projectdetailsfirstbigtext">at London, UK</p>
                 </Col>
                 <Col xs={8} lg={9} style={{ paddingLeft: '20px' }}>
-                    <p className='ourfeaturetextinvest'><span className='featuredash'></span>MUSIC</p>
+                    <p className='ourfeaturetextinvestsubs'><span className='featuredash'></span>MUSIC</p>
 
                     <p className='investmentheading'>BELIEVE - JUSTIN BIEBER</p>
                 </Col>

@@ -48,12 +48,25 @@ font-weight: 600;
     font-weight: 300;
     font-size: 12px;
 }
-.communityheadingupdate{
+.investmentheadingabout {
+    /* margin-left: 20px; */
+    font-weight: 600;
+    color: #062A4D;
     font-size: 30px;
+    font-family: Poppins;
+    letter-spacing: -1px;
+    /* background-color: yellow; */
+    /* width: 50%; */
+    line-height: 40px;
+  
+    
+  }
+.communityheadingupdate{
+    font-size: 40px;
     color: #062A4D;
     font-family: Poppins;
     font-weight: 600;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 
 }
 .communitydivpartone{
@@ -61,6 +74,7 @@ font-weight: 600;
     font-size: 13px;
     width: 400px;
     padding: 10px;
+    padding-left: 0px;
     /* background-color: orangered; */
 }
 .communityupperblockdivbelowimg{
@@ -168,8 +182,15 @@ letter-spacing: 2px;
 background-color: #44017a;
 }
 .comeandjoinusbtncontactus{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    font-family: Rubik;
+    font-weight: 300;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 10px !important;
+    font-size: 10px !important ;
     padding-left: 25px !important ;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
@@ -182,7 +203,7 @@ background-color: #44017a;
 
 }
 .aboutusseccomptextone{
-    margin-left: 20px;
+    margin-left: 5px;
     font-family: Rubik;
     font-weight: 300;
     color: #6F7172;
@@ -308,6 +329,7 @@ font-size: 25px;
         background-color: orangered;
     } */
     .comeandjoinusbtn , .blogarrow{
+        font-size: 10px;
     width: 200px !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;

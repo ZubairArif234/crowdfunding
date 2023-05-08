@@ -8,8 +8,8 @@ const Aboutuscommunitcomponent = () => {
             <div className="makemaindiv">
                 <div className="communitydiv">
                     <div className="communitydivpartone">
-                        <p className='ourfeaturetextinvest'><span className='featuredash'></span>Community </p>
-                        <p className="investmentheading">Get Every Updates</p>
+                        <p className='ourfeaturetextinvestsubs'><span className='featuredash'></span>Community </p>
+                        <p className="investmentheadingabout">Get Every Updates</p>
                         <p className="aboutusseccomptextone">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis nostrud exercit ation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor veniam.</p>
                     </div>
                     <div className="communitydivpartone">

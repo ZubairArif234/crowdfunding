@@ -15,7 +15,7 @@ const Contactform = () =>{
             <div className="makecallbtn"><button className='  makecallbtncontact' style={{ color: 'white', backgroundColor: '#1B70F0',paddingTop:'10px', border: 'none' }}> <img src={telephonefullycoloured}width={10} style={{marginRight:'10px'}} />make call</button></div>
             <p className='investmentheading'>Estimate Your Idea</p>
             <div>
-                <div className="inputtwouterdiv">
+                <div className="inputtwouterdiv" style={{marginTop:'30px'}}>
                     <div lg={6} className="formblock">
                     <img src={personblue} style={{width:'15px' , height:'15px'}}/>
                     <input placeholder="Your Name" className="contactusforminput"/>

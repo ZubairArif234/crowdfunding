@@ -33,14 +33,14 @@
 /* width: 100px; */
     /* background-color: yellow; */
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
         /* background-color: yellow; */
 }
 .projectdetailpriceanddetailstart{
 /* width: 100px; */
     /* background-color: yellow; */
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
         /* background-color: yellow; */
 }
 .projectdetailpriceanddetailcenter{
@@ -54,7 +54,7 @@
 /* width: 100px; */
     /* background-color: yellow; */
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
         /* background-color: yellow; */
 }
 

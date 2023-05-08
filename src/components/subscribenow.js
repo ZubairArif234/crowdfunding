@@ -10,7 +10,7 @@ function Scribenow() {
             <img className='blogimgone' src={news1} />
             <img className='blogimgtwo' src={news2} />
             <div style={{ paddingTop: '60px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }} className='makemaindiv' >
-                <div><p className='ourfeaturetextinvest'><span className='featuredash'></span>We are here for you</p>
+                <div><p className='ourfeaturetextinvestsubs'><span className='featuredash'></span>We are here for you</p>
                     <p style={{ color: 'white' }} className='investmentheading' >Subscribe Now</p></div>
                 <div className="inputandbtnblog" >
 

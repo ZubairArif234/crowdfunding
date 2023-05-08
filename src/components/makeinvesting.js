@@ -12,7 +12,7 @@ function Makeinvestment() {
     return(
         <div className='makemaindiv'>
             <p className='ourfeaturetextinvest'><span className='featuredash'></span>Our Features</p>
-            <div><button className='investmentbtn'>features</button></div>
+            <div className='investmentbtndiv'><button className='investmentbtn'>features</button></div>
             <p className='investmentheading'>We Make Investing Easy</p>
             
             

@@ -76,7 +76,8 @@ const Ongoing = () => {
       <Ongoingfirstcomp
         heading='Ongoing Projects'
         detailtext='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
-        navtext='Home  &gt;   Progress'
+        navtextone='Home'
+        navtexttwo='Progress'
         sideimg={gittar}
         below={heartbeats}
       />
@@ -84,9 +85,9 @@ const Ongoing = () => {
       <div style={{ backgroundColor: '#F9FAFF', paddingTop: '80px', marginTop: '10px' }}>
         <div className="popularmaindiv">
           <p className='ourfeaturetextinvest'><span className='featuredash'></span>MOre Projects</p>
-          <div><button className='investmentbtn'>other projects</button></div>
+          <div className="investmentbtndiv"><button className='investmentbtndream' style={{backgroundColor:'transparent'}}>other projects</button></div>
           <p className='investmentheading'>Ongoing Projects</p>
-          <div className=" ongoingpopularcard popularcarddiv " >
+          <div className=" ongoingpopularcard popularcarddiv " style={{marginTop:'50px' , marginBottom:'0px'}} >
             {currentCards.map((x) => {
               console.log(x.heading);
               return (

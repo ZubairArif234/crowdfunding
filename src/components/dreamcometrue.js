@@ -117,13 +117,13 @@ function Dreamcometrue () {
     }
 
     return (
-        <div className="popularsuparmaindiv">
-            <div className="popularmaindiv">
-                <div  className='makemaindiv popularcarddivsmall'>
+        <div className="">
+            <div className="makemaindiv">
+                {/* <div  className='makemaindiv popularcarddivsmall'> */}
                     <p className='ourfeaturetextinvest'><span className='featuredash'></span>More Projects</p>
-                    <div className=""><button className='investmentbtn' >Other Projects</button></div>
+                    <div className="investmentbtndiv"><button className='investmentbtndream' >Other Projects</button></div>
                     <p className='investmentheading'>Your Dream Comes True</p>
-                </div>
+                {/* </div> */}
                 <div className="dreamlastestdiv">
                     {/* <div className="dreamlastdiv">
                         <p>kll</p>
@@ -141,24 +141,28 @@ function Dreamcometrue () {
                         </div>
                     </div>
                 </div>
+                </div>
+                <div className="popularmaindiv">
+
                 <div className="popularcarddiv">
                     {arr.filter((a) => a.catogories == filterarr || filterarr === '').map((x) => {
                         console.log(x.heading);
                         return (
                             <Popularcard
-                                img={x.image}
-                                heading={x.heading}
-                                price1={x.price1}
-                                price2={x.price2}
-                                detail1={x.detail1}
-                                detail2={x.detail2}
-                                below1={x.below1}
-                                below2={x.below2}
+                            img={x.image}
+                            heading={x.heading}
+                            price1={x.price1}
+                            price2={x.price2}
+                            detail1={x.detail1}
+                            detail2={x.detail2}
+                            below1={x.below1}
+                            below2={x.below2}
                             />
-                        );
-                    })}
+                            );
+                        })}
                 </div>
             </div>
+                        {/* </div> */}
             <center>
                 {/* <button onClick={() => setarrlength(arrlength+3)} className="popmoreproj">more project</button> */}
             </center>

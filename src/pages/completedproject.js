@@ -76,7 +76,8 @@ const Completedproject = () => {
       <Navbarcrowd />
       <Ongoingfirstcomp heading='Completed Projects'
       detailtext ='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
-      navtext='Home &gt; Project Done'
+      navtextone='Home'
+      navtexttwo='Project Done'
       sideimg={completedheadphone}
       below={completedwaves}
       />
@@ -85,9 +86,9 @@ const Completedproject = () => {
       <br />
         <div className="popularmaindiv">
           <p className='ourfeaturetextinvest'><span className='featuredash'></span>More Projects</p>
-          <div><button className='investmentbtn'>other projects</button></div>
+          <div className="investmentbtndiv"><button className='investmentbtndream'>other projects</button></div>
           <p className='investmentheading'>Projects Done</p>
-          <div className=" ongoingpopularcard popularcarddiv " >
+          <div className=" ongoingpopularcard popularcarddiv " style={{marginTop:'50px', marginBottom:'0px'}} >
             {currentCards.map((x) => {
               console.log(x.heading);
               return (
@@ -106,7 +107,7 @@ const Completedproject = () => {
           <Pagination 
           className="ongoingpagination"
         //   borderRadius={8}
-        colorPrimary='#445677'
+        colorPrimary='#FFFFFF'
         // simple={'false'}
         size="large"
             current={currentPage}

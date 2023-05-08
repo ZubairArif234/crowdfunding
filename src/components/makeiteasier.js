@@ -6,7 +6,7 @@ function Makeiteasier() {
     return (
         <div className="makemaindiv" style={{marginBottom:'80px'}}>
             <p className='ourfeaturetextinvest'><span className='featuredash'></span>How it works</p>
-            <div><button className='investmentbtn' style={{ color: 'white', backgroundColor: '#1B70F0',paddingTop:'10px', border: 'none' }}> <img src={play}width={10} style={{marginRight:'10px'}} /> how work</button></div>
+            <div className='investmentbtndiv'><button className='investmentbtn' style={{ color: 'white', backgroundColor: '#1B70F0',paddingTop:'10px', border: 'none' }}> <img src={play}width={10} style={{marginRight:'10px'}} /> how work</button></div>
             <p className='investmentheading'>BACKED makes it easier</p>
             <div className='lineandnumbers'>
 

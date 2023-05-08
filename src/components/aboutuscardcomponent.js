@@ -6,7 +6,7 @@ const Aboutuscardcomponent = () => {
     return(
         <div className='makemaindiv'>
             <p className='ourfeaturetextinvest'><span className='featuredash'></span>Angle</p>
-            <div><button className='investmentbtn'>Team</button></div>
+            <div className="investmentbtndiv"><button className='investmentbtn'>Team</button></div>
             <p className='investmentheading'>Awesome Team</p>
             
             {/* <Container>
@@ -19,7 +19,7 @@ const Aboutuscardcomponent = () => {
         <Col>3 of 3</Col>
       </Row>
     </Container> */}
-            <div className="popularcarddiv">
+            <div className="popularcarddiv" style={{marginTop:'50px'}}>
                 <Aboutuscardscomp/>
                 <Aboutuscardscomp/>
                 <Aboutuscardscomp/>

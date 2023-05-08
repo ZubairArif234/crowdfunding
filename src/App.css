@@ -6,6 +6,7 @@
   src: url(./components/fonts/Poppins-Bold.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -125,7 +126,7 @@
   font-family: Poppins;
   font-size: 50px;
   padding: 10px;
-  font-weight: bold;
+  font-weight: 600 !important;
   /* background-color: yellow; */
   margin-top: 100px;
 }
@@ -155,7 +156,7 @@
 
 
 .planboxmain {
-  background-color: hsl(330, 4%, 91%);
+  /* background-color: hsl(330, 4%, 91%); */
   width: 90%;
   margin-left: 10%;
   padding-top: 40px;
@@ -170,7 +171,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  border-top: 4px solid #1E1E1E;
+  border-top: 3px solid #1E1E1E;
   
  
 }
@@ -202,22 +203,37 @@
 .ourfeaturetextinvest {
   position: relative;
   color: #1B70F0;
-  margin-left: 60px;
+  margin-left: 40px;
   text-transform: uppercase;
-
+/* background-color: yellow; */
+/* line-height: ; */
   letter-spacing: 2px;
   font-size: 12px;
   font-weight: 500;
   font-family: Rubik;
+  margin-bottom: -12px;
+}
+.ourfeaturetextinvestsubs {
+  position: relative;
+  color: #1B70F0;
+  margin-left: 40px;
+  text-transform: uppercase;
+/* background-color: yellow; */
+/* line-height: ; */
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Rubik;
+  /* margin-bottom: -12px; */
 }
 
 .investmentbtn {
   font-family: rubik;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   width: 130px;
-  
-  margin-left: 85%;
+  /* font-size: 24px; */
+  /* margin-left: 80%; */
   
   text-transform: uppercase;
   border: 1px solid #EAD2FF;
@@ -227,21 +243,51 @@
   
   padding: 10px 10px;
 }
+.investmentbtndream{
+  font-family: rubik;
+  font-weight: 400;
+  letter-spacing: 2px;
+  /* width: 150px; */
+  /* font-size: 24px; */
+  /* margin-left: 80%; */
+  
+  text-transform: uppercase;
+  border: 1px solid #EAD2FF;
+  background-color: white;
+  font-size: 10px;
+  color: #062A4D;
+  
+  padding: 10px 20px;
+}
+.investmentbtndiv{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-end;
+}
 .investmentbtn:hover{
   background-color: #062A4D;
   color: white;
 }
+.investmentbtndream:hover{
+  background-color: #062A4D;
+  color: white;
+
+}
 
 .investmentheading {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-weight: 600;
   color: #062A4D;
   font-size: 30px;
   font-family: Poppins;
   letter-spacing: -1px;
+  /* background-color: yellow; */
+  /* width: 50%; */
+  line-height: 1px;
 
   
 }
+
 
 
 .investcard {
@@ -275,7 +321,7 @@
 }
 
 .investcarddiv {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
   
   display: flex;
@@ -286,6 +332,7 @@
 
 /* popular series */
 .popularmaindiv {
+  /* background-color: yellow; */
   width: 75%;
   margin: 0 auto;
 }
@@ -375,7 +422,9 @@
 
 .popularcarddiv {
   display: flex;
-  justify-content: space-around;
+  /* background-color: #6100B3; */
+  /* margin-top: 50px; */
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 80px;
 
@@ -411,7 +460,8 @@
   text-align: center;
   font-size: 150px;
 
-  font-weight: bolder;
+  font-weight:700;
+  letter-spacing: 1px;
   color: #F6FBFF;
   
   font-family: Poppins;
@@ -447,8 +497,9 @@
 
 .numonedetail {
  
-  font-weight: bold;
-  color: #062A4D;
+  font-weight:700;
+  font-size: 18px;
+  color: #062A4D 10%;
   text-align: center;
   font-family: Poppins;
   
@@ -476,8 +527,9 @@
   height: 60px;
   width: 100%;
   margin: 0 auto;
-
-  margin-bottom: 10px;
+/* background-color: #1A1430; */
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .dreamlastdiv {
@@ -494,40 +546,42 @@
 
 .dreamlastsecdiv {
   
-  margin-left: 10%;
+  /* margin-left: 10%; */
   
   background-color: #1B70F0;
   
   position: absolute;
-  top: 2px;
-  width: 80%;
+  top: 32px;
+  width: 100%;
 }
 
 .deamlastthirddiv {
   background-color: #1B70F0;
   opacity: 0.4;
-  width: 78%;
-  top: 12px;
+  width: 97%;
+  top: 40px;
   height: 50px;
   position: absolute;
 
-  margin-left: 11%;
+  margin-left: 1.5%;
 }
 .deamlastthirdlastdiv {
+  margin-left: 3%;
   background-color: #1B70F0;
   opacity: 0.2;
-  width: 75%;
-  top: 20px;
+  width: 94%;
+  top: 50px;
   color: #1B70F0;
   height: 50px;
   position: absolute;
  
-  margin-left: 13%;
+  /* margin-left: 13%; */
 }
 
 .alldreamnavp {
  
   width: 60%;
+  /* background-color: yellow; */
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -779,9 +833,9 @@
 }
 
 .blogarrobtn {
-  width: 30px;
+  width: 20px;
   /* background-color: #1B70F0; */
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
   /* margin-left: 38px; */
 }
 
@@ -897,10 +951,18 @@
   font-weight: bold;
 }
 
+
+.investmentbtndream {
+  font-size: 9px;
+}
+
 .footerbelowtext {
   /* background-color: orangered; */
   /* margin-left: 0px; */
-  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 300;
+  color: #C4BEDA;
+  font-size: 13px;
 }
 
 .footerlastdivimgandtext {
@@ -931,7 +993,7 @@
 
 .footerbelowlasttext {
   font-family: rubiklight;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .lastestfooterblock {
@@ -995,8 +1057,9 @@
   background: #1B70F0;
 }
 .popularcarddivsmall{
-  width: 85%;
-  margin-left: 50px ;
+  width: 90%;
+  /* background-color: #6100B3; */
+  /* margin-left: 50px ; */
 }
 .navbardropdown{
   /* padding: 0px !important; */
@@ -1158,6 +1221,18 @@
     padding: 15px 25px;
     margin: 0px;
    
+  }
+  .investmentheading{
+    line-height: 35px;
+  }
+  .popularcarddiv {
+    display: flex;
+    /* background-color: #6100B3; */
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  
   }
 }
 @media only screen and (max-width: 900px) {
@@ -1485,6 +1560,10 @@
     margin-left: 50%;
     
   }
+  .investmentheading{
+    font-size: 25px;
+  }
+
   
 }
 
@@ -1495,6 +1574,9 @@
 @media only screen and (max-width: 600px) {
   .easiernumone {
     font-size: 80px;
+  }
+  .deamlastthirdlastdiv{
+    top: 41px;
   }
   .blogarrowsubus {
     background-color: #6100B3;
@@ -1662,7 +1744,10 @@
 
 
 @media only screen and (max-width: 500px) {
-
+  
+  .makemaindiv{
+    width: 95%;
+  }
   .homedivonetext {
     /* font-family: Poppins; */
     font-size: 35px;
@@ -1708,7 +1793,7 @@
 
   .makemaindiv {
     /* background-color: brown; */
-    width: 80%;
+    /* width: 80%; */
     /* margin-bottom: 80px; */
   }
 
@@ -1764,8 +1849,8 @@
 
   .deamlastthirddiv {
     height: 45px;
-    width: 90%;
-    margin-left: 10px;
+    /* width: 90%; */
+    /* margin-left: 10px; */
   }
 
   .dreamlastdiv {
@@ -1788,6 +1873,7 @@
 
   .investmentbtndream {
     font-size: 8px;
+    padding: 10px 5px;
   }
 
   .eventbtn2 {
@@ -1896,7 +1982,7 @@
     left: 5%;
     width: 30px;
   }
-
+  
   .eventbaaja {
     bottom: 15%;
     right: 5%;
@@ -1934,7 +2020,7 @@
     width: 20px;
     margin-left: 10px;
   }
-
+  
   .bloginputarea {
     outline: none;
     padding-left: 10px;
@@ -1999,3 +2085,21 @@
   }
 
 }
+    @media only screen and (max-width: 400px) {
+      .investmentheading{
+        font-size: 17px;
+      }
+      .featuredash{
+        width: 20px;
+        left:-24px
+      }
+      .ourfeaturetextinvest{
+        margin-left: 47px;
+      }
+      .investmentbtn{
+        padding: 7px 15px;
+        letter-spacing: 1px;
+        width: auto;
+        /* line-height: 3px; */
+      }
+    }
