@@ -5,6 +5,7 @@ import hexagon from './images/hexagon.png'
 import fugiat from './images/fugiat.png'
 import sband from './images/sband.png'
 import horse from './images/horse.png'
+import hotechcompanyrse from './images/techcompany.png'
 
 
 function Areyouhappy (){
@@ -19,7 +20,7 @@ function Areyouhappy (){
                     <img className='iconone' src={mlogo}/>
                     <img  className='iconone' src={hexagon}/>
                     <img  className='iconone' src={fugiat}/>
-                    <img  className='iconone'  src={mlogo}/>
+                    <img  className='iconone'  src={hotechcompanyrse}/>
                     <img  className='iconone'  src={sband}/>
                     <img  className='iconone'  src={horse}/>
 

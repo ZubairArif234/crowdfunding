@@ -6,6 +6,7 @@ import populararr from "../api";
 import { useState } from "react";
 import { Pagination } from 'antd';
 import '../App.css'
+import uppersign from '../components/images/uppersign.png'
 import Comeandjoinus from "../components/aboutuscomeandjoinus";
 import Areyouhappy from "../components/areyouhappy";
 import Footer from "../components/footer";
@@ -72,8 +73,14 @@ const Completedproject = () => {
   };
 
   return (
-    <div>
+    <div style={{position:'relative'}}>
       <Navbarcrowd />
+      <div className='uppersign'>
+        <a href='#gototop'>
+
+        <img src={uppersign}/>
+        </a>
+      </div>
       <Ongoingfirstcomp heading='Completed Projects'
       detailtext ='List as many team members as you want in two layout modes: standard & carousel. You can control and change the features of each.'
       navtextone='Home'

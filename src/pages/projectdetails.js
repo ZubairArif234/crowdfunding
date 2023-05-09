@@ -6,13 +6,20 @@ import Projectdetailscardone from "../components/projectdetailcardone"
 import Projectdetailsecondcomp from '../components/projectdetailsecondcomp';
 import Areyouhappy from '../components/areyouhappy';
 import Footer from '../components/footer';
+import uppersign from '../components/images/uppersign.png'
 
 
 
 const Projectdetails = () =>{
     return(
-        <div>
+        <div style={{position:'absolute'}}>
             <Navbarcrowd/>
+            <div className='uppersign'>
+        <a href='#gototop'>
+
+        <img src={uppersign}/>
+        </a>
+      </div>
             <div className="contactfirstcomponentdiv">
 
             <p className='contactusheading'>Project Details</p>

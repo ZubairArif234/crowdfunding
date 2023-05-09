@@ -75,6 +75,7 @@
      font-size:14px;
      padding-right:30px;
      padding-left:10px;
+     padding-bottom: 0px;
     font-weight:700;
 }
 .dropdown-item:hover{
@@ -125,6 +126,7 @@
 }
 
 .homedivonetext {
+  color: #19142E;
   font-family: Poppins;
   font-size: 50px;
   padding: 10px;
@@ -198,7 +200,7 @@
   
   margin: 0px auto;
   
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   padding-top: 50px;
 }
 
@@ -243,7 +245,7 @@
   font-size: 10px;
   color: #062A4D;
   
-  padding: 10px 10px;
+  padding: 15px 10px;
 }
 .investmentbtndream{
   font-family: rubik;
@@ -259,7 +261,7 @@
   font-size: 10px;
   color: #062A4D;
   
-  padding: 10px 20px;
+  padding: 15px 20px;
 }
 .investmentbtndiv{
   /* background-color: aqua; */
@@ -425,10 +427,10 @@
 .popularcarddiv {
   display: flex;
   /* background-color: #6100B3; */
-  /* margin-top: 50px; */
+  margin-top: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 
 }
 
@@ -444,7 +446,9 @@
   color: #062A4D;
   font-weight: 400;
  
-  margin: 0 auto;
+  margin: 10px auto;
+  margin-bottom: 40px;
+  
 
   padding: 10px;
 }
@@ -614,7 +618,7 @@
   text-transform: uppercase;
   font-family: Rubik;
   font-weight: 500;
-  padding: 15px;
+  padding: 20px;
   color: #AEABBA;
   border: none;
   margin: 10px;
@@ -625,6 +629,8 @@
 {
   background-color: #1B70F0 !important;
   color: white;
+  /* box-shadow: #2474eb 0px 1px 4px 2px;
+  transition: box-shadow 0.5s ease; */
 
 
 }
@@ -756,31 +762,31 @@
 }
 
 .eventcandy {
-  width: 60px;
+  width: 90px;
   position: absolute;
-  left: 3%;
-  top: 10%;
+  left: 9%;
+  top: 12%;
 }
 
 .eventcap {
-  right: 5%;
+  right: 15%;
   position: absolute;
-  width: 60px;
-  top: 15%;
+  width: 90px;
+  top: 14%;
 }
 
 .eventgift {
   bottom: 5%;
   position: absolute;
-  left: 3%;
-  width: 60px;
+  left: 5%;
+  width: 90px;
 }
 
 .eventbaaja {
-  bottom: 15%;
-  right: 3%;
+  bottom: 10%;
+  right: 9%;
   position: absolute;
-  width: 60px;
+  width: 70px;
 }
 
 .inputandbtnblog {
@@ -798,7 +804,7 @@
   padding: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 .arrowimgsubs{
   width: 20%;
@@ -990,7 +996,7 @@
   /* margin-top: 50px; */
   /* background-color: aqua; */
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .footerbelowlasttext {
@@ -1022,6 +1028,7 @@
 .lastestfooterblocktext {
   color: #7E7798;
   font-family: Rubik;
+  font-weight:300 ;
   font-size: 15px;
   width: 100%;
   /* vertical-align: middle; */
@@ -1072,6 +1079,20 @@
 
 .footerendcolums{
   width: 50%;
+}
+.uppersign{
+  background-color: #6100B3;
+ /* position: absolute; */
+ bottom: 40px;
+ right: 40px;
+ padding: 15px 20px;
+ border-radius: 30px;
+ position: fixed;
+ z-index: 100;
+}
+.uppersign:hover{
+  transition: box-shadow 0.5s ease;
+  box-shadow: #6100B3 0px 7px 29px 0px;
 }
 
 
@@ -1141,11 +1162,31 @@
     /* margin-top: 50px; */
     /* background-color: aqua; */
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0px !important;
     padding-right: 0px !important;
+  }
+  .eventcandy{
+    left: 3%;
+    width: 60px;
+    top: 14%;
+  }
+  .eventcap{
+    right: 5%;
+    width: 60px;
+    /* top: 12%; */
+  }
+  .eventgift{
+    left: 2%;
+    bottom: 2%;
+    width: 60px;
+  }
+  .eventbaaja{
+    bottom: 7%;
+    right: 3%;
+    width: 40px;
   }
 }
 
@@ -1233,7 +1274,7 @@
     justify-content: space-around;
     /* margin-top: 20px; */
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   
   }
 }
@@ -1473,15 +1514,15 @@
   } */
 
   .blogimgone {
-    width: 80px;
+    width: 50px;
     top: 30px;
-    left: 40px;
+    left: 15px;
     position: absolute;
   }
 
   .blogimgtwo {
-    width: 70px;
-    bottom: 30px;
+    width: 50px;
+    bottom: 15px;
     right: 30px;
     position: absolute;
   }
@@ -1574,11 +1615,11 @@
 
 
 @media only screen and (max-width: 600px) {
-  .easiernumone {
+  /* .easiernumone {
     font-size: 80px;
-  }
+  } */
   .deamlastthirdlastdiv{
-    top: 41px;
+    top: 45px;
   }
   .blogarrowsubus {
     background-color: #6100B3;
@@ -1642,40 +1683,40 @@
     /* background-color: brown; */
     top: 80px;
   }
-
+  
   .eventcandy {
     width: 40px;
-    position: absolute;
+    /* position: absolute; */
     left: 5%;
-    top: 10%;
-  }
-
-  .eventcap {
-    right: 10%;
-    position: absolute;
-    width: 40px;
     top: 15%;
   }
 
+  .eventcap {
+    right: 5%;
+    position: absolute;
+    width: 40px;
+    top: 20%;
+  }
+
   .eventgift {
-    bottom: 5%;
+    bottom: 4%;
     position: absolute;
     left: 5%;
     width: 40px;
   }
-
+  
   .eventbaaja {
-    bottom: 15%;
-    right: 5%;
+    bottom: 7%;
+    right: 3%;
     position: absolute;
     width: 40px;
   }
-
+  
   .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-
+  
   /* .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; 
@@ -1695,7 +1736,7 @@
     margin-top: 0;
     padding: 3px;
   } */
-
+  
   /* .blogarrobtn {
     width: 20px;
     margin-left: 10px;
@@ -1758,7 +1799,7 @@
     background-color: yellow; */
     /* margin-top: 100px; */
   }
-
+  
   .headphonepic {
     /* width: 100px; */
     /* background-color: palevioletred; */
@@ -1768,7 +1809,7 @@
     /* top: 10px; */
     /* position: absolute; */
   }
-
+  
   .homeimagelevels {
     /* position: relative; */
     width: 500px;
@@ -1848,21 +1889,21 @@
     width: 100%;
     margin-left: 0;
   }
-
+  
   .deamlastthirddiv {
     height: 45px;
     /* width: 90%; */
     /* margin-left: 10px; */
   }
-
+  
   .dreamlastdiv {
-
+    
     /* height: 50px; */
     width: 80%;
     margin-left: 10%;
-
+    
     height: 45px;
-
+    
   }
 
   .popcardpricebelow {
@@ -1891,21 +1932,21 @@
     padding: 10px;
     color: white;
   }
-
+  
   .eventsheading {
     font-family: Poppins;
     font-size: 9px;
     color: white;
     /* font-family: Poppins; */
   }
-
+  
   .eventtext {
     font-size: 8px;
     position: absolute;
     /* background-color: brown; */
     top: 80px;
   }
-
+  
   .headingofeventonr {
     font-size: 12px;
     font-family: Poppins;
@@ -1941,7 +1982,7 @@
     border: none;
     margin: 10px;
   }
-
+  
   .day02 {
     font-size: 11px;
     background-color: #1B70F0;
@@ -1952,7 +1993,7 @@
     border: none;
     margin: 10px;
   }
-
+  
   .day03 {
     font-size: 11px;
     border: none;
@@ -1963,40 +2004,41 @@
     padding: 10px;
     color: white;
   }
-
+  
   .eventcandy {
     width: 30px;
     position: absolute;
     left: 5%;
-    top: 18%;
+    top: 16%;
   }
-
+  
   .eventcap {
-    right: 10%;
+    right: 8%;
     position: absolute;
     width: 30px;
-    top: 20%;
+    top: 17%;
   }
 
   .eventgift {
-    bottom: 5%;
+    bottom: 3%;
     position: absolute;
     left: 5%;
     width: 30px;
   }
   
   .eventbaaja {
-    bottom: 15%;
+    bottom: 8%;
     right: 5%;
     position: absolute;
     width: 30px;
   }
-
+  
   .inputandbtnblog {
     /* background-color: orange; */
     width: 100%;
   }
-
+  
+  
   /* .inpurbloginnerdiv {
     background-color: white;
     /* height:'50px'; 
@@ -2005,7 +2047,7 @@
     padding-bottom: 5px;
     margin-top: 15px;
   } */
-
+  
   /* .blogarrow {
     background-color: #6100B3;
     color: white;
@@ -2087,7 +2129,7 @@
   }
 
 }
-    @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
       .investmentheading{
         font-size: 17px;
       }
@@ -2109,4 +2151,8 @@
         margin-right: 10px;
         width: 170px;
       }
+      .ourfeaturetextinvestsubs {
+        margin-left: 25px;
+      }
     }
+    

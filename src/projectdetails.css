@@ -72,6 +72,10 @@
     line-height: 1px;
 }
 .amountinputprojectdetailpage{
+    font-family: Rubik;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     width: 100%;
     color: #236484;
     background-color: #F8F8FF;
@@ -100,17 +104,19 @@
     margin-left: 70px !important;
 }
 .detailprojectarrow {
+    font-family: Rubik;
     width: 100%;
     margin-bottom: 0% !important;
     background-color: #6100B3;
     color: white;
     /* margin-top: 20px; */
-
+font-weight: 400;
+letter-spacing: 2px;
     border: none;
     padding: 10px 15px;
     /* padding-right: 10px !important ; */
     text-transform: uppercase;
-    font-size: 13px !important;
+    font-size: 12px !important;
     
   }
   /* .comeandjoinusbtn{
@@ -126,15 +132,18 @@
     align-items: center;
 }
 .detailprojectheart{
+    font-family: Rubik;
+    font-weight: 400;
     background-color: #062A4D;
     color: white;
     padding: 10px 20px;
     display: flex;
     align-items: center;
     /* width: 100px; */
+    letter-spacing: 2px;
 
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 12px;
     border: none;
     outline: none;
 }
@@ -147,7 +156,7 @@
     background-color: #EDF4FF;
 }
 .comeandjoinusbtnarrowdetailproject{
-    margin-left: 15px;
+    margin-left: 0px;
     width: 25px !important;
     /* padding-right: 10px !important ; */
     /* width: 40px !important; */
@@ -175,7 +184,7 @@
 }
 .projectdetailnavigationdiv{
     /* background-color: yellow; */
-    width: 70%;
+    width: 90%;
     font-family: rubiklight;
     /* font-weight: 200; */
     margin: 0 auto;
@@ -325,5 +334,16 @@ margin-top: 10px;
         align-items: center;
         justify-content: space-between;
         width: 100%;
+    }
+    .amountinputprojectdetailpage {
+        font-size: 12px;
+    }
+    .detailprojectarrow{
+        font-size: 12px;
+        
+    }
+    .detailprojectheart{
+        font-size: 12px;
+
     }
 }

@@ -5,6 +5,7 @@ import Footer from "../components/footer"
 import Areyouhappy from "../components/areyouhappy"
 import '../blogpage.css'
 import { Pagination } from 'antd';
+import uppersign from '../components/images/uppersign.png'
 import Blogpagesearchbox from "../components/blogpagesearchbox"
 import Blogpageaboutcard from "../components/blogpageaboutcard"
 import { Col, Row } from "react-bootstrap"
@@ -56,8 +57,14 @@ const Blogpagecomponent =  () =>{
         return originalElement;
       };
     return(
-        <div>
+        <div style={{position:'relative'}}>
             <Navbarcrowd/>
+            <div className='uppersign'>
+        <a href='#gototop'>
+
+        <img src={uppersign}/>
+        </a>
+      </div>
             <Blogfirstcomp/>
             <div className="blogpagebohtcardsdiv">
                 <Row style={{width:'100%' , marginLeft:'0px' , marginRight :'0px'}}>

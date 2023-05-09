@@ -13,8 +13,9 @@ import Footer from '../components/footer'
 
 const Checkoutform = () =>{
     return(
-        <>
+        < >
             <Navbarcrowd/>
+           
         <div className='mainestdiv'>
             <div className='checkoutformmaindiv'>
                 <div className='checkoutformdiv'>
