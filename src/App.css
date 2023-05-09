@@ -1196,7 +1196,7 @@
 
 @media only screen and (max-width: 1000px) {
   .inputandbtnblog {
-    /* background-color: orange; */
+    background-color: orange;
     width: 100%;
   }
 
