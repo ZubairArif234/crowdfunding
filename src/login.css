@@ -1,0 +1,225 @@
+
+/* .loginpagecolonetext{
+padding-top:44% ;
+height: 100vh;
+color: transparent;
+visibility: hidden;
+padding-bottom:40.4% ;
+    background: linear-gradient(180deg, rgba(110, 63, 233, 0) -19.78%, rgba(135, 41, 215, 0.497) 100%);
+} */
+.loginimgdivcol{
+    width: 100%;
+    /* background-image: url('./components/images/loginimg.png'); */
+    /* background-color: rgb(48, 168, 128); */
+    /* height: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh;
+}
+
+.loginrowdiv{
+    margin-left: 0px;
+    --bs-gutter-x:0px !important;
+}
+
+.logindiv{
+    /* background-color: brown; */
+    margin: 0 auto !important;
+    height: 125vh;
+    /* width: 100%; */
+    padding: 80px;
+    padding-top: 90px;
+}
+.loginformheading{
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+}
+.loginformlabel{
+    font-family: Poppins;
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.loginforminput{
+    width: 100%;
+    padding: 5px;
+    background-color: #E7E7E7;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0px 6.05769px 4.32692px rgba(0, 0, 0, 0.26);
+}
+.loginformradiobtns{
+    
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+}
+.loginformradiobtn{
+    accent-color: white;
+padding: 10px;    
+}
+.loginformradiobtnsortext{
+    /* padding-top: 10px; */
+    /* line-height: 50px; */
+    color: #B6B6B6;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+.loginformbuttonsubmitdiv{
+    margin: 0 auto ;
+    width: 75%;
+    /* background-color: pink; */
+}
+.loginformbuttonsubmit{
+    padding: 10px;
+    
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(180deg, #6100B3 0%, #7F18D7 100%);
+    width: 100%;
+}
+.loginformbuttonsubmit:hover{
+    background: linear-gradient(180deg, #7F18D7 0%, #6100B3 100%);
+
+}
+.loginformremenberandforgotpassdiv{
+    /* background-color: orangered; */
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    justify-content: space-between;
+}
+.loginformcreateaccount{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+    /* background-color: yellow; */
+    padding-top: 10px;
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+.loginformradiobtnlabel{
+    padding-left:5px;
+    font-family:Poppins ;
+    font-weight:300;
+     color:white
+}
+.loginformcreateaccountbelowtext{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 13px;
+    /* background-color: yellow; */
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.loginformgoogleimg{
+    /* background-color: aqua; */
+    width: 10%;
+    margin: 20px auto;
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .logindiv{
+        /* background-color: brown; */
+        /* margin: 0 auto !important; */
+        /* width: 100%; */
+        padding: 40px;
+        padding-top: 90px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .logindiv{
+        /* background-color: brown; */
+        /* margin: 0 auto !important; */
+        /* width: 100%; */
+        padding: 20px;
+        padding-top: 90px;
+    }
+    .loginpagecolone{
+        /* display: none; */
+    }
+}
+@media only screen and (max-width: 767px) {
+    .logindiv{
+        /* background-color: brown; */
+        /* margin: 0 auto !important; */
+        /* width: 100%; */
+        padding: 80px;
+        padding-top: 90px;
+    }
+    .loginpagecolone{
+        display: none;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .logindiv{
+        /* background-color: brown; */
+        /* margin: 0 auto !important; */
+        /* width: 100%; */
+        padding: 30px;
+        padding-top: 90px;
+    }
+    .loginpagecolone{
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .logindiv{
+        /* background-color: brown; */
+        /* margin: 0 auto !important; */
+        /* width: 100%; */
+        padding: 20px;
+        padding-top: 90px;
+    }
+    .loginpagecolone{
+        display: none;
+    }
+    .loginformremenberandforgotpassdiv{
+        width: 95%;
+    }
+    .loginformradiobtns{
+        width: 95%;
+    }
+    .loginformcreateaccount{
+        width: 95%;
+    }
+    .loginformradiobtnlabel{
+        font-size: 14px;
+    }
+    .loginformradiobtnsortext{
+        margin-top: 19px;
+    }
+}

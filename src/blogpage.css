@@ -330,7 +330,7 @@ color:#062A4D;
  }
  .contactusform{
     background-color: #F9FAFF;
-    padding: 10px;
+    padding: 50px;
     padding-bottom: 0px;
  }
  .makecallbtn{
@@ -570,6 +570,12 @@ color:#062A4D;
 
 
 
+@media only screen and (max-width: 600px) {
+    .contactusform{
+        padding: 15px;
+        padding-top: 30px;
+    }
+}
 @media only screen and (max-width: 500px) {
     
     .blogpagebohtcardsdiv{
@@ -599,6 +605,10 @@ color:#062A4D;
     .blogpagesearchboxmainadvartisementdiv{
         width: 100%;
 
+    }
+    .contactusform{
+        padding: 10px;
+        padding-top: 30px;
     }
   
 }

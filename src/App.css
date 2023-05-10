@@ -22,8 +22,8 @@
    color:'#19142E';
    font-size:'14px';
    padding-right:'30px';
-   padding-left:'10px';
-   margin-left: 10px;
+   /* padding-left:'10px'; */
+   /* margin-left: 10px; */
    /* font-weight:"bolder" ; */
     text-decoration:'none' !important;
 }
@@ -51,7 +51,7 @@
 }
 .navbarlogo{
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 60px;
   width: 200px;
 }
 .navbar-toggler {
@@ -73,12 +73,23 @@
   text-transform:uppercase;
   color:#19142E !important;
      font-size:14px;
-     padding-right:30px;
-     padding-left:10px;
+     /* padding-right:90px; */
+     padding-left:0px;
      padding-bottom: 0px;
+     /* display: flex; */
+     /* margin-left: 5px; */
+     /* margin-right: 5px; */
+     text-align: start;
+     /* background-color: aqua; */
+     width: 90%;
+     /* justify-content: flex-start; */
+     margin: 0 auto;
     font-weight:700;
 }
 .dropdown-item:hover{
+  /* width: 80%; */
+  /* margin: 0 auto; */
+  /* text-align: center; */
   border-bottom: 2px solid #4157F8;
   background-color: white;
 }
@@ -565,7 +576,7 @@
   background-color: #1B70F0;
   opacity: 0.4;
   width: 97%;
-  top: 40px;
+  top: 50px;
   height: 50px;
   position: absolute;
 
@@ -576,7 +587,7 @@
   background-color: #1B70F0;
   opacity: 0.2;
   width: 94%;
-  top: 50px;
+  top: 60px;
   color: #1B70F0;
   height: 50px;
   position: absolute;
@@ -588,6 +599,8 @@
  
   width: 60%;
   /* background-color: yellow; */
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -600,6 +613,7 @@
 }
 
 .dreamnav {
+  font-family: Rubik;
   cursor: pointer;
   color: #FFFFFF;
   margin-top: 15px;
@@ -783,7 +797,7 @@
 }
 
 .eventbaaja {
-  bottom: 10%;
+  bottom: 15%;
   right: 9%;
   position: absolute;
   width: 70px;
@@ -861,20 +875,22 @@
 .subscribemaindiv {
   margin-bottom: 0 !important;
   padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 80px;
   position: relative;
 }
 
 .blogimgone {
-  width: 60px;
-  top: 30px;
-  left: 20px;
+  width: 100px;
+  top: 35px;
+  left: 60px;
   position: absolute;
 }
 
 .blogimgtwo {
-  width: 60px;
-  bottom: 30px;
-  right: 20px;
+  width: 100px;
+  bottom: 35px;
+  right: 60px;
   position: absolute;
 }
 
@@ -896,8 +912,8 @@
 }
 
 .icondiv {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
   /* background-color: brown; */
@@ -919,7 +935,7 @@
 }
 
 .barkedlight {
-  width: 100px;
+  width: 140px;
   margin-bottom: 10px;
 }
 
@@ -939,7 +955,12 @@
 
 .footerblockone li {
 
-  margin-top: 10px;
+  margin-top: 15px;
+}
+.footerlastdivimages{
+  margin-top: 0px !important;
+  height: 70px;
+
 }
 
 .footerblockoneheading {
@@ -974,6 +995,9 @@
 }
 
 .footerlastdivimgandtext {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
   /* background-color: #1B70F0; */
   display: flex;
   flex-wrap: wrap;
@@ -981,6 +1005,7 @@
 }
 
 .footerlastdivimgdiv {
+  margin-top: 0px !important;
   /* background-color: #6100B3; */
 }
 
@@ -1010,6 +1035,7 @@
   width: 95%;
   padding: 10px;
   margin: 0 auto;
+  margin-top: 50px;
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between; */
@@ -1102,6 +1128,7 @@
 
 
 
+
 @media only screen and (max-width: 1200px) {
   .inputandbtnblog {
     /* background-color: orange; */
@@ -1184,9 +1211,19 @@
     width: 60px;
   }
   .eventbaaja{
-    bottom: 7%;
+    bottom: 20%;
     right: 3%;
     width: 40px;
+  }
+  .blogimgone{
+    width: 80px;
+    left: 40px;
+
+  }
+  .blogimgtwo{
+    width: 80px;
+    right: 40px;
+
   }
 }
 
@@ -1458,6 +1495,16 @@
     display: flex;
     justify-content: center;
   }
+  .blogimgone{
+    width: 70px;
+    left: 20px;
+    top: 20px;
+  }
+  .blogimgtwo{
+    width: 70px;
+    right: 20px;
+    bottom: 20px;
+  }
 
 }
 
@@ -1516,14 +1563,14 @@
   } */
 
   .blogimgone {
-    width: 50px;
+    /* width: 50px; */
     top: 30px;
     left: 15px;
     position: absolute;
   }
 
   .blogimgtwo {
-    width: 50px;
+    /* width: 50px; */
     bottom: 15px;
     right: 30px;
     position: absolute;
@@ -1574,19 +1621,19 @@
     /* margin-left: 10px; */
   }
 
-  .blogimgone {
+  /* .blogimgone {
     width: 75px;
     top: 30px;
     left: 30px;
     position: absolute;
-  }
+  } */
 
-  .blogimgtwo {
+  /* .blogimgtwo {
     width: 75px;
     bottom: 30px;
     right: 30px;
     position: absolute;
-  }
+  } */
 
   .areyouhapptext {
     width: 90%;
@@ -1708,7 +1755,7 @@
   }
   
   .eventbaaja {
-    bottom: 7%;
+    bottom: 20%;
     right: 3%;
     position: absolute;
     width: 40px;
@@ -1755,19 +1802,19 @@
     margin-left: 10px;
   } */
 
-  .blogimgone {
+  /* .blogimgone {
     width: 60px;
     top: 30px;
     left: 10px;
     position: absolute;
-  }
+  } */
 
-  .blogimgtwo {
+  /* .blogimgtwo {
     width: 60px;
     bottom: 30px;
     right: 10px;
     position: absolute;
-  }
+  } */
 
   .iconone {
     width: 60px;
@@ -2029,7 +2076,7 @@
   }
   
   .eventbaaja {
-    bottom: 8%;
+    bottom: 25%;
     right: 5%;
     position: absolute;
     width: 30px;
@@ -2079,16 +2126,16 @@
   } */
 
   .blogimgone {
-    width: 60px;
+    /* width: 60px; */
     top: 10px;
-    left: 10px;
+    /* left: 10px; */
     position: absolute;
   }
 
   .blogimgtwo {
-    width: 60px;
+    /* width: 60px; */
     bottom: 10px;
-    right: 10px;
+    /* right: 10px; */
     position: absolute;
   }
 

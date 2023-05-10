@@ -23,7 +23,7 @@ function Footer (){
         <Col md={3} lg={3}>
                     <ul className='footerblockone'>
                         <li><img className='barkedlight' src={barkedlight}/></li>
-                        <li><div style={{display:'flex',justifyContent:'flex-start' , gap:'20px' }}>
+                        <li><div style={{display:'flex',justifyContent:'flex-start' , gap:'15px' }}>
                             <img src={facebook} />
                             <img src={twitter} />
                             <img src={behance} />
@@ -67,7 +67,7 @@ function Footer (){
                         <li><p  className='footerlastdivheading'>News Feeds</p></li>
                         <li className='footerlastdivimgandtext'>
                             <div className='footerlastdivimgdiv'>
-                            <img  src={footerimgone}/>
+                            <img className='footerlastdivimages'  src={footerimgone}/>
                             </div>
                             <div className='footerlastdivtextdiv'>
                                 <p className='footerbelowtext'>Dolor sit amet, consectet is was adipisicing.</p>
@@ -76,7 +76,7 @@ function Footer (){
                                 </div>
                                 </li>
                         <li className='footerlastdivimgandtext'><div className='footerlastdivimgdiv'>
-                            <img  src={footerimgtwo}/>
+                            <img className='footerlastdivimages' src={footerimgtwo}/>
                             </div>
                             <div className='footerlastdivtextdiv'>
                                 <p className='footerbelowtext'>Dolor sit amet, consectet is was adipisicing.</p>
@@ -84,7 +84,7 @@ function Footer (){
                                 
                                 </div></li>
                         <li className='footerlastdivimgandtext'><div className='footerlastdivimgdiv'>
-                            <img  src={footerimgthree}/>
+                            <img className='footerlastdivimages' src={footerimgthree}/>
                             </div>
                             <div className='footerlastdivtextdiv'>
                                 <p className='footerbelowtext'>Dolor sit amet, consectet is was adipisicing.</p>

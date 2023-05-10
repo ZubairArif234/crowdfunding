@@ -76,6 +76,7 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 12px;
     width: 100%;
     color: #236484;
     background-color: #F8F8FF;
@@ -113,10 +114,10 @@
 font-weight: 400;
 letter-spacing: 2px;
     border: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     /* padding-right: 10px !important ; */
     text-transform: uppercase;
-    font-size: 12px !important;
+    font-size: 10px !important;
     
   }
   /* .comeandjoinusbtn{
@@ -136,14 +137,14 @@ letter-spacing: 2px;
     font-weight: 400;
     background-color: #062A4D;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     /* width: 100px; */
     letter-spacing: 2px;
 
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
     border: none;
     outline: none;
 }
@@ -152,7 +153,7 @@ letter-spacing: 2px;
     margin-right:10px ;
 }
 .aboutcarddetailprojectpageimage{
-    padding: 10px 10px;
+    padding: 15px 15px;
     background-color: #EDF4FF;
 }
 .comeandjoinusbtnarrowdetailproject{
@@ -200,15 +201,19 @@ letter-spacing: 2px;
     font-weight: 400;
     list-style: 2px;
     color: #8C8BB5;
+    letter-spacing: 1px;
     cursor: pointer;
+    /* background-color: #1B70F0; */
     /* margin-bottom: -5px; */
     padding: 5px;
+    padding-bottom: 20px;
     margin: 10px 0px 0px 0px;
-    margin-bottom: -6px;
+    margin-bottom: -1px;
     
     
 }
 .projectdetailactivnav {
+    letter-spacing: 1px;
     font-family: Rubik;
     font-family: 400;
     /* margin-bottom: -10px; */
@@ -218,18 +223,19 @@ letter-spacing: 2px;
     /* transform: translateX(-50%); added */
     /* bottom: -2px; */
     margin: 10px 0px 0px 0px;
-    margin-bottom: -2px;
+    margin-bottom: -1px;
     padding: 5px;
+    padding-bottom: 20px;
     /* height: 100%; */
     /* left: 10px; */
     /* background-color: red; */
     color: #100D1C;
-    border-bottom:2px solid #1B70F0 ;
+    border-bottom:3px solid #1B70F0 ;
 }
 .projectdetaillastcompseclasttext{
 
     font-family: Rubik;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 2px;
     font-size: 15px;
     color: #6F7172;
@@ -252,6 +258,7 @@ letter-spacing: 2px;
 .projectdetaillastcomp{
     margin: 10px 0px;
     /* background-color: yellow; */
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;

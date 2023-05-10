@@ -7,7 +7,7 @@ import blog3 from './images/blog3.png'
 
 function Blogbox (){
     return(
-        <div style={{backgroundColor:'#F9FAFF'}}>
+        <div style={{backgroundColor:'#F9FAFF' , paddingBottom:'50px'}}>
 
             <div style={{paddingTop:'60px', }} className='makemaindiv' >
             <p className='ourfeaturetextinvest'><span className='featuredash'></span> news feeds </p>

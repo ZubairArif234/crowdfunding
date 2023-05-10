@@ -9,6 +9,8 @@ import Blogpagecomponent from "./blog";
 import Contactusfirstcomponent from "./contact";
 import Checkoutform from "./checkout";
 import Projectdetails from "./projectdetails";
+import Loginpage from "./loginpage";
+import Signuppage from "./signuppage";
 
 const Routing = () =>{
     return(
@@ -22,6 +24,8 @@ const Routing = () =>{
             <Route path="/blog" element={<Blogpagecomponent/>}/>
             <Route path="/contact" element={<Contactusfirstcomponent/>}/>
             <Route path="/checkout" element={<Checkoutform/>}/>
+            <Route path="/login" element={<Loginpage/>}/>
+            <Route path="/signup" element={<Signuppage/>}/>
             <Route path="*" element={<p style={{display:'flex' , alignItems:'center' , justifyContent:'center'}}>404 page not found</p>}/>
         </Routes>
         </BrowserRouter>

@@ -18,12 +18,12 @@ const Projectdetailscardone = () => {
         <div>
             <Row>
                 <Col xs={4} lg={3} style={{ borderRight: '2px solid #E8F1FF' }}>
-                    <p className="projectdetailsfirstbigtext">First created</p>
-                    <p className="projectdetailsfirstbigtext">at London, UK</p>
+                    <p style={{lineHeight:'10px'}} className="projectdetailsfirstbigtext">First created</p>
+                    <p style={{lineHeight:'10px'}} className="projectdetailsfirstbigtext">at London, UK</p>
                 </Col>
                 <Col xs={8} lg={9} style={{ paddingLeft: '20px' }}>
                     <p className='ourfeaturetextinvestsubs'><span className='featuredash'></span>MUSIC</p>
-
+<br />
                     <p className='investmentheading'>BELIEVE - JUSTIN BIEBER</p>
                 </Col>
             </Row>

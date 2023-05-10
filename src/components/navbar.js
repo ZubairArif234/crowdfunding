@@ -38,7 +38,7 @@ function Navbarcrowd() {
         </Nav>
         <Nav style={{paddingRight:'30px'}}>
           <Link className='nav-link' href="#features"><button className='nav-linkbtn'> start campaign</button></Link>
-          <Link to={'/checkout'} className='nav-link' href="#features"><button className='nav-linkbtnimg'> <img style={{width:'16px' , height:'16px'}} src={lock} /> </button></Link>
+          <Link to={'/checkout'} className='nav-link' href="#features"><button className='nav-linkbtnimg' style={{marginLeft:'20px'}}> <img style={{width:'16px' , height:'16px'}} src={lock} /> </button></Link>
           {/* <Link className='nav-link' href="#features">Features</Link> */}
           
         </Nav>
