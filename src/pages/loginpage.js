@@ -5,7 +5,7 @@ import googlelogin from '../components/images/googlelogin.png'
 import Navbarcrowd from "../components/navbar"
 import { Button, Checkbox, Form, Input } from 'antd';
 import { useState , useRef} from "react"
-import { useNavigate } from "react-router-dom";
+import { useNavigate , Link } from "react-router-dom";
 
 
 // const onFinish = (values) => {
@@ -178,7 +178,7 @@ const Loginpage = () => {
                             </div>
                             <div>
 
-                                <p className="loginformcreateaccount">Create a new account? Click <span style={{ color: '#892CD8', fontWeight: '400', letterSpacing: '1px' }}> here </span> to register</p>
+                                <p className="loginformcreateaccount">Create a new account? Click <Link to={'/signup'} style={{ color: '#892CD8', fontWeight: '400', letterSpacing: '1px',textDecoration:'none' , cursor:'pointer' }} > here </Link> to register</p>
                                 <p className="loginformcreateaccountbelowtext">or login with </p>
                             </div>
                         </form>

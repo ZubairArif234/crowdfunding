@@ -1,0 +1,15 @@
+
+
+.ant-dropdown-menu.ant-dropdown-menu-root{
+    background-color: 
+    #0C0D0F;
+    border-top: 6px solid #6100B3;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ant-dropdown-menu.ant-dropdown-menu-root li {
+    color: white !important;
+    border-bottom: 1px solid #232323;
+}
