@@ -14,3 +14,10 @@ export const signup = Yup.object({
 });
 
 
+
+
+export const newpass = Yup.object({
+  new_password: Yup.string().min(8).required('Please Enter Password At Least 8 Characters'),
+  confirm_password: Yup.string().required().oneOf([Yup.ref('new_password'), null], 'Password not matched'),
+}) 
+

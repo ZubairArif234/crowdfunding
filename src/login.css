@@ -149,6 +149,15 @@ padding: 10px;
 
 }
 
+.passwordforgetdiv{
+    /* background-color: aqua; */
+    margin-top: 30%;
+    /* margin-bottom: 50%; */
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -169,10 +178,18 @@ padding: 10px;
         padding-top: 90px;
     }
     .loginpagecolone{
-        /* display: none; */
+        display: none;
+    }
+    .passwordforgetdiv{
+        /* background-color: aqua; */
+        margin-top: 40%;
+        margin-bottom: 60%;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 770px) {
     .logindiv{
         /* background-color: brown; */
         /* margin: 0 auto !important; */

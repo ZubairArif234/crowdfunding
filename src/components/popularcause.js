@@ -12,7 +12,7 @@ function Popularseries (){
 
         <div className="popularmaindiv">
             <p className="populartextblue"><span className='featuredash'> </span>Popular causes</p>
-            <p className="popularheading">Back Before The Time Expires</p>
+            <p className="popularheading">Live Campaigns</p>
         <div className="popularcarddiv">
             {
                 arr.map((x) => {

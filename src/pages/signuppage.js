@@ -7,6 +7,9 @@ import Navbarcrowd from "../components/navbar";
 import { useFormik } from "formik";
 import { useNavigate, Link } from "react-router-dom";
 import { signup } from "../scheemasignup";
+import axios from 'axios';
+import { BaseURL } from "../backenddata";
+import { useState } from "react";
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -25,6 +28,8 @@ const initialValues = {
 };
 
 const Signuppage = () => {
+  const [formvaluesfinal, setformvaluesfinal ] = useState()
+
   const {
     values,
     errors,
@@ -38,9 +43,20 @@ const Signuppage = () => {
     validationSchema: signup,
     onSubmit: (values, { resetForm }) => {
       console.log(values);
+      setformvaluesfinal(values)
       resetForm(); // Reset the form values
     },
   });
+    axios.post(`${BaseURL}auth/logout`, {
+      firstName: '',
+      lastName: 'Flintstone'
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
   return (
     <div>
       <Navbarcrowd />
@@ -196,9 +212,7 @@ const Signuppage = () => {
                     Remember me
                   </label>
                 </div>
-                <div>
-                  <p>Forgot Password?</p>
-                </div>
+               
               </div>
               <div>
                 <p className="loginformcreateaccount">

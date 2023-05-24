@@ -9,7 +9,7 @@ function Homefront() {
         <>
             <div className="homesupermaindiv">
                 <div className="homedivone">
-                    <p className="homedivonetext">Invest Your Amount With Our Project</p>
+                    <p className="homedivonetext">Featured Artists</p>
                     <div className="prgressanddetails">
 
                         <Progress

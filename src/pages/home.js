@@ -33,8 +33,8 @@ function Home() {
       <Makeiteasier/>
       {/* <Popularseries/> */}
       <Dreamcometrue/>
-      <Upcoming/>
-      <Blogbox/>
+      {/* <Upcoming/> */}
+      {/* <Blogbox/> */}
       <Scribenow/>
       <Areyouhappy/>
       <Footer/>

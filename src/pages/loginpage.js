@@ -174,7 +174,7 @@ const Loginpage = () => {
                                     <label htmlFor="remenber" style={{ marginLeft: '5px' }}>Remember me</label>
                                 </div>
                                 <div>
-                                    <p>Forgot Password?</p></div>
+                                    <Link style={{color:'white' , textDecoration:"none"}} to={'/forgetpassword'}>Forgot Password?</Link></div>
                             </div>
                             <div>
 
