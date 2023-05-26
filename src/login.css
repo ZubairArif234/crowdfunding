@@ -7,6 +7,8 @@ visibility: hidden;
 padding-bottom:40.4% ;
     background: linear-gradient(180deg, rgba(110, 63, 233, 0) -19.78%, rgba(135, 41, 215, 0.497) 100%);
 } */
+/* body{
+} */
 .loginimgdivcol{
     width: 100%;
     /* background-image: url('./components/images/loginimg.png'); */
@@ -14,10 +16,12 @@ padding-bottom:40.4% ;
     /* height: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 .loginrowdiv{
+    
+    background-color: #150f26;
     margin-left: 0px;
     --bs-gutter-x:0px !important;
 }
@@ -25,7 +29,7 @@ padding-bottom:40.4% ;
 .logindiv{
     /* background-color: brown; */
     margin: 0 auto !important;
-    height: 100vh;
+    height: 100%;
     /* width: 100%; */
     padding: 80px;
     padding-top: 90px;
@@ -159,6 +163,59 @@ padding: 10px;
 }
 
 
+.verifyemaildivbox{
+    width: 50%;
+    margin: 150px auto;
+    padding: 50px;
+    background-color: #12091a;
+    border: 3px solid #6100B3;
+    box-shadow: 0 0 20px #6100B3, inset 0 0 20px #6100B3;
+}
+.verifyemaildivboxheading{
+    color: white;
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 400;
+}
+.verifyemaildivboxtext{
+    color: #B6B6B6;
+}
+.verifyemaildivboxinput{
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #6100B3;
+    padding: 5px;
+    color: #12091a;
+    font-weight: 800;
+    /* box-shadow: 0 0 20px #6100B3, inset 0 0 20px #6100B3; */
+    /* box-shadow: 0px -25px 20px -20px #6100B3; */
+    /* box-shadow: 0px 10px 5px #6100B3; */
+    /* box-shadow: rgba(13, 142, 242, 0.3) 0px 4px 8px 0px, rgba(123, 187, 239, 0.15) 0px 4px 8px 2px; */
+    
+    outline: none;
+}
+.verifyemaildivboxbutton{
+    background-color: #12091a;
+    border: 3px solid #6100B3;
+    padding: 5px;
+    color: #6100B3;
+    font-weight: 400;
+    font-family: Rubik;
+    width: 150px;
+    margin-top: 10px;
+}
+.verifyemaildivboxbutton:hover{
+    transition: background-color 0.3s ease;
+    color: #12091a;
+    background-color: #6100B3;
+}
+.verifyemaildivboxinput:focus{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 20px #6100B3, inset 0 0 20px #6100B3;
+
+}
+
+
 
 @media only screen and (max-width: 1200px) {
     .logindiv{
@@ -211,6 +268,9 @@ padding: 10px;
     }
     .loginpagecolone{
         display: none;
+    }
+    .verifyemaildivbox{
+        width: 90%;
     }
 }
 @media only screen and (max-width: 400px) {

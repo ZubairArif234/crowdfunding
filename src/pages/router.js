@@ -14,6 +14,7 @@ import Signuppage from "./signuppage";
 import Campaiganpage from "./campaiganform";
 import Forfetpassword from "./forgetpass";
 import Newpassword from "./newpassword";
+import Verifyemailpage from "./verifyemailpage";
 
 const Routing = () =>{
     return(
@@ -30,6 +31,7 @@ const Routing = () =>{
             <Route path="/campagianpage" element={<Campaiganpage/>}/>
             <Route path="/login" element={<Loginpage/>}/>
             <Route path="/signup" element={<Signuppage/>}/>
+            <Route path="/verifyemail" element={<Verifyemailpage/>}/>
             <Route path="/forgetpassword" element={<Forfetpassword/>}/>
             <Route path="/newpassword" element={<Newpassword/>}/>
             <Route path="*" element={<p style={{display:'flex' , alignItems:'center' , justifyContent:'center'}}>404 page not found</p>}/>

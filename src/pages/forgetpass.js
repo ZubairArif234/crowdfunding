@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import "../login.css";
+import Spinner from 'react-bootstrap/Spinner';
 import loginimg from "../components/images/loginandsignupimg.png";
 import googlelogin from "../components/images/googlelogin.png";
 import Navbarcrowd from "../components/navbar";
@@ -9,13 +10,11 @@ import Navbarcrowd from "../components/navbar";
 import { useFormik } from "formik";
 import { useNavigate, Link } from "react-router-dom";
 import { signup } from "../scheemasignup";
+import { BaseURL } from "../backenddata";
+import { findyouracc } from "../scheemasignup";
+import axios from "axios";
 
-const onFinish = (values) => {
-  console.log("Success:", values);
-};
-const onFinishFailed = (errorInfo) => {
-  console.log("Failed:", errorInfo);
-};
+
 
 const initialValues = {
   name: "",
@@ -27,22 +26,16 @@ const initialValues = {
 };
 
 const Forfetpassword = () => {
-    const emailregex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+  const [loader , setloader] = useState('none')
+  
+  const [apierroruserexist , setapierroruserexist] = useState()
+  //  const [apierror , setapierror] = useState()
     const navigate = useNavigate();
-    const [forgetpassemail , setforetpassemail] = useState('')
-    const [forgetpassemailerr , setforetpassemailerr] = useState('')
+   
 
-    const handlesubmitlink = () =>{
-        if( !forgetpassemail || !forgetpassemail.match(emailregex)){
-            setforetpassemailerr('Enter Email')
-        }
-        else{
-            console.log(forgetpassemail);
-navigate('/newpassword')
-        }
-    }
-  const {
-    values,
+   
+        const {
+          values,
     errors,
     touched,
     handleBlur,
@@ -51,9 +44,41 @@ navigate('/newpassword')
     resetForm,
   } = useFormik({
     initialValues: initialValues,
-    validationSchema: signup,
+    validationSchema: findyouracc,
     onSubmit: (values, { resetForm }) => {
+      setapierroruserexist(null)
+      setloader('block')
       console.log(values);
+      
+      axios.post(`${BaseURL}auth/forgotPassword`,
+      {
+       
+        email: values.email,
+      
+      },
+      {
+        
+        headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      }
+    })
+    .then(function (response) {
+        console.log( 'request emAIL',response);
+        if(response){
+          setloader('none')
+          
+          navigate('/newpassword' ,{state:state} )
+        }
+      })
+      .catch(function (error) {
+        setloader('none')
+        setapierroruserexist(error.response.data.message)
+        console.log(error.response.data.message);
+      });
+      const state = {
+        email:values.email
+      }
       resetForm(); // Reset the form values
     },
   });
@@ -74,12 +99,30 @@ navigate('/newpassword')
          <div className="passwordforgetdiv">
 
             <p className="loginformheading">Find Your Account</p>
+            {apierroruserexist ? <p style={{color:'red'}}>{apierroruserexist}</p> : null}
             <p style={{ color: "gray" }}>Enter your email address and we'll send you a link to get back into your account</p>
-        <input  className="loginforminput"  onChange={(e)=>setforetpassemail(e.target.value)}/>
-        {forgetpassemailerr ? <span style={{color:'red'}}>{forgetpassemailerr}</span> : null}
+       <form onSubmit={handleSubmit}>
+
+        <input 
+          onChange={handleChange}
+          onBlur={handleBlur}
+          value={values.email}
+          name="email"
+          id="email"
+          type="text" className="loginforminput"  />
+        {errors.email && touched.email ? (
+                <span style={{ color: "red", fontSize: "13px" }}>
+                  {errors.email}
+                </span>
+              ) : null}
         <br/>
-        <button  className="loginformbuttonsubmit"
-                  style={{ width: "200px", marginTop: "20px" }} onClick={handlesubmitlink}>Send Link</button>
+        <div style={{margin:'10px auto' ,width:'40px'}}>
+
+<Spinner animation="border" variant="light"  style={{display:loader}}/>
+</div>
+        <button  className="loginformbuttonsubmit" type="submit"
+                  style={{ width: "200px", marginTop: "20px" }} >Send Link</button>
+                  </form>
          </div>
         </Col>
       </Row>
