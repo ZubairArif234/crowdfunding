@@ -101,10 +101,11 @@
   flex-wrap: wrap;
   background-color: #FDF3FB;
   margin-bottom: 30px;
+  /* padding-bottom: 120px; */
 }
 
 .homedivone {
-  width: 650px;
+  width: 710px;
   margin: 10px;
 
 }
@@ -143,7 +144,8 @@
   padding: 10px;
   font-weight: 600 !important;
   /* background-color: yellow; */
-  margin-top: 100px;
+  margin-top: 110px;
+  margin-bottom: 60px;
 }
 
 .homeimagelevels {
@@ -156,23 +158,23 @@
 
 .imagelevels {
   margin-left: 10%;
-  width: 90%;
+  width: 92%;
 
 }
 
 .headphonepic {
-  width: 40%;
+  width: 33%;
   /* background-color: palevioletred; */
   right: 75%;
-  bottom: 50%;
+  bottom: 60%;
   position: absolute;
 }
 
 
 
 .planboxmain {
-  /* background-color: hsl(330, 4%, 91%); */
-  width: 90%;
+  background-color: hsl(330, 4%, 91%);
+  width: 88%;
   margin-left: 10%;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -180,7 +182,7 @@
 }
 
 .planboxinner {
-  width: 70%;
+  width: 85%;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;

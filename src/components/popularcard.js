@@ -9,7 +9,7 @@ function Popularcard({ img, heading, price1, price2, detail1, detail2, below1, b
         hoverable
         bordered={false}
         style={{
-          width: 290,
+          width: 310,
           borderRadius: "0",
           marginTop:'10px',
           
